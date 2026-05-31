@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>蝴蝶图鉴 · Butterfly Atlas</title>
+<script src="i18n.js?v=3"></script>
+<style>
+  :root{
+    --bg:#f6f4ee; --ink:#23241f; --muted:#6f7165;
+    --card:#fffdf8; --line:#e3ddcf; --accent:#b8742a; --accent2:#4a7c59;
+    --shadow:0 1px 2px rgba(40,38,30,.06),0 12px 32px rgba(40,38,30,.10);
+    --serif:"Songti SC","Noto Serif SC",Georgia,serif;
+    --sans:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.7;-webkit-font-smoothing:antialiased}
+  img{display:block;width:100%;height:100%;object-fit:cover}
+
+  /* Hero */
+  .hero{position:relative;padding:84px 24px 64px;text-align:center;overflow:hidden;
+    background:radial-gradient(120% 100% at 50% 0%,#fbf9f3 0%,#efe9db 60%,#e7e0cf 100%);
+    border-bottom:1px solid var(--line)}
+  .hero .kicker{font-family:var(--sans);letter-spacing:.4em;font-size:12px;color:var(--accent);font-weight:600;text-transform:uppercase}
+  /* 精选开关：放在分类树「目」这一级标题行右侧 */
+  .feat-toggle{display:inline-flex;align-items:center;gap:8px;cursor:pointer;user-select:none;margin-left:auto;align-self:center;
+    font-family:var(--sans);font-size:12px;letter-spacing:.06em;font-weight:600;color:var(--muted)}
+  .feat-toggle .tt-track{position:relative;width:38px;height:20px;border-radius:100px;background:rgba(120,118,105,.35);
+    border:1px solid var(--line);transition:.25s;flex:0 0 auto}
+  .feat-toggle .tt-track::after{content:"";position:absolute;top:1.5px;left:1.5px;width:15px;height:15px;border-radius:50%;
+    background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25);transition:.25s}
+  .feat-toggle.on .tt-track{background:var(--accent)}
+  .feat-toggle.on .tt-track::after{transform:translateX(18px)}
+  .feat-toggle.on{color:var(--accent)}
+  /* 精选筛选：隐藏未标记 featured 的卡片 / 分类树气泡 / 空的属行与科块 */
+  .grid.only-featured .card:not([data-featured="1"]){display:none}
+  .tree.only-featured .sp-chip:not([data-featured="1"]){display:none}
+  .tree.only-featured .genus-row.no-feat{display:none}
+  .tree.only-featured .fam-block.no-feat{display:none}
+  /* 语言切换器:fixed右上角(z-index极高=999但低于v3d/lb覆盖层手动打开时,因为它们用 opacity+pointer-events:none默认隐藏) */
+  /* 注意:v3d/lb 关闭态 pointer-events:none 不挡,打开时 .open 用 z-index 50/60 仍能盖住此 999——错!应该>v3d 60. 真实:打开时它们display依然渲染但pointer-events自动走打开后的auto,我们只要保证关闭态时lang-sw在最顶层. */
+  .lang-sw{position:fixed;top:14px;right:14px;z-index:999;display:inline-flex;gap:0;
+    background:rgba(255,253,248,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+    border:1px solid var(--line);border-radius:100px;padding:3px;box-shadow:var(--shadow);
+    font-family:var(--sans);font-size:11.5px;font-weight:600}
+  /* 当弹窗或3D打开时,语言切换器隐藏不挡按钮 */
+  body:has(.lb.open) .lang-sw,
+  body:has(.v3d.open) .lang-sw{display:none}
+  .lang-sw button{appearance:none;border:0;background:transparent;color:var(--muted);cursor:pointer;
+    padding:6px 12px;border-radius:100px;transition:.18s;letter-spacing:.02em}
+  .lang-sw button:hover{color:var(--ink)}
+  .lang-sw button.on{background:var(--accent);color:#fff}
+  @media (max-width:520px){.lang-sw{top:8px;right:8px;font-size:11px}.lang-sw button{padding:5px 9px}}
+  .hero h1{font-family:var(--serif);font-size:clamp(38px,6vw,68px);font-weight:700;margin:16px 0 6px;letter-spacing:.04em}
+  .hero .sub{font-family:var(--serif);font-size:clamp(15px,2vw,19px);color:var(--muted);font-style:italic}
+  .hero .meta{margin-top:26px;display:inline-flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  .hero .chip{font-size:12.5px;color:var(--muted);background:rgba(255,255,255,.7);border:1px solid var(--line);
+    padding:6px 14px;border-radius:100px}
+  .flutter{position:absolute;font-size:26px;opacity:.18;animation:float 8s ease-in-out infinite;pointer-events:none}
+  .flutter.a{top:18%;left:8%}.flutter.b{top:30%;right:10%;animation-delay:1.5s}
+  .flutter.c{bottom:18%;left:14%;animation-delay:3s}.flutter.d{bottom:24%;right:16%;animation-delay:4.5s}
+  @keyframes float{0%,100%{transform:translateY(0) rotate(-6deg)}50%{transform:translateY(-16px) rotate(6deg)}}
+
+  /* Grid */
+  .wrap{max-width:1180px;margin:0 auto;padding:56px 24px 80px}
+  .section-title{font-family:var(--serif);font-size:24px;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:12px}
+  .section-title::before{content:"";width:28px;height:2px;background:var(--accent)}
+  .section-desc{color:var(--muted);font-size:14px;margin-bottom:32px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:26px}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+    box-shadow:var(--shadow);cursor:pointer;transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s;
+    display:flex;flex-direction:column;opacity:0;transform:translateY(24px)}
+  .card.in{opacity:1;transform:none}
+  .card:hover{transform:translateY(-6px);box-shadow:0 4px 8px rgba(40,38,30,.08),0 22px 48px rgba(40,38,30,.16)}
+  .ph{position:relative;aspect-ratio:4/3;overflow:hidden;background:#eee}
+  .ph img{transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+  .card:hover .ph img{transform:scale(1.06)}
+  .ph .fam{position:absolute;top:12px;left:12px;background:rgba(35,36,31,.78);color:#fff;font-size:11px;
+    padding:4px 10px;border-radius:100px;backdrop-filter:blur(4px)}
+  .body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
+  .names{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+  .cn{font-family:var(--serif);font-size:20px;font-weight:700}
+  .sci{font-style:italic;color:var(--accent);font-size:13px;white-space:nowrap}
+  .en{color:var(--muted);font-size:12.5px;margin-top:-6px}
+  .desc{font-size:13.5px;color:#4d4e45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
+  .tag{font-size:11.5px;color:var(--accent2);background:rgba(74,124,89,.10);border:1px solid rgba(74,124,89,.22);
+    padding:3px 10px;border-radius:100px}
+
+  /* Lightbox */
+  .lb{position:fixed;inset:0;background:rgba(28,27,22,.72);backdrop-filter:blur(8px);z-index:50;
+    display:flex;align-items:center;justify-content:center;padding:24px;opacity:0;pointer-events:none;transition:opacity .3s}
+  .lb.open{opacity:1;pointer-events:auto}
+  .panel{background:var(--card);max-width:920px;width:100%;max-height:90vh;border-radius:18px;overflow:hidden;
+    display:grid;grid-template-columns:1.1fr 1fr;box-shadow:0 30px 80px rgba(0,0,0,.4);transform:scale(.96);transition:transform .3s}
+  .lb.open .panel{transform:scale(1)}
+  .panel .pic{position:relative;background:#000;min-height:300px}
+  .panel .pic img{object-fit:cover}
+  .panel .info{padding:34px 32px;overflow-y:auto}
+  .panel .pcn{font-family:var(--serif);font-size:30px;font-weight:700;line-height:1.2}
+  .panel .psci{font-style:italic;color:var(--accent);font-size:15px;margin-top:4px}
+  .panel .pen{color:var(--muted);font-size:13px;margin-bottom:18px}
+  .facts{display:grid;grid-template-columns:auto 1fr;gap:8px 14px;font-size:13px;margin:18px 0;
+    padding:14px 16px;background:#f4f0e6;border-radius:10px}
+  .facts dt{color:var(--muted)}.facts dd{font-weight:600}
+  .panel h4{font-family:var(--serif);font-size:15px;margin:18px 0 8px;color:var(--accent)}
+  /* 分布地图：世界轮廓底图 + 六边形点位 */
+  .geomap{margin:6px 0 4px}
+  .mapwrap{background:#eef3f5;border:1px solid var(--line);border-radius:10px;padding:8px;overflow:hidden}
+  .worldmap{display:block;width:100%;height:auto;border-radius:6px}
+  .worldmap .hx polygon{fill:#b9c4bd;stroke:#fff;stroke-width:0.6;opacity:.55;transition:.3s}
+  .worldmap .hx text{fill:#3a6347;font-size:6px;font-weight:700;font-family:var(--sans);
+    paint-order:stroke;stroke:#fff;stroke-width:1.6px;stroke-linejoin:round}
+  .worldmap .hx.on polygon{fill:var(--accent2);stroke:#fff;stroke-width:1;opacity:1;
+    filter:drop-shadow(0 1px 2px rgba(78,124,90,.6));animation:hexpop .45s ease both}
+  @keyframes hexpop{0%{opacity:0}100%{opacity:1}}
+  .geo-text{font-size:13px;color:#43443c;margin:9px 2px 0;line-height:1.5}
+  .geo-legend{font-size:11px;color:var(--muted);margin-top:7px;padding:0 2px}
+  .geo-legend b{color:var(--accent2);font-size:13px}
+  .panel .pintro{font-size:14px;color:#43443c}
+  .panel ul{list-style:none;display:flex;flex-direction:column;gap:9px;margin-top:6px}
+  .panel li{font-size:13.5px;padding-left:22px;position:relative;color:#43443c}
+  .panel li::before{content:"✦";position:absolute;left:0;color:var(--accent2)}
+  .close{position:absolute;top:14px;right:14px;z-index:2;width:38px;height:38px;border:none;border-radius:50%;
+    background:rgba(255,255,255,.9);font-size:20px;cursor:pointer;color:#333;line-height:1}
+  .close:hover{background:#fff}
+
+  /* 图片角落 · 黑胶囊「查看3D」按钮（参考首页卡片科名胶囊样式） */
+  .d3-fab{position:absolute;right:14px;bottom:14px;z-index:5;border:none;cursor:pointer;
+    display:inline-flex;align-items:center;gap:6px;padding:7px 13px 7px 11px;border-radius:100px;
+    color:#fff;font-family:var(--sans);font-size:12.5px;font-weight:600;letter-spacing:.02em;
+    background:rgba(35,36,31,.78);backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);
+    box-shadow:0 2px 10px rgba(0,0,0,.25);
+    animation:d3float 3s ease-in-out infinite;
+    transition:transform .25s cubic-bezier(.34,1.56,.64,1),background .25s}
+  .d3-fab:hover{transform:scale(1.06);background:rgba(45,46,40,.9)}
+  .d3-fab:active{transform:scale(1.0)}
+  .d3-cube{width:17px;height:17px;color:#fff;opacity:.95;flex:0 0 auto;
+    animation:d3spin 5.5s linear infinite}
+  .d3-txt{line-height:1;white-space:nowrap}
+  @keyframes d3float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+  @keyframes d3spin{0%{transform:rotateY(0)}100%{transform:rotateY(360deg)}}
+  @media (prefers-reduced-motion:reduce){.d3-fab,.d3-cube{animation:none}}
+  .v3d{position:fixed;inset:0;background:rgba(22,24,20,.92);backdrop-filter:blur(10px);z-index:60;
+    display:flex;flex-direction:column;opacity:0;pointer-events:none;transition:opacity .3s}
+  .v3d.open{opacity:1;pointer-events:auto}
+  .v3d-bar{position:absolute;top:0;left:0;right:0;z-index:3;display:flex;align-items:flex-start;
+    justify-content:space-between;padding:18px 26px;color:#fff;
+    background:linear-gradient(to bottom,rgba(0,0,0,.32),rgba(0,0,0,0));pointer-events:none}
+  .v3d-bar>*{pointer-events:auto}
+  .v3d-bar .tt{display:flex;flex-direction:column;gap:2px}
+  .v3d-bar .tt #v3d-title{font-family:var(--serif);font-size:22px;font-weight:700;
+    text-shadow:0 1px 4px rgba(0,0,0,.35)}
+  .v3d-bar .tt #v3d-sci{font-style:italic;color:#e8e4d8;font-size:13px;text-shadow:0 1px 3px rgba(0,0,0,.35)}
+  .v3d-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+  .v3d-btn{padding:8px 16px;border:1px solid rgba(255,255,255,.3);border-radius:100px;background:rgba(0,0,0,.28);
+    color:#fff;font-size:13px;cursor:pointer;transition:.2s;font-family:var(--sans);backdrop-filter:blur(4px);
+    text-shadow:0 1px 2px rgba(0,0,0,.3)}
+  .v3d-btn:hover{background:rgba(0,0,0,.45)}
+  .v3d-btn.on{background:var(--accent2);border-color:var(--accent2);text-shadow:none}
+  /* 玻璃翼蝶浅色背景：顶栏文字/按钮切深绿，适配嫩叶背景 */
+  .v3d.light .v3d-bar{background:linear-gradient(to bottom,rgba(255,255,255,.45),rgba(255,255,255,0))}
+  .v3d.light .v3d-bar .tt #v3d-title{color:#234a2a;text-shadow:0 1px 3px rgba(255,255,255,.6)}
+  .v3d.light .v3d-bar .tt #v3d-sci{color:#3c6b40;text-shadow:0 1px 2px rgba(255,255,255,.6)}
+  .v3d.light .v3d-btn{background:rgba(255,255,255,.62);border-color:rgba(43,74,42,.28);color:#2c5230;
+    text-shadow:none}
+  .v3d.light .v3d-btn:hover{background:rgba(255,255,255,.85)}
+  .v3d.light .v3d-btn.on{background:var(--accent2);border-color:var(--accent2);color:#fff}
+  #stage3d{flex:1;min-height:0;position:relative;cursor:grab}
+  #stage3d canvas{display:block;width:100%;height:100%}
+  #stage3d:active{cursor:grabbing}
+  .v3d-hint{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,.65);
+    font-size:12.5px;background:rgba(0,0,0,.3);padding:7px 16px;border-radius:100px;pointer-events:none}
+  .v3d.light .v3d-hint{color:#2c5230;background:rgba(255,255,255,.55)}
+  .v3d-hint .v3d-disc{display:inline-block;margin-top:4px;font-size:11px;opacity:.75;letter-spacing:.2px}
+  .v3d-loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px}
+
+  /* Taxonomy */
+  .taxo{margin-bottom:64px}
+  .higher{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:18px 0 30px;padding:18px 20px;
+    background:#f4f0e6;border:1px solid var(--line);border-radius:14px}
+  .hr-item{text-align:center}
+  .hr-item .r{font-size:11px;color:var(--muted)}
+  .hr-item .n{font-family:var(--serif);font-size:15px;font-weight:700}
+  .hr-item .n i{font-style:italic;color:var(--accent);font-weight:400;font-size:13px;margin-left:4px}
+  .hr-arrow{color:var(--accent);font-size:18px;opacity:.5}
+  .tree{position:relative}
+  .t-order{font-family:var(--serif);font-weight:700;font-size:18px;display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+  .t-order i{font-style:italic;color:var(--accent);font-size:14px;font-weight:400}
+  .t-note{font-size:12.5px;color:var(--muted);margin-bottom:18px;padding-left:2px}
+  .fam-block{border-left:2px solid var(--line);margin-left:8px;padding:4px 0 4px 22px;margin-bottom:18px;position:relative}
+  .fam-head{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;cursor:pointer;user-select:none;border-radius:6px;padding:2px 4px;margin-left:-4px;transition:background .15s}
+  .fam-head:hover{background:rgba(0,0,0,.04)}
+  .fam-toggle{font-size:12px;color:var(--accent2);transition:transform .2s;display:inline-block}
+  .fam-count{font-size:11px;color:var(--muted);margin-left:auto;align-self:center}
+  .fam-body{overflow:hidden}
+  .fam-block.collapsed .fam-body{display:none}
+  .fam-block.collapsed .fam-toggle{transform:rotate(-90deg)}
+  .badge-rank{font-size:10.5px;font-weight:700;color:#fff;background:var(--accent);padding:2px 8px;border-radius:5px;letter-spacing:.05em}
+  .badge-rank.fam{background:var(--accent2)}
+  .badge-rank.gen{background:#8a6d3b}
+  .fam-head .fcn{font-family:var(--serif);font-size:16px;font-weight:700}
+  .fam-head .fla{font-style:italic;color:var(--accent2);font-size:13px}
+  .fam-note{font-size:12px;color:var(--muted);margin:4px 0 12px}
+  .genus-row{display:flex;align-items:flex-start;gap:12px;flex-wrap:wrap;padding:9px 0;border-top:1px dashed var(--line)}
+  .genus-tag{flex:0 0 auto;min-width:130px;display:flex;flex-direction:column;gap:1px;padding-top:3px}
+  .genus-tag .gcn{font-weight:700;font-size:14px}
+  .genus-tag .gla{font-style:italic;color:#8a6d3b;font-size:12.5px}
+  .sp-chips{display:flex;gap:8px;flex-wrap:wrap;flex:1}
+  .sp-chip{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);
+    border-radius:100px;padding:4px 12px 4px 5px;cursor:pointer;transition:.2s;font-size:12.5px}
+  .sp-chip:hover{border-color:var(--accent);transform:translateY(-1px);box-shadow:var(--shadow)}
+  .sp-chip img{width:30px;height:30px;border-radius:50%;flex:0 0 auto}
+  .sp-chip .sc-cn{font-weight:600}
+  .sp-chip .sc-la{font-style:italic;color:var(--accent);font-size:11px}
+
+  footer{text-align:center;padding:40px 24px 56px;color:var(--muted);font-size:12.5px;border-top:1px solid var(--line)}
+  footer a{color:var(--accent);text-decoration:none}
+  footer .src{max-width:680px;margin:10px auto 0;line-height:1.8}
+
+  @media(max-width:720px){
+    .panel{grid-template-columns:1fr;max-height:92vh}
+    .panel .pic{min-height:240px;max-height:300px}
+  }
+</style>
+</head>
+<body>
+  <div class="lang-sw" id="lang-sw" role="group" aria-label="Language">
+    <button data-lang="zh-CN" type="button" onclick="window.setLang &amp;&amp; window.setLang('zh-CN')">中文</button>
+    <button data-lang="en" type="button" onclick="window.setLang &amp;&amp; window.setLang('en')">EN</button>
+    <button data-lang="ja" type="button" onclick="window.setLang &amp;&amp; window.setLang('ja')">日本語</button>
+    <button data-lang="es" type="button" onclick="window.setLang &amp;&amp; window.setLang('es')">ES</button>
+  </div>
+  <header class="hero">
+    <span class="flutter a">🦋</span><span class="flutter b">🦋</span>
+    <span class="flutter c">🦋</span><span class="flutter d">🦋</span>
+      <div class="kicker" data-i18n="kicker">Lepidoptera · 鳞翅目</div>
+    <h1 data-i18n="h1">蝴蝶图鉴</h1>
+    <p class="sub" data-i18n="sub">A Curated Atlas of the World&rsquo;s Butterflies</p>
+    <div class="meta">
+      <span class="chip" id="stat-chip" data-i18n="chip_loading">🔬 本鉴收录…</span>
+      <span class="chip" data-i18n="chip_intro">📚 简介源自维基百科</span>
+      <span class="chip" data-i18n="chip_taxo">🗂 分类经 GBIF 核验</span>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="taxo">
+      <h2 class="section-title" data-i18n="sec_taxo">分类阶元关系 · Taxonomy</h2>
+      <p class="section-desc" data-i18n="sec_taxo_desc">按「界·门·纲·目·科·属·种」七级阶元梳理，分类与学名经 GBIF 核验。点击底部物种气泡可查看详情。</p>
+
+      <div class="higher" id="higher"></div>
+      <div class="tree" id="tree"></div>
+    </section>
+
+    <h2 class="section-title" data-i18n="sec_grid">世界蝴蝶精选</h2>
+    <p class="section-desc" data-i18n="sec_grid_desc">点击任意卡片，查看该物种的详细简介、关键资料与亮点特色。</p>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <div class="lb" id="lb">
+    <div class="panel" id="panel"></div>
+  </div>
+
+  <div class="v3d" id="viewer3d">
+    <div class="v3d-bar">
+      <div class="tt"><span id="v3d-title"></span><span id="v3d-sci"></span></div>
+      <div class="v3d-actions">
+        <button class="v3d-btn" id="v3d-dorsal" data-i18n="v3d_dorsal">背面</button>
+        <button class="v3d-btn" id="v3d-ventral" data-i18n="v3d_ventral">腹面</button>
+        <button class="v3d-btn" id="v3d-flap" data-i18n="v3d_flap_off">扇翅 关</button>
+        <button class="v3d-btn" id="v3d-rest" style="display:none" data-i18n="v3d_rest">停栖</button>
+        <button class="v3d-btn" id="v3d-rotate" data-i18n="v3d_rotate_off">自转 关</button>
+        <button class="v3d-btn" id="v3d-reset" data-i18n="v3d_reset">复原</button>
+        <button class="v3d-btn" id="v3d-close" data-i18n="v3d_close">✕ 关闭</button>
+      </div>
+    </div>
+    <div id="stage3d">
+      <div class="v3d-loading" id="v3d-loading" data-i18n="v3d_loading">正在加载 3D 模型…</div>
+      <div class="v3d-hint"><span data-i18n="v3d_hint">🖱 拖拽旋转 · 滚轮缩放 · 点「扇翅」让翅膀扇动 · 翻面看腹面</span><br><span class="v3d-disc" data-i18n="v3d_disc">⚠ 3D 模型制作过程使用了 AI 生成，仅供参考，不作为学术研究使用</span></div>
+    </div>
+  </div>
+
+  <footer>
+    <div data-i18n="footer_brand">🦋 蝴蝶图鉴 · Butterfly Atlas</div>
+    <p class="src" data-i18n-html="footer_src">
+      图片与文字资料来源：<a href="https://www.wikipedia.org" target="_blank">维基百科</a> 及
+      <a href="https://commons.wikimedia.org" target="_blank">Wikimedia Commons</a>（采用 CC 知识共享许可）；
+      物种学名与分类参考 <a href="https://www.catalogueoflife.org" target="_blank">Catalogue of Life</a> 与
+      <a href="https://www.gbif.org" target="_blank">GBIF 全球生物多样性信息网络</a>。
+      本图鉴仅用于科普教育目的。
+    </p>
+  </footer>
+
+<script src="data.js"></script>
+<script src="worldmap.js"></script>
+<script src="flap_index.js"></script>
+<script>
+  const byId={};BUTTERFLIES.forEach(b=>byId[b.id]=b);
+
+  // ---- 上层阶元链 ----
+  const higher=document.getElementById('higher');
+  function renderHigher(){
+    higher.innerHTML='';
+    const list = (t().higher) || HIGHER_RANKS.map(h=>({rank:h.rank.split(' ')[0], name:h.cn}));
+    list.forEach((h,i)=>{
+      const la = HIGHER_RANKS[i] && HIGHER_RANKS[i].la || '';
+      const it=document.createElement('div');it.className='hr-item';
+      it.innerHTML=`<div class="r">${h.rank}</div><div class="n">${h.name}<i>${la}</i></div>`;
+      higher.appendChild(it);
+      if(i<list.length-1){const a=document.createElement('span');a.className='hr-arrow';a.textContent='→';higher.appendChild(a);}
+    });
+  }
+  renderHigher();
+
+  // ---- 目→科→属→种 树 ----
+  // 精选名单：横跨各科的著名 + 视觉惊艳代表种（开「精选」开关时只显示这些）
+  const FEATURED = new Set([
+    // 世界级明星 / 结构色闪蝶
+    'morpho','cypris','morphopeleides','morphocypris2','morphosulkowskyi','ulysses',
+    // 奇特拟态 / 透明翅
+    'glasswing','oakleaf','owl','eightyeight','andromachaacr',
+    // 迁徙与经典名蝶
+    'monarch','birdwing','paperkite','postman','zebralongwing',
+    // 中国 / 东亚名蝶与国蝶级
+    'goldenkaiser','emperor','dragontail','goldbirdwing','parispeacock','chinapeacock','luehdorfia',
+    // 鸟翼凤蝶 / 大型华丽凤蝶
+    'paradisebirdwing','croesusbirdwing','rajahbrooke','greenbirdwing','goldenbirdwing2',
+    // 高山 / 绢蝶 / 其他亮点
+    'apollo','redlacewing','jungleglory','bhutanitis','tailedjay',
+    // 粉蝶科亮点（艳丽 / 橙红）
+    'orangetip','jezebel','orangealbatross',
+  ]);
+  const tree=document.getElementById('tree');
+  const grid=document.getElementById('grid'); // 提前声明: bindFeatToggle 在 renderTree 内会访问
+  const spChip=(b)=>`<span class="sp-chip" data-id="${b.id}"${FEATURED.has(b.id)?' data-featured="1"':''}>
+      <img src="${b.img}" alt="${b.cn}"><span><span class="sc-cn">${b.cn}</span> <span class="sc-la">${b.sci.split(' ')[1]||''}</span></span></span>`;
+  // 精选开关状态(let提前声明,renderTree内的bindFeatToggle会读取,避免TDZ)
+  let featuredOn = false;
+  function renderTree(){
+    const T=t();
+    let html=`<div class="t-order"><span class="badge-rank">${T.rank_order}</span> ${TAXONOMY.cn} <i>${TAXONOMY.la}</i>
+                <span class="feat-toggle" id="feat-toggle" role="switch" aria-checked="false" tabindex="0" title="${T.feat_title}">
+                  <span class="tt-track"></span><span class="tt-label">${T.feat_label}</span>
+                </span></div>
+              <div class="t-note">${TAXONOMY.note}</div>`;
+    TAXONOMY.children.forEach(fam=>{
+      const genusCount=fam.children.length;
+      const spCount=fam.children.reduce((s,g)=>s+g.species.length,0);
+      const famHasFeat=fam.children.some(g=>g.species.some(id=>FEATURED.has(id)));
+      html+=`<div class="fam-block${famHasFeat?'':' no-feat'}">
+        <div class="fam-head" role="button" tabindex="0"><span class="fam-toggle">▾</span><span class="badge-rank fam">${T.rank_family}</span><span class="fcn">${fam.cn}</span><span class="fla">${fam.la}</span><span class="fam-count">${T.fam_count(genusCount,spCount)}</span></div>
+        <div class="fam-body">
+        <div class="fam-note">${fam.note}</div>`;
+      fam.children.forEach(gen=>{
+        const genHasFeat=gen.species.some(id=>FEATURED.has(id));
+        html+=`<div class="genus-row${genHasFeat?'':' no-feat'}">
+          <span class="genus-tag"><span class="badge-rank gen" style="align-self:flex-start">${T.rank_genus}</span>
+            <span class="gcn">${gen.cn}</span><span class="gla">${gen.la}</span></span>
+          <span class="sp-chips">${gen.species.map(id=>spChip(byId[id])).join('')}</span>
+        </div>`;
+      });
+      html+=`</div></div>`;
+    });
+    tree.innerHTML=html;
+    bindFeatToggle();
+    // 树重渲染后,需重新绑定 sp-chip 点击 + 科级折叠
+    tree.querySelectorAll('.sp-chip').forEach(c=>c.addEventListener('click',()=>openLB(byId[c.dataset.id])));
+    tree.querySelectorAll('.fam-head').forEach(h=>{
+      const toggle=()=>h.parentElement.classList.toggle('collapsed');
+      h.addEventListener('click',toggle);
+      h.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); toggle(); } });
+    });
+  }
+  renderTree();
+  // 顶部统计 chip：动态计算「本鉴收录」数量，避免硬编码过时或被误读为真实分类规模
+  function renderStatChip(){
+    const famN=TAXONOMY.children.length;
+    let genN=0; TAXONOMY.children.forEach(f=>genN+=f.children.length);
+    const spN=BUTTERFLIES.length;
+    const el=document.getElementById('stat-chip');
+    if(el) el.textContent=t().chip_stat(spN,famN,genN);
+  }
+  renderStatChip();
+
+  // ---- 物种卡片网格 ----
+  BUTTERFLIES.forEach(b=>{
+    const c=document.createElement('article');
+    c.className='card';
+    if(FEATURED.has(b.id)) c.dataset.featured='1';
+    c.innerHTML=`
+      <div class="ph"><span class="fam">${b.family}</span><img src="${b.img}" alt="${b.cn}" loading="lazy"></div>
+      <div class="body">
+        <div class="names"><span class="cn">${b.cn}</span><span class="sci">${b.sci}</span></div>
+        <div class="en">${b.en}</div>
+        <p class="desc">${b.intro}</p>
+        <div class="tags">${b.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+      </div>`;
+    c.addEventListener('click',()=>openLB(b));
+    grid.appendChild(c);
+  });
+
+  // reveal on scroll
+  const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.card').forEach((c,i)=>{c.style.transitionDelay=(i%3*60)+'ms';io.observe(c)});
+
+  // 精选开关：打开后只显示 data-featured 的物种（分类树气泡 + 卡片网格同步筛选）
+  // featuredOn 状态已在前面提前声明,跨 renderTree 重渲染保持一致
+  function bindFeatToggle(){
+    const ft=document.getElementById('feat-toggle');
+    if(!ft) return;
+    // 恢复当前状态
+    ft.classList.toggle('on',featuredOn);
+    ft.setAttribute('aria-checked',featuredOn?'true':'false');
+    grid.classList.toggle('only-featured',featuredOn);
+    tree.classList.toggle('only-featured',featuredOn);
+    const setOn=(on)=>{
+      featuredOn = on;
+      ft.classList.toggle('on',on);
+      ft.setAttribute('aria-checked',on?'true':'false');
+      grid.classList.toggle('only-featured',on);
+      tree.classList.toggle('only-featured',on);
+      grid.querySelectorAll('.card').forEach(c=>{ if(getComputedStyle(c).display!=='none') c.classList.add('in'); });
+    };
+    ft.addEventListener('click',(e)=>{ e.stopPropagation(); setOn(!ft.classList.contains('on')); });
+    ft.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); e.stopPropagation(); setOn(!ft.classList.contains('on')); }});
+  }
+  bindFeatToggle();
+
+  let currentOpenSpecies = null; // 弹窗当前展示的物种,语言切换时重渲染
+  const lb=document.getElementById('lb'),panel=document.getElementById('panel');
+  function openLB(b){
+    currentOpenSpecies = b;
+    const T=t();
+    panel.innerHTML=`
+      <button class="close" onclick="closeLB()">×</button>
+      <div class="pic">
+        <img src="${b.img}" alt="${b.cn}">
+        <button class="d3-fab" onclick='open3D(${JSON.stringify(b).replace(/'/g,"&#39;")})' title="${T.btn_3d_title}" aria-label="${T.btn_3d_title}">
+          <svg viewBox="0 0 24 24" class="d3-cube"><path d="M12 2 21 7v10l-9 5-9-5V7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M12 2v20M3 7l9 5 9-5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          <span class="d3-txt">${T.btn_3d}</span>
+        </button>
+      </div>
+      <div class="info">
+        <div class="pcn">${b.cn}</div>
+        <div class="psci">${b.sci}</div>
+        <div class="pen">${b.en} · ${b.family}</div>
+        <dl class="facts">
+          <dt>${T.panel_wingspan}</dt><dd>${b.wingspan}</dd>
+        </dl>
+        <h4>${T.panel_geo}</h4>
+        <div class="geomap">${hexMap(b.regions||[])}
+          <p class="geo-text">${b.region}</p>
+        </div>
+        <h4>${T.panel_intro}</h4>
+        <p class="pintro">${b.intro}</p>
+        <h4>${T.panel_high}</h4>
+        <ul>${b.highlights.map(h=>`<li>${h}</li>`).join('')}</ul>
+      </div>`;
+    lb.classList.add('open');document.body.style.overflow='hidden';
+  }
+  // 分布地图：真实简化世界地图(world-atlas 110m)底图 + 细分地点六边形
+  // 坐标系 viewBox 0 0 360 180（x=经度+180, y=90-纬度）；地点按真实经纬度精确定位
+  const LOC = {"wna": ["北美西部", 62, 42], "ena": ["北美东部", 100, 50], "mex": ["墨西哥", 78, 67], "cam": ["中美洲", 95, 77], "nsa": ["南美北部", 118, 95], "ssa": ["南美南部", 120, 120], "weu": ["西欧", 182, 42], "eeu": ["东欧", 206, 38], "naf": ["北非", 196, 62], "ssf": ["撒哈拉以南", 202, 88], "sib": ["西伯利亚", 272, 30], "cas": ["中亚", 248, 45], "chn": ["中国", 286, 55], "jpn": ["日本", 318, 53], "kor": ["朝鲜半岛", 307, 52], "ind": ["印度/南亚", 258, 68], "sea": ["东南亚", 286, 82], "aus": ["澳大利亚", 314, 115], "png": ["新几内亚", 324, 96]};
+  function hexMap(regions){
+    const codes = (regions||[]).filter(c=>LOC[c]);
+    const R = 6.5; // 六边形半径（细分点更小）
+    const locName = (t().loc) || {};
+    // 仅渲染该物种分布到的地点六边形+标注
+    let hexes = codes.map(code=>{
+      const [name,cx,cy] = LOC[code];
+      const display = locName[code] || name;
+      const pts = [];
+      for (let i=0;i<6;i++){ const ang=Math.PI/180*(60*i-90); pts.push((cx+R*Math.cos(ang)).toFixed(1)+','+(cy+R*Math.sin(ang)).toFixed(1)); }
+      return `<g class="hx on">
+        <polygon points="${pts.join(' ')}"></polygon>
+        <text x="${cx}" y="${cy+R+7}" text-anchor="middle">${display}</text>
+      </g>`;
+    }).join('');
+    return `<div class="mapwrap">
+      <svg viewBox="0 0 360 180" class="worldmap" preserveAspectRatio="xMidYMid meet">
+        <rect x="0" y="0" width="360" height="180" fill="#eef3f5"/>
+        <path d="${window.WORLD_MAP_PATH||''}" fill="#d6e0da" stroke="#c2cdc6" stroke-width="0.4"/>
+        ${hexes}
+      </svg>
+      <div class="geo-legend">${t().panel_geolegend(codes.length)}</div>
+    </div>`;
+  }
+  function closeLB(){lb.classList.remove('open');document.body.style.overflow='';currentOpenSpecies=null;}
+  lb.addEventListener('click',e=>{if(e.target===lb)closeLB()});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeLB();if(window.close3D)close3D();}});
+
+  // ---- 语言切换 ----
+  function applyI18n(){
+    const T = t();
+    // 1. 静态文本: data-i18n / data-i18n-html
+    document.querySelectorAll('[data-i18n]').forEach(el=>{
+      const k = el.getAttribute('data-i18n');
+      if (T[k] != null) el.textContent = T[k];
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(el=>{
+      const k = el.getAttribute('data-i18n-html');
+      if (T[k] != null) el.innerHTML = T[k];
+    });
+    // 2. document.title
+    if (T.title) document.title = T.title;
+    // 3. 动态区: 阶元链 / 分类树 / 统计chip
+    renderHigher();
+    renderTree();   // 内含 bindFeatToggle + sp-chip + fam-head
+    renderStatChip();
+    // 4. 弹窗若打开,重渲染
+    if (lb.classList.contains('open') && currentOpenSpecies){
+      openLB(currentOpenSpecies);
+    }
+    // 5. 3D 按钮当前态
+    const flapBtnEl=document.getElementById('v3d-flap');
+    const rotBtnEl=document.getElementById('v3d-rotate');
+    const restBtnEl=document.getElementById('v3d-rest');
+    if (flapBtnEl) flapBtnEl.textContent = flapBtnEl.classList.contains('on') ? T.v3d_flap_on : T.v3d_flap_off;
+    if (rotBtnEl) rotBtnEl.textContent = rotBtnEl.classList.contains('on') ? T.v3d_rotate_on : T.v3d_rotate_off;
+    if (restBtnEl) restBtnEl.textContent = restBtnEl.classList.contains('on') ? T.v3d_open : T.v3d_rest;
+    // 6. 语言按钮高亮
+    document.querySelectorAll('#lang-sw button').forEach(btn=>{
+      btn.classList.toggle('on', btn.dataset.lang === window.CUR_LANG);
+    });
+  }
+  window.applyI18n = applyI18n;
+  // 绑定语言切换按钮(用事件委托,绑到lang-sw容器,避免DOM变动失效)
+  const langSwEl = document.getElementById('lang-sw');
+  if (langSwEl) {
+    langSwEl.addEventListener('click', (e)=>{
+      const btn = e.target.closest('button[data-lang]');
+      if (!btn) return;
+      const code = btn.dataset.lang;
+      if (typeof window.setLang === 'function') {
+        window.setLang(code);
+      } else if (typeof setLang === 'function') {
+        setLang(code);
+      } else {
+        console.warn('setLang not available');
+      }
+    });
+  } else {
+    console.warn('#lang-sw not found at bind time');
+  }
+  // 首次应用
+  applyI18n();
+</script>
+
+<script type="module">
+  import * as THREE from 'https://esm.sh/three@0.160.0';
+  import { OrbitControls } from 'https://esm.sh/three@0.160.0/examples/jsm/controls/OrbitControls.js';
+
+  const host = document.getElementById('viewer3d');
+  const stage = document.getElementById('stage3d');
+  const loading = document.getElementById('v3d-loading');
+  const flapBtn = document.getElementById('v3d-flap');
+  const rotBtn = document.getElementById('v3d-rotate');
+
+  let renderer, scene, cam, controls, root, left, right, rafId;
+  let flapOn = false, rotOn = false, t = 0, speed = 3, restAngle = 0.12;
+  let faceTween = null;   // 翻面补间 {from,to,t0,dur}
+  let glassBgTex = null;  // 玻璃翼蝶专用柔和渐变背景（让半透窗显出层次）
+  let oakleafBgTex = null; // 枯叶蛱蝶专用落叶林地背景（体现枯叶拟态融入环境）
+  let owlBgTex = null;     // 猫头鹰环蝶专用森林树干背景（体现停栖拟态环境）
+  let eightyeightBgTex = null; // 红涡蛱蝶专用南美雨林背景
+  let bisaltideBgTex = null;   // 黄带枯叶蛱蝶专用落叶背景
+  let curFace = 'dorsal';  // 当前物种默认展示面，供「复原」还原
+  let closedMesh = null;   // 合拢态(侧视含足)billboard 薄片
+  let restMode = false;    // false=展翅态; true=停栖合拢态
+  let modeTween = null;    // 展翅↔停栖 crossfade 补间
+
+  // 背景：精致柔和的径向渐变(影棚柔光感)，干净高级、衬托主体、可精确控色。
+  // 中心偏上稍亮 → 边缘渐深，营造空间感与聚焦；每只蝴蝶配呼应气质的专属色调。
+  function paintGradientBg(inner, outer, stripe) {
+    const S = 256;
+    const c = document.createElement('canvas'); c.width = S; c.height = S;
+    const g = c.getContext('2d');
+    const rg = g.createRadialGradient(S * 0.5, S * 0.42, S * 0.05, S * 0.5, S * 0.5, S * 0.78);
+    rg.addColorStop(0, inner); rg.addColorStop(1, outer);
+    g.fillStyle = rg; g.fillRect(0, 0, S, S);
+    // 可选：斜向平行亮线(玻璃翼蝶专用)——明暗交替条纹给半透翅窗规律对比，透明更清晰。
+    if (stripe) {
+      g.save();
+      g.translate(S / 2, S / 2); g.rotate(stripe.angle); g.translate(-S / 2, -S / 2);
+      g.strokeStyle = stripe.color; g.lineWidth = stripe.width;
+      for (let x = -S; x < S * 2; x += stripe.gap) {
+        g.beginPath(); g.moveTo(x, -S); g.lineTo(x, S * 2); g.stroke();
+      }
+      g.restore();
+    }
+    return new THREE.CanvasTexture(c);
+  }
+  function getGlassBg() {
+    if (glassBgTex) return glassBgTex;
+    // 玻璃翼蝶：青绿渐变 + 斜向平行亮线(明暗条纹让半透翅窗透出对比=显出透明)
+    glassBgTex = paintGradientBg('#3a6f63', '#10211d', {
+      angle: -Math.PI / 5, gap: 30, width: 7, color: 'rgba(205,245,228,0.30)',
+    });
+    return glassBgTex;
+  }
+  function getOakleafBg() {
+    if (oakleafBgTex) return oakleafBgTex;
+    // 枯叶蛱蝶：温暖琥珀棕渐变(呼应枯叶拟态的秋日气质)
+    oakleafBgTex = paintGradientBg('#7a5a32', '#241608');
+    return oakleafBgTex;
+  }
+  function getOwlBg() {
+    if (owlBgTex) return owlBgTex;
+    // 猫头鹰环蝶：幽深森林树干色调(栖于热带林下昏暗处、合翅停树干、巨眼斑拟态)
+    owlBgTex = paintGradientBg('#5b4a36', '#16110a');
+    return owlBgTex;
+  }
+  function getEightyeightBg() {
+    if (eightyeightBgTex) return eightyeightBgTex;
+    // 红涡蛱蝶：南美热带雨林湿润幽绿调(栖于雨林溪边、合翅露出"88"数字纹)
+    eightyeightBgTex = paintGradientBg('#1f5a44', '#06140d');
+    return eightyeightBgTex;
+  }
+  function getBisaltideBg() {
+    if (bisaltideBgTex) return bisaltideBgTex;
+    // 黄带枯叶蛱蝶：暖橙褐落叶林地调(腹面枯叶拟态、合翅伪装成枯叶)
+    bisaltideBgTex = paintGradientBg('#6e4a26', '#1c1006');
+    return bisaltideBgTex;
+  }
+
+  // 按物种应用背景与主题：
+  //  玻璃翼蝶→嫩叶林光背景(透半窗)+浅色顶栏；枯叶蛱蝶→落叶林地背景(拟态融入)+深色顶栏；其余→透明深色。
+  function applyGlass(id) {
+    const glass = (id === 'glasswing');
+    const oak = (id === 'oakleaf');
+    const owl = (id === 'owl');
+    const eef = (id === 'eightyeight');
+    const bis = (id === 'bisaltidedolesch');
+    if (glass) scene.background = getGlassBg();
+    else if (oak) scene.background = getOakleafBg();
+    else if (owl) scene.background = getOwlBg();
+    else if (eef) scene.background = getEightyeightBg();
+    else if (bis) scene.background = getBisaltideBg();
+    else scene.background = null;
+    // 玻璃翼蝶用浅色顶栏(背景亮)；其余深色背景沿用深色顶栏
+    host.classList.toggle('light', glass);
+    host.style.background = glass ? 'rgba(236,246,224,.96)'
+      : (oak ? 'rgba(46,32,16,.95)'
+      : (owl ? 'rgba(34,26,16,.95)'
+      : (eef ? 'rgba(16,38,28,.95)'
+      : (bis ? 'rgba(44,30,14,.95)' : 'rgba(22,24,20,.92)'))));
+  }
+
+  // 每只蝴蝶默认呈现哪一面（最具代表性的"最好看形态"）：
+  // 'dorsal'=正面展翅（多数蝶正面最艳）；'ventral'=腹面（枯叶蛱蝶等腹面才是看点）
+  const REST_FACE = {
+    oakleaf: 'ventral',  // 枯叶蛱蝶：腹面枯叶拟态才是看点
+    owl: 'ventral',      // 猫头鹰环蝶：腹面巨大的猫头鹰眼斑才是看点
+    eightyeight: 'ventral',     // 红涡蛱蝶：腹面标志性的"88"数字纹才是看点
+    bisaltidedolesch: 'ventral' // 黄带枯叶蛱蝶：腹面枯叶拟态才是看点
+    // 其余默认 dorsal（正面）
+  };
+  const REST_ANGLE = 0.12; // 默认静止时翅膀近乎平展
+
+  function initScene() {
+    if (renderer) return;
+    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+    stage.appendChild(renderer.domElement);
+    scene = new THREE.Scene();
+    cam = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
+    cam.position.set(0, 0.4, 4.2);
+    scene.add(new THREE.AmbientLight(0xffffff, 1.05));
+    const dl = new THREE.DirectionalLight(0xffffff, 0.65); dl.position.set(2, 4, 5); scene.add(dl);
+    const dl2 = new THREE.DirectionalLight(0xffffff, 0.35); dl2.position.set(-3, -2, -4); scene.add(dl2);
+    controls = new OrbitControls(cam, renderer.domElement);
+    controls.enableDamping = true;
+    resize();
+    addEventListener('resize', resize);
+  }
+  function resize() {
+    if (!renderer) return;
+    const w = stage.clientWidth, h = stage.clientHeight;
+    renderer.setSize(w, h); cam.aspect = w / h; cam.updateProjectionMatrix();
+  }
+
+  const tl = new THREE.TextureLoader();
+  function loadTex(uri) {
+    return new Promise(r => tl.load(uri, t => { t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 4; r(t); }));
+  }
+  const SEG_X = 22, SEG_Y = 6;     // 翅膀网格细分（翼展×弦向）
+  const BODY_HALF = 0;             // 0=从中线扇动，左右两个半身体贴合拼回完整身体
+  function buildWingGeo(WW, WH, flipUV) {
+    const g = new THREE.PlaneGeometry(WW, WH, SEG_X, SEG_Y);
+    if (flipUV) { const uv = g.attributes.uv; for (let i = 0; i < uv.count; i++) uv.setX(i, 1 - uv.getX(i)); uv.needsUpdate = true; }
+    return g;
+  }
+  function makeWing(front, back, side, WW, WH, glass) {
+    const pivot = new THREE.Group();
+    const wing = new THREE.Group();
+    const dir = side === 'L' ? -1 : 1;
+    const gF = buildWingGeo(WW, WH, false);
+    const gB = buildWingGeo(WW, WH, true);
+    // 普通蝶：alphaTest 0.35 硬裁(不透明,边缘干净)。
+    // 玻璃翼蝶：alphaTest 必须很低(0.06,仅裁全透边缘)，否则 alphaTest 会把半透像素当不透明画出来→看不到透。
+    const aTest = glass ? 0.06 : 0.35;
+    const dWrite = glass ? false : true;
+    const matF = new THREE.MeshStandardMaterial({ map: front, transparent: true, alphaTest: aTest, depthWrite: dWrite, side: THREE.FrontSide, roughness: 0.8 });
+    const matB = new THREE.MeshStandardMaterial({ map: back, transparent: true, alphaTest: aTest, depthWrite: dWrite, side: THREE.BackSide, roughness: 0.85 });
+    wing.add(new THREE.Mesh(gF, matF));
+    wing.add(new THREE.Mesh(gB, matB));
+    wing.position.x = dir * WW / 2;          // 内缘(翅根)移到 pivot 处
+    pivot.position.x = dir * BODY_HALF;      // 铰接点离中线（身体半宽）
+    pivot.add(wing);
+    // 预存每个顶点的基准位置 + 翼展比例(span:根0→尖1) + 弦向比例(chord:-1..1)
+    const geos = [gF, gB].map(g => {
+      const pos = g.attributes.position, n = pos.count;
+      const base = new Float32Array(n * 3), span = new Float32Array(n), chord = new Float32Array(n);
+      for (let i = 0; i < n; i++) {
+        const x = pos.getX(i), y = pos.getY(i), z = pos.getZ(i);
+        base[i*3] = x; base[i*3+1] = y; base[i*3+2] = z;
+        const ax = x + dir * WW / 2;           // 平移后的绝对翼展位置
+        span[i] = Math.min(1, Math.abs(ax) / WW);
+        chord[i] = y / (WH / 2);
+      }
+      return { g, pos, base, span, chord, n };
+    });
+    pivot.userData = { geos, WW, WH };
+    return pivot;
+  }
+  // 给翅膀施加形变：静态弧度(杯状+翅尖后掠) + 动态柔性弯曲(翅尖随角速度滞后)
+  // 关键：所有形变项在翅根(s=0)必须为 0，使内缘严格落在 Y 旋转轴上——否则内缘带 z 偏移，
+  // 绕 Y 轴扇动时左右内缘会被拉开 2·z·sin(a)，中间出现缝隙/V 形折叠。
+  function deform(pivot, dyn) {
+    const WH = pivot.userData.WH;
+    pivot.userData.geos.forEach(({ g, pos, base, span, chord, n }) => {
+      for (let i = 0; i < n; i++) {
+        const s = span[i], c = chord[i];
+        let z = base[i*3+2];
+        z += -0.10 * WH * s * s;          // 翅尖向后掠(杯状纵向弧度) — 翅根=0
+        z += 0.05 * WH * c * c * s;        // 弦向边缘卷起 — 乘 s 使翅根=0，内缘钉在轴上不裂缝
+        z += dyn * Math.pow(s, 1.6);       // 动态柔性：翅尖滞后摆动 — 翅根=0
+        pos.setZ(i, z);
+      }
+      pos.needsUpdate = true;
+      g.computeVertexNormals();
+    });
+  }
+  function disposeRoot() {
+    if (closedMesh) {
+      scene.remove(closedMesh);
+      if (closedMesh.geometry) closedMesh.geometry.dispose();
+      if (closedMesh.material) { if (closedMesh.material.map) closedMesh.material.map.dispose(); closedMesh.material.dispose(); }
+      closedMesh = null;
+    }
+    if (!root) return;
+    scene.remove(root);
+    root.traverse(o => { if (o.geometry) o.geometry.dispose(); if (o.material) { if (o.material.map) o.material.map.dispose(); o.material.dispose(); } });
+    root = left = right = null;
+  }
+  function animate() {
+    rafId = requestAnimationFrame(animate);
+    if (left && right) {
+      if (flapOn) {
+        t += 0.016 * speed;
+        const a = Math.sin(t) * 0.7 + 0.15;
+        const av = Math.cos(t) * 0.7;          // 角速度 → 翅尖柔性滞后量
+        left.rotation.y = a; right.rotation.y = -a;
+        deform(left, -av * 0.16); deform(right, -av * 0.16);
+      }
+      // 静止时保持 open3D 里设好的姿态与静态弧度，不必逐帧重算
+    }
+    // 翻面补间：root.rotation.y 平滑缓动到目标
+    if (faceTween) {
+      const p = Math.min(1, (performance.now() - faceTween.t0) / faceTween.dur);
+      const e = p < .5 ? 4*p*p*p : 1 - Math.pow(-2*p+2,3)/2;  // easeInOutCubic
+      root.rotation.y = faceTween.from + (faceTween.to - faceTween.from) * e;
+      if (p >= 1) { root.rotation.y = faceTween.to; faceTween = null; }
+    } else if (root && rotOn) root.rotation.y += 0.005;
+    // 展翅↔停栖 过渡：两段式、时间错开，避免两个不同形状的图半透叠加成"鬼影"。
+    // 前半段旧形态退场(展翅做合翅动作+缩小淡出)，后半段新形态入场(从略缩放/微透上浮渐显)。
+    if (modeTween && closedMesh) {
+      const p = Math.min(1, (performance.now() - modeTween.t0) / modeTween.dur);
+      const toRest = modeTween.toRest;
+      const ease = x => x < .5 ? 4*x*x*x : 1 - Math.pow(-2*x+2,3)/2; // easeInOutCubic
+      // 把 0..1 切成两段：第一段处理"离场形态"，第二段处理"入场形态"
+      const wingIsLeaving = toRest;   // 去停栖时展翅是离场方
+      // 离场进度(前半段0→1)、入场进度(后半段0→1)
+      const outP = ease(Math.min(1, p / 0.5));
+      const inP  = ease(Math.max(0, (p - 0.5) / 0.5));
+      // —— 展翅态 root ——
+      if (wingIsLeaving) {
+        // 离场：合翅(左右翅向上夹拢)+缩小+淡出，仅前半段
+        const fold = restAngle + (Math.PI/2 - restAngle) * outP;
+        if (left && right) { left.rotation.y = fold; right.rotation.y = -fold; }
+        const sc = 1 - 0.18 * outP;
+        root.scale.set(sc, sc, sc);
+        root.traverse(o => { if (o.material) o.material.opacity = 1 - outP; });
+        root.visible = outP < 1;
+      } else {
+        // 入场：从合翅+缩小 展开到平展，仅后半段
+        const fold = Math.PI/2 + (restAngle - Math.PI/2) * inP;
+        if (left && right) { left.rotation.y = fold; right.rotation.y = -fold; }
+        const sc = 0.82 + 0.18 * inP;
+        root.scale.set(sc, sc, sc);
+        root.traverse(o => { if (o.material) o.material.opacity = inP; });
+        root.visible = inP > 0;
+      }
+      // —— 停栖态 closedMesh ——
+      if (toRest) {
+        // 入场：从略缩放+微上浮 渐显，仅后半段
+        const sc = 0.9 + 0.1 * inP;
+        closedMesh.scale.set(sc, sc, sc);
+        closedMesh.position.y = (1 - inP) * -0.12;
+        closedMesh.material.opacity = inP;
+        closedMesh.visible = inP > 0;
+      } else {
+        // 离场：缩小+下沉淡出，仅前半段
+        const sc = 1 - 0.1 * outP;
+        closedMesh.scale.set(sc, sc, sc);
+        closedMesh.position.y = outP * -0.12;
+        closedMesh.material.opacity = 1 - outP;
+        closedMesh.visible = outP < 1;
+      }
+      if (p >= 1) {
+        // 收尾：复位目标态，隐藏另一态
+        root.scale.set(1,1,1); root.traverse(o => { if (o.material) o.material.opacity = 1; });
+        if (left && right && !toRest) { left.rotation.y = restAngle; right.rotation.y = -restAngle; }
+        root.visible = !toRest;
+        closedMesh.scale.set(1,1,1); closedMesh.position.y = 0; closedMesh.material.opacity = 1;
+        closedMesh.visible = toRest;
+        modeTween = null;
+      }
+    }
+    if (controls) controls.update();
+    if (renderer) renderer.render(scene, cam);
+  }
+
+  // 按需加载某种的 3D 数据：动态注入 models/flap/<id>.js（file:// 无跨域，优于 fetch）。
+  // 加载后数据挂在 window.__FLAP_REG[id]，带缓存避免重复加载。
+  const FLAP_IDSET = new Set(window.FLAP_IDS || []);
+  function loadFlap(id) {
+    return new Promise((resolve) => {
+      window.__FLAP_REG = window.__FLAP_REG || {};
+      if (window.__FLAP_REG[id]) { resolve(window.__FLAP_REG[id]); return; }
+      if (!FLAP_IDSET.has(id)) { resolve(null); return; }   // 该种无3D
+      const s = document.createElement('script');
+      s.src = 'models/flap/' + id + '.js';
+      s.onload = () => resolve(window.__FLAP_REG[id] || null);
+      s.onerror = () => resolve(null);
+      document.head.appendChild(s);
+    });
+  }
+  async function open3D(b) {
+    host.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    document.getElementById('v3d-title').textContent = b.cn;
+    document.getElementById('v3d-sci').textContent = b.sci;
+    initScene(); requestAnimationFrame(resize);
+    loading.style.display = 'flex';
+    loading.textContent = window.t ? window.t().v3d_loading : '正在加载 3D 模型…';
+    const data = await loadFlap(b.id);   // 按需加载该种3D数据
+    if (!data) { loading.textContent = window.t ? window.t().v3d_no_data : '该物种暂无 3D 模型数据'; return; }
+    disposeRoot();
+    const WH = 2.0, WW = +(2.0 * data.halfAspect).toFixed(4);
+    const [dL, dR, vL, vR] = await Promise.all([
+      loadTex('data:image/png;base64,' + data.dL),
+      loadTex('data:image/png;base64,' + data.dR),
+      loadTex('data:image/png;base64,' + data.vL),
+      loadTex('data:image/png;base64,' + data.vR),
+    ]);
+    root = new THREE.Group();
+    const isGlass = (b.id === 'glasswing');
+    left = makeWing(dL, vL, 'L', WW, WH, isGlass);
+    right = makeWing(dR, vR, 'R', WW, WH, isGlass);
+    root.add(left); root.add(right);
+    // 默认静止平展，呈现该物种最佳一面
+    const face = REST_FACE[b.id] || 'dorsal';
+    curFace = face;            // 记录当前物种默认面，供「复原」使用
+    scene.add(root);
+    // 合拢态(侧视含足)：若该物种有 closed 数据，创建一张正对镜头的 billboard 薄片
+    if (data.closed) {
+      const ct = await loadTex('data:image/png;base64,' + data.closed.img);
+      const cH = 2.4, cW = +(cH * data.closed.aspect).toFixed(4);
+      const cg = new THREE.PlaneGeometry(cW, cH);
+      const cm = new THREE.MeshStandardMaterial({ map: ct, transparent: true, alphaTest: 0.18, side: THREE.DoubleSide, roughness: 0.85 });
+      closedMesh = new THREE.Mesh(cg, cm);
+      closedMesh.visible = false;       // 默认展翅态，停栖隐藏
+      scene.add(closedMesh);
+      restBtn.style.display = '';        // 有合拢态才显示「停栖」按钮
+    } else {
+      restBtn.style.display = 'none';
+    }
+    applyGlass(b.id);   // 玻璃翼蝶：渐变背景+关深度写入，让半透磨砂窗显出层次
+    resetView();        // 应用初始姿态/相机/按钮状态（与「复原」按钮共用）
+    loading.style.display = 'none';
+    if (!rafId) animate();
+  }
+  // 复原：把姿态、相机、扇翅/自转/翻面全部还原到打开时的默认状态
+  function resetView() {
+    if (!left || !right) return;
+    const face = curFace;
+    // 强制回展翅态
+    restMode = false; modeTween = null;
+    root.visible = true; if (root) root.traverse(o => { if (o.material) o.material.opacity = 1; });
+    if (closedMesh) { closedMesh.visible = false; closedMesh.material.opacity = 1; }
+    restBtn.classList.remove('on'); restBtn.textContent = window.t().v3d_rest;
+    setActionsEnabled(true);
+    restAngle = REST_ANGLE;
+    flapOn = false; t = 0;
+    left.rotation.y = restAngle; right.rotation.y = -restAngle;
+    deform(left, 0); deform(right, 0);   // 应用静态弧度
+    root.rotation.x = -0.32;
+    root.rotation.y = (face === 'ventral') ? Math.PI : 0; // 腹面型转到背面朝镜头
+    faceTween = null;   // 重置翻面补间
+    // 同步按钮：扇翅/自转关，正面/腹面按当前 face 高亮
+    flapBtn.classList.remove('on'); flapBtn.textContent = window.t().v3d_flap_off;
+    rotOn = false; rotBtn.classList.remove('on'); rotBtn.textContent = window.t().v3d_rotate_off;
+    dorsalBtn.classList.toggle('on', face !== 'ventral');
+    ventralBtn.classList.toggle('on', face === 'ventral');
+    cam.position.set(0, 0.4, 4.2); controls.target.set(0, 0, 0); controls.update();
+  }
+  // 停栖态下展翅相关按钮(背面/腹面/扇翅/自转)失效——合拢是静态侧视
+  function setActionsEnabled(on) {
+    [dorsalBtn, ventralBtn, flapBtn, rotBtn].forEach(btn => {
+      btn.disabled = !on; btn.style.opacity = on ? '' : '.4';
+      btn.style.pointerEvents = on ? '' : 'none';
+    });
+  }
+  // 展翅 ↔ 停栖合拢态 切换（crossfade）
+  function toggleRest() {
+    if (!closedMesh) return;
+    restMode = !restMode;
+    if (restMode) {
+      // 进停栖：先停扇翅/自转/翻面，相机转正(侧视正对镜头)
+      stopFlap();
+      if (rotOn) { rotOn = false; rotBtn.classList.remove('on'); rotBtn.textContent = window.t().v3d_rotate_off; }
+      faceTween = null;
+      cam.position.set(0, 0.4, 4.2); controls.target.set(0, 0, 0); controls.update();
+      closedMesh.rotation.set(0, 0, 0);
+      setActionsEnabled(false);     // 合拢是静态侧视，展翅按钮失效
+    } else {
+      setActionsEnabled(true);
+    }
+    restBtn.classList.toggle('on', restMode);
+    restBtn.textContent = restMode ? window.t().v3d_open : window.t().v3d_rest;
+    modeTween = { toRest: restMode, t0: performance.now(), dur: 900 };
+  }
+  function close3D() {
+    host.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  window.open3D = open3D;
+  window.close3D = close3D;
+
+  function restWings() {           // 复位翅膀到静止姿态+静态弧度
+    if (left && right) { left.rotation.y = restAngle; right.rotation.y = -restAngle; deform(left, 0); deform(right, 0); }
+  }
+  function stopFlap() {            // 停止扇翅并同步按钮
+    if (flapOn) { flapOn = false; flapBtn.classList.remove('on'); flapBtn.textContent = window.t().v3d_flap_off; }
+    restWings();
+  }
+  function showFace(side) {        // 'dorsal'正面 / 'ventral'腹面
+    if (!root) return;
+    stopFlap();                    // 扇动中则先停
+    if (rotOn) { rotOn = false; rotBtn.classList.remove('on'); rotBtn.textContent = window.t().v3d_rotate_off; } // 翻面时停自转,避免转完又转走
+    // 关键：目标角要跟随当前相机方位(az)，让对应面正对镜头。
+    // 用户拖拽转的是相机(绕模型公转)，若用固定世界角 0/π，转过视角后点按钮就不准了。
+    const az = controls.getAzimuthalAngle();
+    const target = az + ((side === 'ventral') ? Math.PI : 0);  // 让正面/腹面绝对正对当前视线
+    // 从当前角出发走最短弧到目标，平滑翻转
+    let from = root.rotation.y;
+    let diff = ((target - from) % (Math.PI * 2));
+    if (diff > Math.PI) diff -= Math.PI * 2;
+    if (diff < -Math.PI) diff += Math.PI * 2;
+    if (Math.abs(diff) < 1e-3) { root.rotation.y = target; faceTween = null; }  // 已在该面
+    else faceTween = { from, to: from + diff, t0: performance.now(), dur: 650 };
+    dorsalBtn.classList.toggle('on', side === 'dorsal');
+    ventralBtn.classList.toggle('on', side === 'ventral');
+  }
+
+  const dorsalBtn = document.getElementById('v3d-dorsal');
+  const ventralBtn = document.getElementById('v3d-ventral');
+  const restBtn = document.getElementById('v3d-rest');
+  document.getElementById('v3d-close').addEventListener('click', close3D);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close3D(); });
+  dorsalBtn.addEventListener('click', () => showFace('dorsal'));
+  ventralBtn.addEventListener('click', () => showFace('ventral'));
+  restBtn.addEventListener('click', toggleRest);
+  flapBtn.addEventListener('click', () => {
+    flapOn = !flapOn; flapBtn.classList.toggle('on', flapOn); flapBtn.textContent = flapOn ? window.t().v3d_flap_on : window.t().v3d_flap_off;
+    if (flapOn) {
+      faceTween = null;                          // 开始扇翅则中止翻面补间
+      if (rotOn) { rotOn = false; rotBtn.classList.remove('on'); rotBtn.textContent = window.t().v3d_rotate_off; }  // 互斥：关自转
+    }
+    if (!flapOn && left && right) restWings();   // 关闭时复位
+  });
+  rotBtn.addEventListener('click', () => {
+    rotOn = !rotOn; rotBtn.classList.toggle('on', rotOn); rotBtn.textContent = rotOn ? window.t().v3d_rotate_on : window.t().v3d_rotate_off;
+    if (rotOn && flapOn) {                        // 互斥：关扇翅并复位
+      flapOn = false; flapBtn.classList.remove('on'); flapBtn.textContent = window.t().v3d_flap_off;
+      if (left && right) restWings();
+    }
+  });
+  document.getElementById('v3d-reset').addEventListener('click', resetView);
+</script>
+</body>
+</html>
