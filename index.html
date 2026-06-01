@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>蝴蝶图鉴 · Butterfly Atlas</title>
-<script src="i18n.js?v=3"></script>
+<script src="i18n.js?v=6"></script>
 <style>
   :root{
     --bg:#f6f4ee; --ink:#23241f; --muted:#6f7165;
@@ -90,14 +90,15 @@
 
   /* Lightbox */
   .lb{position:fixed;inset:0;background:rgba(28,27,22,.72);backdrop-filter:blur(8px);z-index:50;
-    display:flex;align-items:center;justify-content:center;padding:24px;opacity:0;pointer-events:none;transition:opacity .3s}
+    display:flex;align-items:center;justify-content:center;padding:24px;opacity:0;pointer-events:none;transition:opacity .3s;
+    overscroll-behavior:contain}
   .lb.open{opacity:1;pointer-events:auto}
-  .panel{background:var(--card);max-width:920px;width:100%;max-height:90vh;border-radius:18px;overflow:hidden;
+  .panel{position:relative;background:var(--card);max-width:920px;width:100%;max-height:90vh;border-radius:18px;overflow:hidden;
     display:grid;grid-template-columns:1.1fr 1fr;box-shadow:0 30px 80px rgba(0,0,0,.4);transform:scale(.96);transition:transform .3s}
   .lb.open .panel{transform:scale(1)}
   .panel .pic{position:relative;background:#000;min-height:300px}
   .panel .pic img{object-fit:cover}
-  .panel .info{padding:34px 32px;overflow-y:auto}
+  .panel .info{padding:34px 32px;overflow-y:auto;-webkit-overflow-scrolling:touch}
   .panel .pcn{font-family:var(--serif);font-size:30px;font-weight:700;line-height:1.2}
   .panel .psci{font-style:italic;color:var(--accent);font-size:15px;margin-top:4px}
   .panel .pen{color:var(--muted);font-size:13px;margin-bottom:18px}
@@ -122,9 +123,12 @@
   .panel ul{list-style:none;display:flex;flex-direction:column;gap:9px;margin-top:6px}
   .panel li{font-size:13.5px;padding-left:22px;position:relative;color:#43443c}
   .panel li::before{content:"✦";position:absolute;left:0;color:var(--accent2)}
-  .close{position:absolute;top:14px;right:14px;z-index:2;width:38px;height:38px;border:none;border-radius:50%;
-    background:rgba(255,255,255,.9);font-size:20px;cursor:pointer;color:#333;line-height:1}
-  .close:hover{background:#fff}
+  /* 关闭按钮:在 panel 内右上角 absolute 定位(panel 是 position:relative,完美贴角) */
+  .close{position:absolute;top:14px;right:14px;z-index:5;width:40px;height:40px;border:none;border-radius:50%;
+    background:rgba(255,255,255,.96);font-size:22px;cursor:pointer;color:#222;line-height:1;
+    box-shadow:0 4px 14px rgba(0,0,0,.25);-webkit-tap-highlight-color:transparent;
+    display:flex;align-items:center;justify-content:center;font-weight:300;padding:0}
+  .close:hover,.close:active{background:#fff;transform:scale(1.05)}
 
   /* 图片角落 · 黑胶囊「查看3D」按钮（参考首页卡片科名胶囊样式） */
   .d3-fab{position:absolute;right:14px;bottom:14px;z-index:5;border:none;cursor:pointer;
@@ -148,7 +152,8 @@
   .v3d-bar{position:absolute;top:0;left:0;right:0;z-index:3;display:flex;align-items:flex-start;
     justify-content:space-between;padding:18px 26px;color:#fff;
     background:linear-gradient(to bottom,rgba(0,0,0,.32),rgba(0,0,0,0));pointer-events:none}
-  .v3d-bar>*{pointer-events:auto}
+  /* 仅当 3D 查看器打开时，顶栏内按钮才接收点击。否则关闭态下右上角会隐形拦截弹窗的关闭按钮。 */
+  .v3d.open .v3d-bar>*{pointer-events:auto}
   .v3d-bar .tt{display:flex;flex-direction:column;gap:2px}
   .v3d-bar .tt #v3d-title{font-family:var(--serif);font-size:22px;font-weight:700;
     text-shadow:0 1px 4px rgba(0,0,0,.35)}
@@ -220,8 +225,44 @@
   footer .src{max-width:680px;margin:10px auto 0;line-height:1.8}
 
   @media(max-width:720px){
-    .panel{grid-template-columns:1fr;max-height:92vh}
-    .panel .pic{min-height:240px;max-height:300px}
+    /* 弹窗背景容器:小屏改无padding,让面板贴边最大化空间 */
+    .lb{padding:0;align-items:stretch;justify-content:stretch}
+    /* 面板:单列纵向,占满全屏,整体可滚动(图+正文一起滚动) */
+    .panel{grid-template-columns:1fr;width:100%;max-width:100%;max-height:100vh;max-height:100svh;max-height:100dvh;
+      height:100vh;height:100svh;height:100dvh;border-radius:0;
+      display:flex;flex-direction:column;overflow-y:auto;-webkit-overflow-scrolling:touch}
+    .panel .pic{min-height:0;height:auto;max-height:46vh;flex:0 0 auto}
+    .panel .pic img{width:100%;height:auto;max-height:46vh;object-fit:contain;background:#000}
+    .panel .info{padding:22px 20px 40px;overflow-y:visible;flex:1 1 auto}
+    /* 关闭按钮:移动端 panel 撑满全屏,close absolute 在 panel 内右上角,带安全区 */
+    .close{position:absolute;top:calc(env(safe-area-inset-top,0px) + 12px);right:12px;
+      width:44px;height:44px;font-size:24px;z-index:10;
+      background:rgba(20,20,20,.78);color:#fff;backdrop-filter:blur(6px)}
+    .close:hover,.close:active{background:rgba(0,0,0,.92)}
+    /* 标题/资料字体在小屏稍微缩 */
+    .panel .pcn{font-size:24px}
+    .panel .psci{font-size:14px}
+    .panel h4{margin-top:14px}
+    /* 3D查看器顶栏:小屏让按钮换行可滚,padding收紧,标题区压缩 */
+    .v3d-bar{padding:calc(env(safe-area-inset-top,0px) + 12px) 14px 14px;
+      flex-direction:column;gap:10px;align-items:stretch;
+      background:linear-gradient(to bottom,rgba(0,0,0,.5),rgba(0,0,0,0))}
+    .v3d-bar .tt{flex-direction:row;align-items:baseline;gap:8px;flex-wrap:wrap}
+    .v3d-bar .tt #v3d-title{font-size:18px}
+    .v3d-bar .tt #v3d-sci{font-size:12px}
+    .v3d-actions{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap;
+      -webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}
+    .v3d-actions::-webkit-scrollbar{display:none}
+    .v3d-btn{padding:7px 12px;font-size:12px;flex:0 0 auto;white-space:nowrap}
+    /* 3D底部提示框:手机端从pill胶囊改为圆角矩形,放宽padding,限制宽度,避免拥挤+弧度过大 */
+    .v3d-hint{font-size:11px;line-height:1.5;padding:8px 14px;border-radius:10px;
+      max-width:calc(100vw - 32px);width:max-content;text-align:center;
+      bottom:calc(env(safe-area-inset-bottom,0px) + 12px);white-space:normal}
+    .v3d-hint .v3d-disc{font-size:10.5px;margin-top:3px}
+  }
+  @media(max-width:380px){
+    .panel .info{padding:18px 16px 32px}
+    .panel .pcn{font-size:21px}
   }
 </style>
 </head>
@@ -344,29 +385,31 @@
   const tree=document.getElementById('tree');
   const grid=document.getElementById('grid'); // 提前声明: bindFeatToggle 在 renderTree 内会访问
   const spChip=(b)=>`<span class="sp-chip" data-id="${b.id}"${FEATURED.has(b.id)?' data-featured="1"':''}>
-      <img src="${b.img}" alt="${b.cn}"><span><span class="sc-cn">${b.cn}</span> <span class="sc-la">${b.sci.split(' ')[1]||''}</span></span></span>`;
+      <img src="${b.img}" alt="${b.cn}" loading="lazy" decoding="async"><span><span class="sc-cn" data-bname-id="${b.id}">${window.bname?bname(b):b.cn}</span> <span class="sc-la">${b.sci.split(' ')[1]||''}</span></span></span>`;
   // 精选开关状态(let提前声明,renderTree内的bindFeatToggle会读取,避免TDZ)
   let featuredOn = false;
   function renderTree(){
     const T=t();
-    let html=`<div class="t-order"><span class="badge-rank">${T.rank_order}</span> ${TAXONOMY.cn} <i>${TAXONOMY.la}</i>
+    // "目"那一行的中文名根据语言取(higher 表的最后一项 = 目级):中文=鳞翅目/英=Lepidoptera/日=鱗翅目/西=Lepidoptera
+    const orderName = (T.higher && T.higher[T.higher.length-1] && T.higher[T.higher.length-1].name) || TAXONOMY.cn;
+    let html=`<div class="t-order"><span class="badge-rank">${T.rank_order}</span> ${orderName} <i>${TAXONOMY.la}</i>
                 <span class="feat-toggle" id="feat-toggle" role="switch" aria-checked="false" tabindex="0" title="${T.feat_title}">
                   <span class="tt-track"></span><span class="tt-label">${T.feat_label}</span>
                 </span></div>
-              <div class="t-note">${TAXONOMY.note}</div>`;
+              <div class="t-note">${window.orderNote?orderNote():TAXONOMY.note}</div>`;
     TAXONOMY.children.forEach(fam=>{
       const genusCount=fam.children.length;
       const spCount=fam.children.reduce((s,g)=>s+g.species.length,0);
       const famHasFeat=fam.children.some(g=>g.species.some(id=>FEATURED.has(id)));
       html+=`<div class="fam-block${famHasFeat?'':' no-feat'}">
-        <div class="fam-head" role="button" tabindex="0"><span class="fam-toggle">▾</span><span class="badge-rank fam">${T.rank_family}</span><span class="fcn">${fam.cn}</span><span class="fla">${fam.la}</span><span class="fam-count">${T.fam_count(genusCount,spCount)}</span></div>
+        <div class="fam-head" role="button" tabindex="0"><span class="fam-toggle">▾</span><span class="badge-rank fam">${T.rank_family}</span><span class="fcn">${window.famName?famName(fam.la):fam.cn}</span><span class="fla">${fam.la}</span><span class="fam-count">${T.fam_count(genusCount,spCount)}</span></div>
         <div class="fam-body">
-        <div class="fam-note">${fam.note}</div>`;
+        <div class="fam-note">${window.famNote?famNote(fam.la):fam.note}</div>`;
       fam.children.forEach(gen=>{
         const genHasFeat=gen.species.some(id=>FEATURED.has(id));
         html+=`<div class="genus-row${genHasFeat?'':' no-feat'}">
           <span class="genus-tag"><span class="badge-rank gen" style="align-self:flex-start">${T.rank_genus}</span>
-            <span class="gcn">${gen.cn}</span><span class="gla">${gen.la}</span></span>
+            <span class="gcn">${window.genusName?(genusName(gen.la)||gen.cn):gen.cn}</span><span class="gla">${gen.la}</span></span>
           <span class="sp-chips">${gen.species.map(id=>spChip(byId[id])).join('')}</span>
         </div>`;
       });
@@ -399,12 +442,12 @@
     c.className='card';
     if(FEATURED.has(b.id)) c.dataset.featured='1';
     c.innerHTML=`
-      <div class="ph"><span class="fam">${b.family}</span><img src="${b.img}" alt="${b.cn}" loading="lazy"></div>
+      <div class="ph"><span class="fam" data-bfamily-id="${b.id}">${window.familyDisplay?familyDisplay(b.family):b.family}</span><img src="${b.img}" alt="${b.cn}" loading="lazy" decoding="async"></div>
       <div class="body">
-        <div class="names"><span class="cn">${b.cn}</span><span class="sci">${b.sci}</span></div>
+        <div class="names"><span class="cn" data-bname-id="${b.id}">${window.bname?bname(b):b.cn}</span><span class="sci">${b.sci}</span></div>
         <div class="en">${b.en}</div>
-        <p class="desc">${b.intro}</p>
-        <div class="tags">${b.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
+        <p class="desc" data-bfield-id="${b.id}" data-bfield-key="intro">${window.bfield?bfield(b,'intro'):b.intro}</p>
+        <div class="tags" data-btags-id="${b.id}">${b.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
       </div>`;
     c.addEventListener('click',()=>openLB(b));
     grid.appendChild(c);
@@ -443,7 +486,7 @@
     currentOpenSpecies = b;
     const T=t();
     panel.innerHTML=`
-      <button class="close" onclick="closeLB()">×</button>
+      <button class="close" type="button" aria-label="Close" onclick="closeLB()">×</button>
       <div class="pic">
         <img src="${b.img}" alt="${b.cn}">
         <button class="d3-fab" onclick='open3D(${JSON.stringify(b).replace(/'/g,"&#39;")})' title="${T.btn_3d_title}" aria-label="${T.btn_3d_title}">
@@ -452,22 +495,24 @@
         </button>
       </div>
       <div class="info">
-        <div class="pcn">${b.cn}</div>
+        <div class="pcn" data-bname-id="${b.id}">${window.bname?bname(b):b.cn}</div>
         <div class="psci">${b.sci}</div>
-        <div class="pen">${b.en} · ${b.family}</div>
+        <div class="pen" data-bfamily-id="${b.id}">${b.en} · ${window.familyDisplay?familyDisplay(b.family):b.family}</div>
         <dl class="facts">
           <dt>${T.panel_wingspan}</dt><dd>${b.wingspan}</dd>
         </dl>
         <h4>${T.panel_geo}</h4>
         <div class="geomap">${hexMap(b.regions||[])}
-          <p class="geo-text">${b.region}</p>
+          <p class="geo-text">${window.bfield?bfield(b,'region'):b.region}</p>
         </div>
         <h4>${T.panel_intro}</h4>
-        <p class="pintro">${b.intro}</p>
+        <p class="pintro">${window.bfield?bfield(b,'intro'):b.intro}</p>
         <h4>${T.panel_high}</h4>
-        <ul>${b.highlights.map(h=>`<li>${h}</li>`).join('')}</ul>
+        <ul>${(window.bfield?bfield(b,'highlights'):b.highlights).map(h=>`<li>${h}</li>`).join('')}</ul>
       </div>`;
     lb.classList.add('open');document.body.style.overflow='hidden';
+    // 写入URL锚点(允许 #sp=<id> 直链打开此种详情)
+    try { history.replaceState(null, '', '#sp=' + b.id); } catch(e){}
   }
   // 分布地图：真实简化世界地图(world-atlas 110m)底图 + 细分地点六边形
   // 坐标系 viewBox 0 0 360 180（x=经度+180, y=90-纬度）；地点按真实经纬度精确定位
@@ -496,7 +541,14 @@
       <div class="geo-legend">${t().panel_geolegend(codes.length)}</div>
     </div>`;
   }
-  function closeLB(){lb.classList.remove('open');document.body.style.overflow='';currentOpenSpecies=null;}
+  function closeLB(){
+    lb.classList.remove('open');document.body.style.overflow='';currentOpenSpecies=null;
+    // 关闭详情弹窗时清掉 #sp= 锚点(若3D还开着也连带处理:实际场景中3D覆盖在弹窗之上,close3D会先发生)
+    if (location.hash.startsWith('#sp=')) {
+      try { history.replaceState(null, '', location.pathname + location.search); } catch(e){}
+    }
+  }
+  window.closeLB = closeLB; // 暴露给 panel 模板内联 onclick="closeLB()"
   lb.addEventListener('click',e=>{if(e.target===lb)closeLB()});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeLB();if(window.close3D)close3D();}});
 
@@ -533,6 +585,43 @@
     document.querySelectorAll('#lang-sw button').forEach(btn=>{
       btn.classList.toggle('on', btn.dataset.lang === window.CUR_LANG);
     });
+    // 7. 蝴蝶名字本地化:刷新所有带 data-bname-id 的节点(卡片/sp-chip/panel/v3d标题)
+    if (window.bname) {
+      document.querySelectorAll('[data-bname-id]').forEach(el=>{
+        const b = byId[el.dataset.bnameId];
+        if (b) el.textContent = bname(b);
+      });
+      // v3d 标题(无 data-bname-id 但有 currentOpen): renderTree 已重渲所以分类树搞定
+      // 卡片是 BUTTERFLIES.forEach 一次性渲染,不会被 renderTree 重置,所以 querySelectorAll 全局找就行
+    }
+    // 8. 物种长文本本地化:刷新所有带 data-bfield-id + data-bfield-key 的节点(卡片desc/family/panel)
+    if (window.bfield) {
+      document.querySelectorAll('[data-bfield-id]').forEach(el=>{
+        const b = byId[el.dataset.bfieldId];
+        const k = el.dataset.bfieldKey;
+        if (b && k) el.textContent = bfield(b, k);
+      });
+      // tags 是数组,单独处理(给容器打 data-btags-id,内部重新渲染3个span)
+      document.querySelectorAll('[data-btags-id]').forEach(el=>{
+        const b = byId[el.dataset.btagsId];
+        if (!b) return;
+        const tags = bfield(b, 'tags') || b.tags || [];
+        el.innerHTML = tags.map(tag=>`<span class="tag">${tag}</span>`).join('');
+      });
+      // family 显示串(卡片+弹窗):用 familyDisplay 把"蛱蝶科 Nymphalidae"按当前语言重组
+      if (window.familyDisplay) {
+        document.querySelectorAll('[data-bfamily-id]').forEach(el=>{
+          const b = byId[el.dataset.bfamilyId];
+          if (!b) return;
+          // 弹窗 .pen 还要拼上 b.en · 前缀,卡片 .fam 不需要
+          if (el.classList.contains('pen')) {
+            el.textContent = b.en + ' · ' + familyDisplay(b.family);
+          } else {
+            el.textContent = familyDisplay(b.family);
+          }
+        });
+      }
+    }
   }
   window.applyI18n = applyI18n;
   // 绑定语言切换按钮(用事件委托,绑到lang-sw容器,避免DOM变动失效)
@@ -555,6 +644,26 @@
   }
   // 首次应用
   applyI18n();
+
+  // ---- URL 锚点路由:支持 #sp=<id> 直链打开详情, #sp=<id>&3d=1 直链打开 3D ----
+  function routeFromHash(){
+    const h = location.hash || '';
+    const m = h.match(/^#sp=([a-zA-Z0-9_-]+)(?:&3d=1)?$/);
+    if (!m) return;
+    const id = m[1];
+    const b = byId[id];
+    if (!b) return;
+    openLB(b);
+    if (h.includes('3d=1') && typeof window.open3D === 'function'){
+      // 等模块脚本就绪后再调用 open3D
+      const tryOpen = ()=>{ if (typeof window.open3D === 'function') window.open3D(b); else setTimeout(tryOpen, 80); };
+      tryOpen();
+    }
+  }
+  // 页面加载完成后立即路由
+  routeFromHash();
+  // 监听浏览器前进/后退导致的 hash 变化
+  window.addEventListener('hashchange', routeFromHash);
 </script>
 
 <script type="module">
@@ -858,16 +967,20 @@
     });
   }
   async function open3D(b) {
+    initScene();                    // 确保 scene 已存在
+    disposeRoot();                  // ★立即清掉上一次的模型,避免打开瞬间看到旧蝴蝶
     host.classList.add('open');
     document.body.style.overflow = 'hidden';
-    document.getElementById('v3d-title').textContent = b.cn;
+    document.getElementById('v3d-title').textContent = (window.bname?bname(b):b.cn);
     document.getElementById('v3d-sci').textContent = b.sci;
-    initScene(); requestAnimationFrame(resize);
+    requestAnimationFrame(resize);
     loading.style.display = 'flex';
     loading.textContent = window.t ? window.t().v3d_loading : '正在加载 3D 模型…';
+    // 写入URL锚点(允许通过 #sp=<id> 直链直接打开此种;不影响历史栈,用replaceState避免后退乱)
+    try { history.replaceState(null, '', '#sp=' + b.id + '&3d=1'); } catch(e){}
     const data = await loadFlap(b.id);   // 按需加载该种3D数据
     if (!data) { loading.textContent = window.t ? window.t().v3d_no_data : '该物种暂无 3D 模型数据'; return; }
-    disposeRoot();
+    disposeRoot();   // 二次保险(异步加载期间用户若快速切换种,可能再次累积)
     const WH = 2.0, WW = +(2.0 * data.halfAspect).toFixed(4);
     const [dL, dR, vL, vR] = await Promise.all([
       loadTex('data:image/png;base64,' + data.dL),
@@ -955,6 +1068,11 @@
   function close3D() {
     host.classList.remove('open');
     document.body.style.overflow = '';
+    disposeRoot();  // 关闭时立即销毁,避免下次打开瞬间残留
+    // 仅去掉 &3d=1 部分,保留 #sp=<id>(详情弹窗仍打开,锚点不应丢)
+    if (location.hash.includes('3d=1')) {
+      try { history.replaceState(null, '', location.hash.replace(/&?3d=1/, '').replace(/^#$/, location.pathname + location.search)); } catch(e){}
+    }
   }
   window.open3D = open3D;
   window.close3D = close3D;

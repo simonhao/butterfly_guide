@@ -1,0 +1,2214 @@
+{
+  "monarch": {
+    "region": "Norteamérica (migra a México para invernar)",
+    "intro": "La mariposa monarca es la especie más representativa de los danaínos (Nymphalidae) y una de las mariposas más conocidas de Norteamérica. Sus alas naranjas vivas, recorridas por nervios negros y bordeadas de puntos blancos, la convierten en un polinizador clave y un símbolo ecológico.",
+    "highlights": [
+      "Realiza una migración multigeneracional de miles de kilómetros, desde Canadá hasta los sitios de invernada en México",
+      "Las larvas se alimentan exclusivamente de algodoncillo y acumulan toxinas que advierten a los depredadores",
+      "Su llamativo patrón naranja y negro es un ejemplo clásico de coloración aposemática"
+    ],
+    "tags": [
+      "Reina migratoria",
+      "Polinizadora",
+      "Aposematismo"
+    ]
+  },
+  "morpho": {
+    "region": "Selvas tropicales de Centro y Sudamérica",
+    "intro": "La morfo azul es famosa por sus deslumbrantes alas de azul metálico y es una de las cerca de 30 especies del género Morpho. El dorso luce un azul iridiscente, mientras que el reverso es pardo oscuro con ocelos crípticos.",
+    "highlights": [
+      "El azul no es un pigmento, sino un color estructural producido por la interferencia de la luz en las escamas microscópicas",
+      "Su principio de color estructural ha inspirado investigaciones biomiméticas en seguridad anticopia, óptica y ciencia de materiales",
+      "El parpadeo alterno azul-marrón en vuelo confunde a los depredadores"
+    ],
+    "tags": [
+      "Color estructural",
+      "Biomimética",
+      "Espíritu de selva"
+    ]
+  },
+  "machaon": {
+    "region": "Eurasia y Norteamérica",
+    "intro": "La macaón es la especie tipo del género Papilio y una de las mariposas más ampliamente distribuidas, presente en todo el Paleártico y partes de Norteamérica. Sus alas amarillas brillantes están cruzadas por nervios negros y adornadas con manchas azules, ocelos rojos y las características colas espadiformes.",
+    "highlights": [
+      "Especie tipo del género Papilio, de gran importancia taxonómica",
+      "Las colas espadiformes y los ocelos rojos del ala posterior desvían los ataques de los depredadores del cuerpo",
+      "Cuando se asusta, la oruga everta un osmeterio anaranjado que libera un olor defensivo"
+    ],
+    "tags": [
+      "Especie tipo",
+      "Cola de golondrina",
+      "Amplia distribución"
+    ]
+  },
+  "peacock": {
+    "region": "Europa y Asia templada (hasta el este de Japón)",
+    "intro": "La pavo real europea debe su nombre a los cuatro ocelos prominentes, parecidos a plumas de pavo real, presentes en sus alas. Su fondo rojo oscuro la hace una de las mariposas más reconocibles de Europa; suele invernar en edificios o huecos de árboles.",
+    "highlights": [
+      "Los cuatro ocelos realistas se abren bruscamente al asustarse para espantar a las aves depredadoras",
+      "Con las alas cerradas, el reverso casi negro imita perfectamente una hoja seca",
+      "Los adultos hibernan, por lo que pueden verse desde principios de primavera"
+    ],
+    "tags": [
+      "Disuasión por ocelos",
+      "Hibernación",
+      "Mimetismo de hoja"
+    ]
+  },
+  "glasswing": {
+    "region": "Centro y Sudamérica",
+    "intro": "La mariposa de alas de cristal es famosa por sus alas casi totalmente transparentes; solo las venas y los bordes son opacos y pardos, mientras que la membrana es nítida como el cristal: una verdadera maestra del camuflaje natural.",
+    "highlights": [
+      "Las protuberancias a escala nanométrica de la membrana eliminan los reflejos, logrando una transparencia sin reflejos casi perfecta",
+      "Sus alas transparentes la hacen muy difícil de detectar para los depredadores en vuelo",
+      "Su estructura antirreflectante ha inspirado diseños sin reflejo para pantallas y lentes ópticas"
+    ],
+    "tags": [
+      "Alas transparentes",
+      "Camuflaje natural",
+      "Antirreflejo"
+    ]
+  },
+  "oakleaf": {
+    "region": "Sur y Este de Asia (de la India a Japón)",
+    "intro": "La mariposa hoja india es un ejemplo de libro del mimetismo natural. Con las alas cerradas, el reverso parece una hoja seca con su nervio central e incluso manchas de moho; al abrirse, revela vivas bandas azul-violetas y naranjas.",
+    "highlights": [
+      "En reposo imita una hoja seca con detalles asombrosos, incluyendo nervaduras y manchas de moho",
+      "Al abrirse muestra brillantes bandas azul-violeta y naranja, con un contraste extremo",
+      "Uno de los ejemplos clásicos de camuflaje más citados en los libros de texto"
+    ],
+    "tags": [
+      "Imita hoja seca",
+      "Maestro del camuflaje",
+      "Contraste extremo"
+    ]
+  },
+  "birdwing": {
+    "region": "Bosques del este de Papúa Nueva Guinea",
+    "intro": "La alas de pájaro de la reina Alejandra es la mariposa más grande del mundo: las hembras superan los 25 cm de envergadura. Solo se halla en una pequeña zona de la provincia de Oro, en Papúa Nueva Guinea, lo que la hace extraordinariamente rara.",
+    "highlights": [
+      "La mariposa más grande del mundo: las hembras alcanzan envergaduras de 28 cm, casi como un ave",
+      "Marcado dimorfismo sexual: machos azul-verde iridiscente, hembras más grandes y marrones",
+      "Especie en peligro y estrictamente protegida por convenios internacionales; su hábitat está muy restringido"
+    ],
+    "tags": [
+      "La más grande",
+      "En peligro",
+      "Dimorfismo sexual"
+    ]
+  },
+  "paintedlady": {
+    "region": "Mundial (casi en todas partes salvo la Antártida y Sudamérica)",
+    "intro": "La cardera es la mariposa con la distribución más amplia, presente en casi todos los continentes. De alas pardo-anaranjadas con manchas blancas y negras, es muy adaptable y famosa por sus largas migraciones.",
+    "highlights": [
+      "La mariposa más extendida del planeta, presente en casi todos los continentes",
+      "Capaz de migrar entre continentes; algunas poblaciones se desplazan entre Europa y el África subsahariana",
+      "Alta fecundidad y gran variedad de plantas hospedadoras la hacen una generalista de gran éxito"
+    ],
+    "tags": [
+      "Más extendida",
+      "Migración intercontinental",
+      "Muy adaptable"
+    ]
+  },
+  "plaintiger": {
+    "region": "Asia, África y Australia",
+    "intro": "También llamada Reina africana, la tigre simple es una mariposa danaína de tamaño medio distribuida en Asia, África y Australia. Sus alas pardo-anaranjadas, con bordes negros y puntos blancos, la sitúan en la misma subfamilia que la monarca y la convierten en un sujeto clave en estudios de mimetismo.",
+    "highlights": [
+      "Las larvas se alimentan de algodoncillo y acumulan toxinas; los adultos lucen colores de advertencia clásicos",
+      "Especie modelo del mimetismo batesiano, copiada por muchas mariposas comestibles",
+      "Considerada una de las primeras mariposas representadas por el ser humano (en frescos del antiguo Egipto)"
+    ],
+    "tags": [
+      "Modelo de mimetismo",
+      "Toxina y aviso",
+      "Especie ancestral"
+    ]
+  },
+  "tailedjay": {
+    "region": "Sur y Sudeste de Asia hasta Australia",
+    "intro": "El tailed jay es un papiliónido tropical célebre por sus alas negras lustrosas salpicadas de manchas de un verde fluorescente. Vuela con rapidez y suele cernirse entre las flores con aleteos vibrantes.",
+    "highlights": [
+      "Fondo negro intenso salpicado de manchas verde fluorescente, de alto contraste y belleza",
+      "Vuelo extremadamente rápido y aleteo a alta frecuencia, difícil de capturar",
+      "Muy adaptable, también común en jardines y zonas verdes urbanas"
+    ],
+    "tags": [
+      "Verde fluorescente",
+      "Vuelo veloz",
+      "Tropical común"
+    ]
+  },
+  "tiger": {
+    "region": "Este de Norteamérica",
+    "intro": "El papilio tigre del este es una de las mariposas más comunes del este de Norteamérica. Sus alas amarillas llevan cuatro franjas negras tipo tigre, y las alas posteriores presentan azul, naranja y colas. Es la mariposa oficial de varios estados de EE. UU.",
+    "highlights": [
+      "Fondo amarillo intenso con rayas tigre negras, fácilmente reconocible",
+      "Las hembras presentan dos formas: amarilla y negra mimética del Pipevine venenoso",
+      "Insecto estatal oficial de Virginia, Georgia y otros estados de EE. UU."
+    ],
+    "tags": [
+      "Mariposa estatal",
+      "Rayas de tigre",
+      "Hembra dimórfica"
+    ]
+  },
+  "mormon": {
+    "region": "Asia (sur a este), ampliamente distribuida",
+    "intro": "El mormón común es un papiliónido asiático de amplia distribución, con alas negras adornadas con bandas blancas. Sus hembras presentan varias formas miméticas que imitan a especies tóxicas, lo que lo convierte en un clásico para estudiar el polimorfismo mimético.",
+    "highlights": [
+      "Las hembras tienen varias formas miméticas que copian a distintas mariposas tóxicas (mimetismo batesiano)",
+      "El mimetismo está controlado por un único supergen, un caso estelar en la genética evolutiva",
+      "Los machos son monomórficos, lo que acentúa el dimorfismo sexual"
+    ],
+    "tags": [
+      "Mimetismo polimórfico",
+      "Supergen",
+      "Amplia distribución"
+    ]
+  },
+  "cabbage": {
+    "region": "Mundial (origen euroasiático, hoy en todos los continentes)",
+    "intro": "La blanca de la col es una de las mariposas más comunes del mundo. Sus alas blancas tienen las puntas negras y manchas oscuras; sus orugas devoran cultivos de la familia Brassicaceae, lo que la convierte en una notoria plaga agrícola.",
+    "highlights": [
+      "Se ha extendido por todo el mundo siguiendo a la agricultura humana, una invasora muy exitosa",
+      "Las orugas son plagas importantes de coles, colza y otros cultivos crucíferos",
+      "Produce varias generaciones al año y abunda en huertas y jardines urbanos"
+    ],
+    "tags": [
+      "Cosmopolita",
+      "Plaga agrícola",
+      "Pierídido emblema"
+    ]
+  },
+  "brimstone": {
+    "region": "Europa, Asia y norte de África (Paleártico)",
+    "intro": "El macho de la limonera es de un brillante amarillo azufre, mientras que la hembra es blanco-verdosa pálida; las alas tienen forma de hoja con punta. Se cree que es el origen de la palabra inglesa 'butterfly' (mariposa color mantequilla).",
+    "highlights": [
+      "Forma del ala y nervaduras imitan una hoja, ofreciendo un camuflaje perfecto en reposo",
+      "Los adultos pueden vivir hasta un año, una de las mariposas más longevas de Europa",
+      "Posible origen de la palabra inglesa 'butterfly' ('mariposa de color mantequilla')"
+    ],
+    "tags": [
+      "Amarillo azufre",
+      "Imita hoja",
+      "Larga vida"
+    ]
+  },
+  "commonblue": {
+    "region": "Eurasia (Paleártico), introducida en Norteamérica",
+    "intro": "La niña común es la pequeña mariposa azul más familiar de Europa. El macho luce un brillante azul violáceo en el dorso; la hembra es parduzca con manchas naranjas. Diminuta y encantadora, es un miembro emblemático de los Lycaenidae.",
+    "highlights": [
+      "Marcado dimorfismo sexual: machos azules brillantes y hembras pardas con naranja",
+      "Las orugas son mirmecófilas: secretan néctar para atraer hormigas que las protegen",
+      "Especie insignia de los Lycaenidae: pequeña pero abundante"
+    ],
+    "tags": [
+      "Simbiosis con hormigas",
+      "Pequeña hada",
+      "Dimorfismo sexual"
+    ]
+  },
+  "skipper": {
+    "region": "Europa, Asia, Norteamérica (Holártico)",
+    "intro": "El hespérido manchado de plata es un Hesperiidae típico: pequeño, robusto, peludo, con alas pardas y características manchas plateadas en el reverso. Su vuelo rápido y a saltos lo sitúa visualmente entre mariposas y polillas.",
+    "highlights": [
+      "Las distintivas manchas plateadas del reverso le dan su nombre",
+      "Cuerpo robusto y antenas en forma de gancho lo asemejan a una polilla",
+      "Vuela en ráfagas rápidas y saltarinas; ese comportamiento da origen al nombre 'skipper'"
+    ],
+    "tags": [
+      "Hespérido típico",
+      "Manchas plateadas",
+      "Vuelo a saltos"
+    ]
+  },
+  "redadmiral": {
+    "region": "Zonas templadas del hemisferio norte (Europa, Asia, Norteamérica, norte de África)",
+    "intro": "La almirante roja luce alas negras con una vívida franja roja y motas blancas. Pariente cercana de la cardera, es enérgica y territorial, y suele patrullar los jardines.",
+    "highlights": [
+      "Contraste vibrante entre el negro y la franja roja con motas blancas",
+      "Estrechamente emparentada con la cardera (Vanessa cardui)",
+      "Especie migratoria que se desplaza al norte para reproducirse en estaciones cálidas"
+    ],
+    "tags": [
+      "Banda roja",
+      "Migratoria",
+      "Prima de cardera"
+    ]
+  },
+  "pansy": {
+    "region": "Sur y Sudeste de Asia",
+    "intro": "La pensamiento pavo real tiene alas amarillo-anaranjadas con varios ocelos parecidos a pavos reales. Presenta un claro polifenismo estacional, con formas de estación seca y de estación húmeda muy distintas en sus reversos.",
+    "highlights": [
+      "Múltiples ocelos tipo pluma de pavo real intimidan a posibles depredadores",
+      "Dimorfismo estacional: las formas de seca y de lluvias se diferencian con claridad",
+      "Ninfálido mediano común en jardines y humedales del sur de Asia"
+    ],
+    "tags": [
+      "Ocelos de pavo real",
+      "Formas estacionales",
+      "Sur de Asia"
+    ]
+  },
+  "emperor": {
+    "region": "Japón, península coreana, China, norte de Taiwán y norte de Vietnam",
+    "intro": "La gran emperatriz púrpura es la mariposa nacional de Japón. El macho destella un brillo metálico violeta-azul al sol. Grande y de vuelo potente, es considerada una joya de los bosques del este de Asia.",
+    "highlights": [
+      "Mariposa nacional de Japón, con gran significado cultural",
+      "Los machos lucen una iridiscencia violeta-azul estructural; las hembras son más apagadas",
+      "Las orugas se alimentan de Celtis (almez); la especie depende de bosques de frondosas maduros"
+    ],
+    "tags": [
+      "Nacional de Japón",
+      "Iridiscencia púrpura",
+      "Joya del bosque"
+    ]
+  },
+  "postman": {
+    "region": "Centro y Sudamérica",
+    "intro": "La cartera (Postman) es una famosa heliconia neotropical de alas largas, negra con bandas rojas y amarillas. Forma anillos de mimetismo mülleriano con especies simpátricas y muestra una variabilidad geográfica extraordinaria, siendo estrella de la investigación evolutiva.",
+    "highlights": [
+      "Forma mimetismo mülleriano con especies emparentadas, compartiendo colores de advertencia",
+      "Las poblaciones geográficas muestran enorme variación de patrón alar; un sistema modelo de especiación",
+      "Los adultos pueden alimentarse de polen para obtener proteínas, lo que prolonga notablemente su vida"
+    ],
+    "tags": [
+      "Mimetismo mülleriano",
+      "Organismo modelo",
+      "Comedora de polen"
+    ]
+  },
+  "cypris": {
+    "region": "Selvas tropicales del norte de Sudamérica (Brasil, Perú, etc.)",
+    "intro": "La morfo cypris, también llamada morfo Helena, está considerada una de las mariposas más bellas del mundo. Las alas del macho irradian un hipnótico azul-violeta metálico, en capas que van del azul profundo al azul luminoso, como un cielo con un halo. Es muy rara en estado silvestre.",
+    "highlights": [
+      "El azul de las alas es un color estructural de las escamas microscópicas, brillando como metal pulido",
+      "Fuerte dimorfismo sexual: machos deslumbrantes y hembras pardas con filas de ocelos",
+      "Su baja tasa reproductiva y su rareza en el campo la convierten en un ejemplar codiciado"
+    ],
+    "tags": [
+      "Color estructural",
+      "Más bella",
+      "Joya de la selva"
+    ]
+  },
+  "goldenkaiser": {
+    "region": "China (Hainan, Guangdong, Fujian, Guangxi) y Vietnam, Laos",
+    "intro": "El Káiser-i-Hind es la única mariposa de China protegida en categoría I del Estado, apodada 'panda gigante de las mariposas' o 'reina de las mariposas'. Sus alas están cubiertas de escamas verde jade que brillan suavemente, con manchas doradas en forma de media luna y largas colas en las alas posteriores.",
+    "highlights": [
+      "Única mariposa china protegida en categoría I, tan icónica como el panda gigante",
+      "Alas densamente cubiertas de escamas verde jade; las manchas doradas en forma de media luna inspiran su nombre",
+      "Vive en bosques perennifolios sobre los 1000 m y sirve como indicador ecológico"
+    ],
+    "tags": [
+      "Categoría I",
+      "Reina de mariposas",
+      "Endémica de China"
+    ]
+  },
+  "luehdorfia": {
+    "region": "Curso medio y bajo del Yangtsé, China (endémica)",
+    "intro": "La Luehdorfia china es una rara mariposa endémica de China, especie protegida de categoría II y considerada un 'tesoro nacional' por la entomología. Sus alas negras lucen bandas amarillas tipo tigre y su tórax y bases alares están cubiertos de pelos amarillos. Es una de las primeras mariposas en aparecer en primavera.",
+    "highlights": [
+      "Endémica de China, protegida de categoría II, una mariposa 'fósil viviente' de gran valor",
+      "Alas negras con bandas amarillas tigre, vuela ya en marzo, al inicio de la primavera",
+      "Las orugas se alimentan exclusivamente de Asarum, exigiendo hábitats muy específicos"
+    ],
+    "tags": [
+      "Categoría II",
+      "Endémica de China",
+      "Mariposa primaveral"
+    ]
+  },
+  "parispeacock": {
+    "region": "Sur de China y sur/sureste de Asia",
+    "intro": "El pavo real de París es uno de los Papilio de coloración más espectacular. Sobre fondo pardo-negro hay escamas verde esmeralda dispersas y, en el ala posterior, una llamativa mancha azul-verde metálica. De vuelo veloz, es una visión común pero impresionante en el sur de China.",
+    "highlights": [
+      "La mancha azul-verde metálica del ala posterior brilla al sol y la hace fácilmente identificable",
+      "Los ocelos y colas posteriores forman una 'falsa cabeza' que despista a los depredadores",
+      "Volador rápido aficionado a las flores blancas, común en laderas de bosque caducifolio"
+    ],
+    "tags": [
+      "Esmeralda brillante",
+      "Falsa cabeza",
+      "Sur de China"
+    ]
+  },
+  "broadtail": {
+    "region": "Centro-sur de China (endémica)",
+    "intro": "El cola ancha es un papiliónido grande endémico de China y especie protegida 'tres-haber'. Su rasgo más llamativo es el par de colas inusualmente anchas (con dos venas cada una). Sus alas pardo-negras llevan medias lunas púrpura-rojas; vive escondido en remotos bosques de montaña.",
+    "highlights": [
+      "Colas únicamente anchas con dos venas cada una, sin igual entre los papiliónidos",
+      "Endémica de China, en bosques profundos a 300–1500 m de altitud",
+      "Las orugas se alimentan de magnoliáceas como Liriodendron y Magnolia officinalis"
+    ],
+    "tags": [
+      "Endémica de China",
+      "Colas anchas",
+      "Reclusa de montaña"
+    ]
+  },
+  "junglequeen": {
+    "region": "Sur de China, Indochina y Taiwán",
+    "intro": "La reina de la jungla es una gran mariposa forestal de alas naranja a ocre rodeadas por marcas negras en forma de flecha o pez —rasgo que da origen a su nombre—. Las filas de ocelos en el reverso son impresionantes. Planea en silencio por senderos de bambú al amanecer y atardecer.",
+    "highlights": [
+      "Las marcas negras tipo flecha o pez en los bordes de las alas dan nombre a la especie",
+      "Las filas de ocelos del reverso asustan o desvían a los depredadores",
+      "Las orugas comen palmáceas y gramíneas; los adultos prefieren savia y fruta podrida"
+    ],
+    "tags": [
+      "Marcas de flecha",
+      "Bosque de bambú",
+      "Planeadora forestal"
+    ]
+  },
+  "apollo": {
+    "region": "Altas montañas de Eurasia (Europa hasta Xinjiang, China)",
+    "intro": "El apolo es un valioso parnásido alpino de gran tamaño. Sus alas son blancas y semitransparentes, con vivos ocelos rojos rodeados de negro en las alas posteriores; parece un espíritu de las montañas nevadas. Fue uno de los primeros insectos protegidos por CITES.",
+    "highlights": [
+      "Alas blancas translúcidas con ocelos rojos definen la imagen clásica de mariposa alpina",
+      "Uno de los primeros insectos incluidos en CITES, protegido por ley en muchos países",
+      "Habita zonas subalpinas entre 750 y 2000 m; las orugas comen Sedum"
+    ],
+    "tags": [
+      "Parnásido alpino",
+      "En CITES",
+      "Blanca con ocelos rojos"
+    ]
+  },
+  "citrus": {
+    "region": "Gran parte de China y este de Asia",
+    "intro": "El papilio amarillo chino es uno de los grandes papiliónidos más familiares en jardines y campos chinos. Sus alas negras llevan bandas amarillas y las posteriores tienen colas con ocelos rojos y azules. Sus orugas se alimentan de cítricos y pimienta de Sichuán.",
+    "highlights": [
+      "El papilio de jardín más familiar; las orugas comen cítricos, de ahí su nombre",
+      "Multivoltina: produce varias generaciones de mayo a octubre",
+      "Las orugas extruyen un osmeterio anaranjado al sentirse amenazadas, una especie ideal para iniciar el estudio de la metamorfosis"
+    ],
+    "tags": [
+      "Común en jardín",
+      "Comedor de cítricos",
+      "Multigeneración"
+    ]
+  },
+  "bluebottle": {
+    "region": "Este, sur y sudeste de Asia",
+    "intro": "El bluebottle común es un papiliónido veloz con alas oscuras cruzadas por una banda de manchas verde jade translúcidas, como un cinturón de jade. Adora los alcanforeros y suele acudir a flores y arena húmeda para beber.",
+    "highlights": [
+      "Banda verde jade en las alas, parecida a un cinturón translúcido",
+      "Prefiere las lauráceas; las orugas comen alcanfor",
+      "Los adultos pueden formar densas concentraciones de decenas en parterres en otoño"
+    ],
+    "tags": [
+      "Banda de jade",
+      "Amante del alcanforero",
+      "Vuelo veloz"
+    ]
+  },
+  "chinapeacock": {
+    "region": "Gran parte de China y este de Asia",
+    "intro": "El pavo real chino es un gran papiliónido muy extendido en China. Su cuerpo y alas negros están cubiertos de escamas verde esmeralda iridiscentes, y las alas posteriores presentan colas y manchas semilunares violeta-grises y rojo oscuro. Al sol, las alas brillan; es una de las mariposas más grandes en zonas como Shanghái.",
+    "highlights": [
+      "Fondo negro espolvoreado con escamas esmeralda iridiscentes que brillan al sol como joyas",
+      "Las medias lunas violeta-rojas en el submargen del ala posterior son rasgos clave",
+      "Grande y de vuelo potente, suele visitar flores"
+    ],
+    "tags": [
+      "Escamas esmeralda",
+      "Gran papilio",
+      "Iridiscente"
+    ]
+  },
+  "dragontail": {
+    "region": "China (al norte de Jiangxi y Hunan) y península coreana",
+    "intro": "La mariposa cola de dragón, o molinete chino, se asocia con la leyenda de los amantes mariposa. Sus larguísimas colas, como cintas de seda, ondean al volar; los machos son blancos con marcas negras y las hembras pardas con negro, como cintas de seda danzantes.",
+    "highlights": [
+      "Colas larguísimas en forma de cinta crean un vuelo elegante y ondulante",
+      "Marcado dicromatismo sexual: machos blancos, hembras pardo-amarillas",
+      "Una vez listada entre las 14 mariposas más preciadas de China; las orugas comen Aristolochia"
+    ],
+    "tags": [
+      "Amantes mariposa",
+      "Colas-cinta",
+      "Dicromatismo sexual"
+    ]
+  },
+  "goldbirdwing": {
+    "region": "Sur de China y sur/sudeste de Asia",
+    "intro": "La alas de pájaro doradas es una gran ala de pájaro y una de las mariposas más grandes de China, especie protegida de categoría II del Estado. Las alas anteriores son negras como terciopelo y las posteriores, de un dorado brillante: en vuelo parecen seda dorada en movimiento.",
+    "highlights": [
+      "Una de las mayores mariposas de China; protegida de categoría II",
+      "Alas posteriores doradas brillantes contrastan con las anteriores aterciopeladas en negro",
+      "Las orugas se alimentan de Aristolochiaceae y acumulan toxinas defensivas"
+    ],
+    "tags": [
+      "Categoría II",
+      "Más grande de China",
+      "Alas posteriores doradas"
+    ]
+  },
+  "greatmormon": {
+    "region": "China al sur del Yangtsé y este/sur de Asia",
+    "intro": "El gran mormón es un gran papiliónido con formas con o sin colas, célebre por su marcado dimorfismo sexual y polimorfismo femenino. Los machos lucen un negro azulado aterciopelado; las hembras presentan varias formas distintas con manchas rojas vivas en la base de las alas.",
+    "highlights": [
+      "Hembras polimórficas: varias formas alares muy distintas en una sola especie",
+      "Los machos lucen un brillo aterciopelado azul-negro con manchas rojas vivas en la base alar",
+      "Grande y de vuelo lento, le encantan las flores"
+    ],
+    "tags": [
+      "Hembras polimórficas",
+      "Azul aterciopelado",
+      "Gran papilio"
+    ]
+  },
+  "swallowtailmoth": {
+    "region": "Sur de China y sur/sudeste de Asia",
+    "intro": "Lamproptera es uno de los papiliónidos más pequeños del mundo, con apenas 4 cm de envergadura. El centro del ala anterior es transparente y las posteriores arrastran colas extremadamente largas, como una golondrina diminuta. Cierne y hasta vuela hacia atrás sobre arroyos.",
+    "highlights": [
+      "Uno de los papiliónidos más pequeños del mundo, con alas anteriores transparentes",
+      "Colas extraordinariamente largas para un papiliónido, similares a una cola de golondrina",
+      "Cierne y vuela hacia atrás como un colibrí"
+    ],
+    "tags": [
+      "Mini papilio",
+      "Alas transparentes",
+      "Vuelo en cernido"
+    ]
+  },
+  "jezebel": {
+    "region": "Sur de China y sur/sudeste de Asia",
+    "intro": "La pierídido jezebel de manchas rojas es muy común en el invierno del sur de China. Su cara superior oscura contrasta con manchas vivas amarillas y rojas en el reverso del ala posterior, dando un aire festivo. Las orugas se alimentan de Loranthaceae y muérdagos sándalo.",
+    "highlights": [
+      "Reverso amarillo y rojo brillante, evocando colores de 'buenas noticias'",
+      "Uno de los pierídidos más comunes en los inviernos del sur de China",
+      "Las orugas se alimentan en grupo de Loranthaceae y Santalaceae parásitas"
+    ],
+    "tags": [
+      "Colores festivos",
+      "Común en invierno",
+      "Larvas gregarias"
+    ]
+  },
+  "orangetip": {
+    "region": "Sur de China y sur/sudeste de Asia",
+    "intro": "La gran punta naranja es uno de los pierídidos más grandes, con alas blancas y un llamativo triángulo naranja-rojo en el ápice del ala anterior, ribeteado de negro. Su reverso imita una hoja seca, ofreciendo un excelente camuflaje en reposo.",
+    "highlights": [
+      "Gran pierídido con un vivo 'tope de grulla' rojo-naranja en el ápice del ala anterior",
+      "El reverso imita una hoja seca para un descanso críptico",
+      "Vuelo fuerte y rápido; las orugas comen Capparaceae"
+    ],
+    "tags": [
+      "Punta naranja",
+      "Gran pierídido",
+      "Camuflaje de hoja"
+    ]
+  },
+  "migrant": {
+    "region": "Sur de China, sur/sudeste de Asia, Australia",
+    "intro": "El emigrante común es un familiar pierídido de tamaño medio con formas de color que van del blanco plateado al amarillo limón. Migra en masa estacionalmente y, como larva, se alimenta de leguminosas como Cassia y Senna.",
+    "highlights": [
+      "Color alar muy variable, desde blanco crema hasta amarillo limón",
+      "Famoso por sus migraciones masivas estacionales, de ahí el nombre 'Migrante'",
+      "Muy fecundo y común en campos y bosques del sur"
+    ],
+    "tags": [
+      "Migración masiva",
+      "Polimórfico",
+      "Común en el sur"
+    ]
+  },
+  "commontiger": {
+    "region": "Sur de China y sur/sudeste de Asia, Australia",
+    "intro": "La tigre común tiene alas pardo-anaranjadas con nervios negros y bordes manchados de negro: una típica mariposa danaína. Cercana a la monarca, sus orugas secuestran toxinas de Asclepiadaceae, y el naranja-negro advierte su mal sabor.",
+    "highlights": [
+      "Coloración de advertencia clásica naranja-negra de los danaínos",
+      "Pariente cercana de la monarca, dentro del mismo género",
+      "Las orugas comen Asclepiadaceae y acumulan toxinas defensivas"
+    ],
+    "tags": [
+      "Color de advertencia",
+      "Icono danaíno",
+      "Reserva de toxinas"
+    ]
+  },
+  "bluetiger": {
+    "region": "Sur de China y sur/sudeste de Asia",
+    "intro": "El tigre azul tiene alas pardo-oscuras cubiertas de manchas y franjas azul-claras translúcidas: elegante y de tonos fríos. Migra y se reúne en enormes agrupaciones en valles montañosos, formando los espectaculares 'valles de mariposas' invernales.",
+    "highlights": [
+      "Alas oscuras distintivas con marcas azules frías y translúcidas",
+      "Migraciones masivas forman los famosos 'valles de mariposas' de invernada",
+      "Las orugas comen Asclepiadaceae; los adultos visitan flores de Eupatorium"
+    ],
+    "tags": [
+      "Marcas azules",
+      "Agregación masiva",
+      "Valle de mariposas"
+    ]
+  },
+  "dukeforester": {
+    "region": "Sur de China y Sudeste asiático",
+    "intro": "El duque del bosque (fauno de ojos cuadrados) tiene alas anchas y cuadradas, cuyo reverso luce grandes ocelos parecidos a ojos de fénix para asustar a los depredadores. Habita bosques de bambú húmedos y sombríos al atardecer, con vuelo aleteante y a la deriva; las orugas se alimentan de bambúes y otras gramíneas.",
+    "highlights": [
+      "Grandes ocelos tipo 'ojo de fénix' en el reverso espantan a los depredadores",
+      "Alas amplias y cuadradas que se deslizan por los bambúes al crepúsculo",
+      "Las orugas comen bambú, ligadas estrechamente al ecosistema del bambú"
+    ],
+    "tags": [
+      "Ocelos fénix",
+      "Crepúsculo en bambú",
+      "Alas cuadradas"
+    ]
+  },
+  "eveningbrown": {
+    "region": "Sur de China, sur/sudeste de Asia, África, Australia",
+    "intro": "La marrón del crepúsculo tiene alas pardo-oscuras con ocelos naranja-negros en las anteriores; el reverso imita una hoja seca y muestra distintas formas de estación seca y húmeda. Activa al amanecer, atardecer y en días nublados, frecuenta arrozales, pastos y bordes de bosque.",
+    "highlights": [
+      "Reverso imita una hoja seca; las formas seca y lluviosa difieren mucho",
+      "Actividad crepuscular ('marrón del crepúsculo') con vuelo bajo y deslizante",
+      "Las orugas comen arroz y otras gramíneas, ligadas a las tierras de cultivo"
+    ],
+    "tags": [
+      "Imita hoja",
+      "Formas estacionales",
+      "Crepuscular"
+    ]
+  },
+  "peablue": {
+    "region": "Amplia distribución por Eurasia, África y Australia, incluyendo China al sur del río Huai",
+    "intro": "La pea blue es un licénido pequeño de distribución muy amplia. Los machos tienen el dorso pardo-violáceo con destellos violetas; el reverso es gris-blanquecino con finas estriaciones onduladas, manchas naranja-amarillas, puntos negros y cortas colas en las alas posteriores. Las larvas barrenan flores y vainas de leguminosas.",
+    "highlights": [
+      "Pequeño licénido cosmopolita con un reverso ondulado fino y elegante",
+      "Las cortas colas posteriores y los puntos negros forman una 'cabeza falsa' que despista a los depredadores",
+      "Las larvas barrenan vainas de leguminosas, de ahí 'Pea Blue' (azul del guisante)"
+    ],
+    "tags": [
+      "Azul cosmopolita",
+      "Cabeza falsa",
+      "Reverso ondulado"
+    ]
+  },
+  "redlacewing": {
+    "region": "Sur de China, sur y sudeste de Asia",
+    "intro": "La encajera roja es un ninfálido mediano-grande de colores intensos. La cara superior va del rojo-anaranjado al rojo oscuro, con bordes serrados rematados en marcas blancas en V, como un encaje rojo. Presenta dimorfismo sexual y la hembra es más pálida.",
+    "highlights": [
+      "Bordes serrados con marcas blancas en V parecen encaje rojo, de ahí el nombre",
+      "Fuerte contraste entre el fondo rojo-anaranjado y la retícula negra",
+      "Las orugas se alimentan en grupo de Adenia (Passifloraceae)"
+    ],
+    "tags": [
+      "Encaje rojo",
+      "Borde serrado",
+      "Ninfálido vivo"
+    ]
+  },
+  "paperkite": {
+    "region": "Taiwán e islas del Sudeste Asiático",
+    "intro": "La cometa de papel es un danaíno grande y elegante con alas blanco-cremas translúcidas surcadas por nervios y manchas negras, como papel de arroz o una cometa. Su vuelo lento y derivante y su gran tamaño la han ganado el apodo de 'mariposa boba grande', estrella de los mariposarios.",
+    "highlights": [
+      "Alas color crema con nervios negros parecen papel de cometa, de ahí su nombre",
+      "Vuelo lento y derivante le valen el apodo cariñoso de 'mariposa boba grande'",
+      "Las orugas comen Parsonsia tóxica, así que los adultos llevan colores de advertencia"
+    ],
+    "tags": [
+      "Alas de papel",
+      "Vuelo derivante",
+      "Elegante planeadora"
+    ]
+  },
+  "owl": {
+    "region": "Selvas tropicales de Centro y Sudamérica",
+    "intro": "La mariposa búho es una gran mariposa de fama mundial con enormes ocelos parecidos a ojos de búho en el reverso de las alas: un patrón magistral para asustar a los depredadores. La cara superior brilla en violeta-azul. Vuela bajo al amanecer, atardecer y en días nublados.",
+    "highlights": [
+      "Enormes ocelos tipo ojo de búho en el reverso intimidan a los depredadores",
+      "Grande y robusta, con envergaduras de hasta 15 cm",
+      "Activa al atardecer; se alimenta de zumos de fruta fermentada"
+    ],
+    "tags": [
+      "Ojos de búho",
+      "Ninfálido gigante",
+      "Crepuscular"
+    ]
+  },
+  "nawab": {
+    "region": "Sur de China, sur y sudeste de Asia",
+    "intro": "El nawab común es un robusto ninfálido grande con alas amarillo-verdosas pálidas bordeadas de negro ancho; cada ala posterior lleva dos colas (cuatro en total). Vuela rápido y con potencia, y le encantan la savia y la fruta podrida, cruzando los bosques a alta velocidad.",
+    "highlights": [
+      "Cada ala posterior tiene dos colas, totalizando cuatro: identificación instantánea",
+      "Amarillo-verdoso con bordes negros; constitución sólida y vuelo rápido",
+      "Se alimenta agresivamente de savia y fruta podrida, lucha por el territorio"
+    ],
+    "tags": [
+      "Cuatro colas",
+      "Robusta y veloz",
+      "Bravucona del bosque"
+    ]
+  },
+  "bluecrow": {
+    "region": "Sur de China, sur y sudeste de Asia",
+    "intro": "El cuervo azul punteado tiene alas pardo-oscuras con un brillo violeta-azulado y los bordes recorridos por filas de puntos blancos y azules: discreto pero metálico. Forma parte de anillos miméticos con varios danaínos; las orugas se alimentan de apocináceas tóxicas.",
+    "highlights": [
+      "Alas oscuras con iridiscencia violeta-azul y filas de puntos azules y blancos",
+      "Mimetismo mutuo con otros danaínos, compartiendo señales de advertencia",
+      "Las orugas comen Apocynaceae, acumulan toxinas; los machos tienen parches odoríferos"
+    ],
+    "tags": [
+      "Brillo violeta",
+      "Anillo mimético",
+      "Cuervo tóxico"
+    ]
+  },
+  "orangealbatross": {
+    "region": "Norte de la India hasta Myanmar y Sudeste asiático",
+    "intro": "El albatros naranja es la única mariposa viva con alas íntegramente de un naranja-rojo vivo. Los machos tienen un dorso puro y brillante; las hembras presentan bordes y bandas posteriores negras. Los machos se reúnen en orillas arenosas para chupar barro, mientras que las hembras vuelan sobre todo en el dosel.",
+    "highlights": [
+      "La única mariposa actual con alas íntegramente de un naranja-rojo puro",
+      "Machos de color uniforme; hembras con bordes y bandas posteriores negras",
+      "Los machos forman grupos en orillas arenosas; las hembras se quedan en el dosel"
+    ],
+    "tags": [
+      "Todo naranja",
+      "Única mariposa naranja",
+      "Bebe en barro"
+    ]
+  },
+  "sawtooth": {
+    "region": "Sur de China, India y Sudeste asiático",
+    "intro": "La jezebel de base roja es un pierídido mediano-grande. Sus alas amarillas tienen los flecos rosa-rojos; el ala anterior posee un borde negro ancho con manchas amarillas y el reverso plateado luce anillos pardo-pálidos, con un llamativo parche rojo en la base del ala posterior.",
+    "highlights": [
+      "Flecos rosa-rojos distintivos, una de las claves de identificación",
+      "Reverso plateado con anillos pardo-pálidos; parche rojo en la base posterior, llamativo",
+      "Habita bordes de bosque, vuela rápido junto a arroyos y zonas abiertas"
+    ],
+    "tags": [
+      "Flecos rosados",
+      "Base roja",
+      "Bebedora de arroyo"
+    ]
+  },
+  "chocalbatross": {
+    "region": "Sur de China, Taiwán y Sudeste asiático",
+    "intro": "El albatros chocolate es un pierídido familiar de tierras bajas a media altitud. Los machos tienen el dorso blanco con un borde anterior pardo-oscuro en sierra y el ala posterior amarillenta; las hembras presentan marcas oscuras más fuertes. Vuela rápido y visita flores y suelo húmedo.",
+    "highlights": [
+      "El borde interno aserrado del margen oscuro del ala anterior es clave de identificación",
+      "Marcado dimorfismo sexual; las hembras tienen marcas oscuras más fuertes",
+      "Multivoltino y visible todo el año; vuela rápido y bebe en charcos"
+    ],
+    "tags": [
+      "Borde aserrado",
+      "Dimorfismo sexual",
+      "Pierídido común"
+    ]
+  },
+  "commongull": {
+    "region": "Sur de China, sur de Asia y Sudeste asiático",
+    "intro": "La gaviota común tiene alas de blanco rosáceo con nervios negros marcados y una fila de marcas triangulares negras en los bordes externos. La forma de estación seca presenta marcas más gruesas y amarillentas, distinta de la de estación lluviosa. Común en bordes de bosque y grupos de flores.",
+    "highlights": [
+      "Nervios negros nítidos y fila de triángulos negros en el margen externo",
+      "Tiene formas de seca y de lluvias; la seca es más oscura y amarilla",
+      "Común en bordes de bosque y parches de flores, voladora activa"
+    ],
+    "tags": [
+      "Nervios negros",
+      "Formas estacionales",
+      "Borde de bosque"
+    ]
+  },
+  "paleclouded": {
+    "region": "Zona templada euroasiática, incluida la mayor parte de China",
+    "intro": "La amarilla pálida tiene alas amarillo-limón con bordes negros anchos en ambas alas. Las hembras son dimórficas, con una forma amarilla y otra blanquecina pálida. Toma el sol en pastos, campos y praderas; las orugas se alimentan de leguminosas.",
+    "highlights": [
+      "Alas amarillo-limón con anchos bordes negros",
+      "Hembras dimórficas: forma amarilla y forma blanquecina pálida",
+      "Le encanta tomar el sol en suelo desnudo y rocas; orugas en leguminosas"
+    ],
+    "tags": [
+      "Amarilla y negra",
+      "Toma sol",
+      "Come leguminosas"
+    ]
+  },
+  "orangetipeu": {
+    "region": "De Europa a las zonas templadas del este de Asia (incluida China)",
+    "intro": "La aurora europea es un pierídido blanco; los machos tienen un parche naranja-rojo brillante en la punta del ala anterior, mientras que las hembras son blancas puras. El reverso del ala posterior muestra hermosas nubes verde musgo (mezcla de escamas amarillas y negras), un camuflaje perfecto entre las flores.",
+    "highlights": [
+      "Dimorfismo sexual: machos con punta naranja, hembras blancas puras",
+      "Las nubes verde musgo del reverso son escamas mixtas amarillas y negras: camuflaje superlativo",
+      "Mariposa de inicios de primavera en prados húmedos, bosques y orillas de ríos"
+    ],
+    "tags": [
+      "Punta naranja",
+      "Camuflaje musgoso",
+      "Mariposa primaveral"
+    ]
+  },
+  "cleopatra": {
+    "region": "Costas mediterráneas, sur de Europa y norte de África",
+    "intro": "La cleopatra es la especie más espectacular de Gonepteryx. Los machos son amarillo-limón con un fuerte rubor naranja en el centro del ala anterior; las puntas ganchudas y las pequeñas colas posteriores las hacen parecer una hoja. Las hembras son más pálidas; la forma alar imita una hoja a la perfección.",
+    "highlights": [
+      "Los machos muestran un rubor naranja en el centro del ala anterior, los más vistosos",
+      "Puntas ganchudas y colas pequeñas permiten la imitación de hoja",
+      "Activa en el Mediterráneo desde finales de invierno hasta el otoño"
+    ],
+    "tags": [
+      "Rubor naranja",
+      "Imita hoja",
+      "Mediterránea"
+    ]
+  },
+  "fieldii": {
+    "region": "Endémica del centro-oeste de China y el Himalaya",
+    "intro": "La amarilla de Field es endémica de China. Sus alas presentan un naranja-rojo vivo con anchos bordes negros y flecos rosados. Se parece a la amarilla pálida pero es más naranja. Habita valles, arroyos y bordes de bosque.",
+    "highlights": [
+      "Alas más anaranjadas-rojas que la cercana amarilla pálida",
+      "Flecos rosados y grandes manchas oscuras al final de la celda en ambas alas",
+      "Endémica de China, frecuenta valles, arroyos y bordes de bosque"
+    ],
+    "tags": [
+      "Naranja-rojo",
+      "Endémica de China",
+      "Flecos rosados"
+    ]
+  },
+  "blackveined": {
+    "region": "Zona templada euroasiática",
+    "intro": "La blanca de venas negras tiene alas blancas escasamente escamadas y semitransparentes, atravesadas por nervios negros marcados; el borde anterior lleva triángulos negro-humo. A menudo se reúne en flores y barro húmedo; las orugas se alimentan de Rosáceas.",
+    "highlights": [
+      "Nervios negros marcados sobre alas blancas; la escasa escamosidad las vuelve translúcidas",
+      "Triángulos negro-humo a lo largo del borde del ala anterior",
+      "Se agrupa en flores y charcos; las orugas se alimentan de Rosáceas"
+    ],
+    "tags": [
+      "Venas negras",
+      "Translúcida",
+      "Bebedora en grupo"
+    ]
+  },
+  "commonmime": {
+    "region": "Sur de China, sur de Asia y Sudeste asiático",
+    "intro": "El mimo común es un mímico célebre con varias formas: la típica tiene alas pardo-oscuras densamente moteadas de blanco con bordes blancos punteados, mimetizando a tigres azules tóxicos; otra forma con bandas naranjas mimetiza al tigre común. Engaña a los depredadores imitando a mariposas tóxicas.",
+    "highlights": [
+      "Múltiples formas imitan especies tóxicas como el tigre azul o el tigre común",
+      "Caso clásico de mimetismo batesiano, aprovechando los colores de advertencia ajenos",
+      "Las orugas comen Lauráceas en bosques de baja altitud"
+    ],
+    "tags": [
+      "Maestro del mimetismo",
+      "Polimórfico",
+      "Mimetismo batesiano"
+    ]
+  },
+  "limepapilio": {
+    "region": "Amplio en Asia, expandiéndose a Oriente Medio y Oceanía",
+    "intro": "La mariposa lima, también conocida como papilio sin cola, es uno de los papiliónidos colonizadores más exitosos. Sus alas negras están salpicadas de manchas y puntos amarillos; el ala posterior carece de cola pero tiene un ocelo rojo y azul. Muy fecunda, es una plaga común de los cítricos.",
+    "highlights": [
+      "Sin colas en las alas posteriores; fondo negro con denso punteado amarillo, fácil de identificar",
+      "Uno de los papiliónidos más exitosos del mundo, muy adaptable",
+      "Las orugas comen Rutáceas y son comunes en huertos cítricos"
+    ],
+    "tags": [
+      "Sin colas",
+      "Muy invasora",
+      "Plaga de cítricos"
+    ]
+  },
+  "citrusswallowtail": {
+    "region": "África subsahariana y Madagascar",
+    "intro": "El papilio cítrico es uno de los papiliónidos más conocidos de África. Como la mariposa lima, tiene alas negras moteadas de amarillo, sin colas posteriores, y ocelos rojos y azules en el ángulo anal. Es una plaga importante de los cítricos africanos.",
+    "highlights": [
+      "Versión africana de la mariposa lima: negra con amarillo y sin colas",
+      "Ocelos rojos y azules en el ángulo anal; vuelo rápido",
+      "Las orugas comen Rutáceas y son una plaga importante en cítricos africanos"
+    ],
+    "tags": [
+      "Común en África",
+      "Sin colas",
+      "Plaga de cítricos"
+    ]
+  },
+  "paradisebirdwing": {
+    "region": "Nueva Guinea",
+    "intro": "El alas de pájaro del paraíso es una de las mariposas más espectaculares del mundo. Los machos tienen un brillo dorado-verde deslumbrante y las alas posteriores se prolongan en colas únicas, largas y ganchudas: la única ala de pájaro con colas. Las hembras son más grandes y marrón-blanquecinas.",
+    "highlights": [
+      "Brillo metálico dorado-verde y colas únicas, largas y ganchudas",
+      "La única especie del género Ornithoptera con colas en las alas posteriores",
+      "Apéndice II de CITES; un raro gigante de las selvas tropicales"
+    ],
+    "tags": [
+      "Dorado-verde",
+      "Colas ganchudas",
+      "Nueva Guinea"
+    ]
+  },
+  "commonbirdwing": {
+    "region": "Sur a Sudeste de Asia y sur de China",
+    "intro": "El alas de pájaro común es una gran mariposa birdwing. Los machos tienen alas anteriores aterciopeladas en negro con gris-blanquecino a lo largo de los nervios; las posteriores son amarillo dorado con bordes negros, deslumbrantes en vuelo. El tórax luce pelos carmesí. CITES Apéndice II.",
+    "highlights": [
+      "Alas posteriores doradas con bordes negros que arden al vuelo",
+      "Anteriores negras con gris-blanco a lo largo de los nervios; mechones carmesí en el tórax",
+      "Las orugas comen Aristolochia y acumulan toxinas defensivas"
+    ],
+    "tags": [
+      "Alas posteriores doradas",
+      "Grande",
+      "Listada en CITES"
+    ]
+  },
+  "oblongbirdwing": {
+    "region": "Islas de Indonesia y Nueva Guinea",
+    "intro": "El alas de pájaro de manchas alargadas es una gran ala de pájaro insular del Sudeste Asiático. Los machos tienen alas anteriores negras y posteriores doradas con marcas negras alargadas. Se parece al alas de pájaro común pero sus marcas amarillas son más alargadas. El tórax tiene mechones rojos.",
+    "highlights": [
+      "Alas posteriores doradas con franjas negras alargadas, de ahí el nombre",
+      "Una gran ala de pájaro de distribución insular",
+      "Las orugas comen Aristolochia y contienen toxinas defensivas"
+    ],
+    "tags": [
+      "Alas posteriores doradas",
+      "Marcas alargadas",
+      "Especie insular"
+    ]
+  },
+  "easterntiger": {
+    "region": "Este de Norteamérica",
+    "intro": "El papilio tigre del este es una de las mariposas más icónicas de Norteamérica. Sus alas amarillas llevan cuatro audaces rayas tigre negras y bordes oscuros, y las posteriores tienen colas y manchas azules y naranjas. Las hembras son dimórficas, con formas amarilla y negra.",
+    "highlights": [
+      "Amarillo con audaces rayas tigre: una mariposa emblemática de Norteamérica",
+      "Colas y manchas azules y naranjas; las hembras tienen una forma melánica negra",
+      "Mariposa estatal de varios estados de EE. UU.; común en jardines"
+    ],
+    "tags": [
+      "Rayas de tigre",
+      "Icono norteamericano",
+      "Hembra dimórfica"
+    ]
+  },
+  "clubtail": {
+    "region": "Sur a Sudeste de Asia y sur de China",
+    "intro": "El cola maza común es un curioso papiliónido cuyas colas posteriores son inusualmente largas y terminan en un ensanchamiento en forma de maza. Las alas son pardas oscuras, con franjas gris-blancas en las anteriores y manchas amarillo-blancas y un parche rojo anal en las posteriores.",
+    "highlights": [
+      "Colas posteriores largas con punta en forma de maza, únicas e inconfundibles",
+      "Manchas amarillo-blancas en el ala posterior y un parche rojo en el ángulo anal",
+      "Imita a especies tóxicas de Atrophaneura para protegerse"
+    ],
+    "tags": [
+      "Colas en maza",
+      "Mancha anal roja",
+      "Mimetismo"
+    ]
+  },
+  "bhutanitis": {
+    "region": "Himalaya, suroeste de China, Myanmar, Tailandia",
+    "intro": "La gloria de Bután, también llamada papilio de varias colas, es un valioso papiliónido alpino. Sus alas pardo-oscuras llevan finísimas líneas onduladas amarillo-pálidas; las posteriores tienen varias colas y un gran parche rojo y una mancha azul-negra en el ángulo anal. CITES Apéndice II.",
+    "highlights": [
+      "Múltiples colas posteriores y un gran parche anal rojo, únicos",
+      "Alas oscuras finamente recorridas por líneas amarillas onduladas",
+      "Especie alpina rara protegida por CITES Apéndice II"
+    ],
+    "tags": [
+      "Multicolas",
+      "Tesoro alpino",
+      "Listada en CITES"
+    ]
+  },
+  "spanishfestoon": {
+    "region": "España, Portugal, sur de Francia, norte de África",
+    "intro": "La arlequín español es un pequeño papiliónido sin colas de la subfamilia Parnassiinae. Sus alas negras y amarillas llevan intrincados patrones de festón y vivos puntos rojos en las anteriores. Vuela desde finales del invierno hasta finales de la primavera y es una querida mariposa primaveral mediterránea.",
+    "highlights": [
+      "Patrón de festón negro y amarillo con vivos puntos rojos en el ala anterior, muy fácil de identificar",
+      "Papiliónido sin colas con bordes alares aserrados",
+      "Especie mediterránea de inicios de primavera; las orugas comen Aristolochia"
+    ],
+    "tags": [
+      "Puntos rojos",
+      "Patrón festón",
+      "Mediterránea"
+    ]
+  },
+  "chineseswordtail": {
+    "region": "Centro y sur de China",
+    "intro": "El cola de espada chino es un cola de espada distintivo de China. Sus alas son amarillo-blanquecinas con varias barras transversales negras; las posteriores llevan colas largas como espadas y manchas anales naranja-amarillas y azules. Emerge a inicios de primavera con un vuelo ligero y ágil.",
+    "highlights": [
+      "Largas colas posteriores en forma de espada inspiran su nombre",
+      "Alas amarillo-blanquecinas con barras transversales negras y manchas anales naranja-azules",
+      "Univoltino al inicio de la primavera, con un vuelo ligero y ágil"
+    ],
+    "tags": [
+      "Colas espada",
+      "Barras negras",
+      "Inicio de primavera"
+    ]
+  },
+  "greenbirdwing": {
+    "region": "Indonesia, Nueva Guinea, norte de Australia",
+    "intro": "El alas de pájaro verde, también llamado birdwing de Cairns, es la mariposa nacional de Indonesia. Los machos lucen brillantes parches dorado-verdes contra alas negras, con un brillo que cambia según la luz; las hembras son grandes, marrones con manchas blancas. El tórax tiene pelos rojos.",
+    "highlights": [
+      "Parches dorado-verdes sobre negro; el brillo cambia con el ángulo",
+      "Mariposa nacional de Indonesia, gigante de las selvas tropicales",
+      "Las orugas comen Aristolochia; CITES Apéndice II"
+    ],
+    "tags": [
+      "Dorado-verde",
+      "Mariposa nacional",
+      "Grande"
+    ]
+  },
+  "iceclear": {
+    "region": "Este de China, península coreana, Japón",
+    "intro": "El parnasio de hielo es una elegante especie de Parnassius. Sus alas blancas semitransparentes muestran nervios negros; el ala anterior tiene barras transversales grises y la posterior, una banda negra con pelos negros en el margen interno. Vuela despacio desde inicios de primavera hasta principios del verano: pura como hielo y nieve.",
+    "highlights": [
+      "Alas blancas translúcidas con nervios negros, puras como hielo y nieve",
+      "Banda negra con pelos negros a lo largo del margen interno del ala posterior",
+      "Vuelo lento; las orugas comen Aristolochiaceae y Corydalis"
+    ],
+    "tags": [
+      "Blanca translúcida",
+      "Nervios negros",
+      "Inicios de primavera"
+    ]
+  },
+  "rajahbrooke": {
+    "region": "Península malaya, Borneo, Sumatra",
+    "intro": "El alas de pájaro del rajá Brooke es la mariposa nacional de Malasia. Sus alas de terciopelo negro llevan en las anteriores una hilera de marcas dentadas verde jade en forma de hoja, y un collar de pelos rojos brillantes alrededor del cuello. Las escamas dorado-verdes brillan al sol con un porte regio.",
+    "highlights": [
+      "Hilera de marcas dentadas verde jade en las alas anteriores, en forma de hoja",
+      "Collar de pelos rojos brillantes alrededor del cuello, origen del nombre",
+      "Mariposa nacional de Malasia; las escamas brillan con iridiscencia"
+    ],
+    "tags": [
+      "Cuñas de jade",
+      "Collar rojo",
+      "Mariposa nacional"
+    ]
+  },
+  "croesusbirdwing": {
+    "region": "Islas Molucas de Indonesia",
+    "intro": "El alas de pájaro dorado de Wallace es un famoso gran papiliónido descubierto por Alfred Russel Wallace. Los machos lucen deslumbrantes parches dorado-anaranjados a dorado-verdes en las alas posteriores y bases anteriores; el brillo va del naranja al verde según el ángulo, magnífico sobre fondo negro.",
+    "highlights": [
+      "Los machos muestran parches que pasan del oro-naranja al oro-verde según el ángulo",
+      "Descrita por primera vez por Alfred Russel Wallace, especie icónica en sus obras",
+      "CITES Apéndice II; endémica de las Molucas"
+    ],
+    "tags": [
+      "Brillo dorado",
+      "Wallace",
+      "Grande"
+    ]
+  },
+  "commonrose": {
+    "region": "Sur a Sudeste de Asia y sur de China",
+    "intro": "La rosa común tiene alas negras con manchas blancas en las posteriores y una hilera de medias lunas rojas vivas, además de un abdomen rojo. Es tóxica y amarga, y sirve de modelo para muchos miméticos comestibles.",
+    "highlights": [
+      "Hilera de medias lunas rojas en el ala posterior y abdomen rojo: aviso tóxico",
+      "Acumula ácidos aristolóquicos; modelo de mimetismo para muchas mariposas",
+      "Vuela despacio, segura por su defensa química"
+    ],
+    "tags": [
+      "Medias lunas rojas",
+      "Modelo tóxico",
+      "Abdomen rojo"
+    ]
+  },
+  "bluebirdwing": {
+    "region": "Islas Salomón, Nueva Irlanda",
+    "intro": "El alas de pájaro azul es una rara ala de pájaro azul (hoy considerada subespecie del alas de pájaro verde). Los machos muestran un degradado profundo de azul-verde metálico sobre fondo negro, con destellos azules bajo distintas luces. El abdomen es amarillo dorado; el tórax tiene pelos rojos.",
+    "highlights": [
+      "Los machos muestran un degradado azul-verde metálico que destella con la luz",
+      "Una rara forma azul entre las alas de pájaro",
+      "Las orugas comen Aristolochia; CITES Apéndice II"
+    ],
+    "tags": [
+      "Azul metálico",
+      "Rara",
+      "Grande"
+    ]
+  },
+  "ulysses": {
+    "region": "Norte de Australia, Nueva Guinea, Indonesia",
+    "intro": "La mariposa Ulises (azul de las montañas) es el icono de Queensland, Australia. Sus alas destellan en un brillante azul eléctrico enmarcado por anchos bordes negros: rayos azules en vuelo, como zafiros, con colas en las alas posteriores.",
+    "highlights": [
+      "Vastos parches azul eléctrico con bordes negros que centellean en vuelo",
+      "Mariposa icono turística de Queensland, Australia",
+      "Alas posteriores con colas; el color estructural cambia con el ángulo"
+    ],
+    "tags": [
+      "Azul eléctrico",
+      "Azul de las montañas",
+      "Con cola"
+    ]
+  },
+  "atrophaneura": {
+    "region": "Taiwán (endémica)",
+    "intro": "El alas magenta (Atrophaneura) es un gran atrofaneurido endémico de Taiwán. Sus alas pardo-oscuras llevan vastos parches rosa-magenta en las posteriores, especialmente vivos en el área anal, brillando como el alba en vuelo. El tórax tiene mechones rojos.",
+    "highlights": [
+      "Vastos parches rosa-magenta en las alas posteriores brillan como el alba",
+      "Un gran atrofaneurido endémico de Taiwán",
+      "Las orugas comen Aristolochia y secuestran toxinas defensivas"
+    ],
+    "tags": [
+      "Posteriores rosa",
+      "Endémica de Taiwán",
+      "Grande"
+    ]
+  },
+  "fivebar": {
+    "region": "Sur de China, sur de Asia y Sudeste asiático",
+    "intro": "El cola de espada de cinco barras tiene alas blanco verdosas con varias barras diagonales negras y largas colas posteriores, además de manchas anales rojas. Vuela rápido y se reúne en arenas húmedas junto a arroyos para beber.",
+    "highlights": [
+      "Alas blanco-verdosas con varias barras diagonales negras y colas largas",
+      "Llamativas manchas rojas en el ángulo anal",
+      "Vuelo veloz; los machos forman grupos de bebida en arroyos"
+    ],
+    "tags": [
+      "Barras diagonales",
+      "Colas espada",
+      "Bebedor de arroyo"
+    ]
+  },
+  "goldenbirdwing2": {
+    "region": "Filipinas, isla de Lanyu en Taiwán",
+    "intro": "El alas de pájaro iridiscente es una gran ala de pájaro cuyas alas posteriores son amarillo doradas y, de manera única, brillan con iridiscencia azul-verde en ciertos ángulos. El tórax luce pelos rojos.",
+    "highlights": [
+      "Alas posteriores doradas que destellan azul-verde en ciertos ángulos: única",
+      "Una gran ala de pájaro con vuelo majestuoso",
+      "Las orugas comen Aristolochia; CITES Apéndice II"
+    ],
+    "tags": [
+      "Posteriores iridiscentes",
+      "Iridiscencia",
+      "Grande"
+    ]
+  },
+  "threetail": {
+    "region": "Shaanxi, Sichuan, Yunnan, China (endémica)",
+    "intro": "El cola triple chino es un raro papiliónido alpino endémico de China. Sus bandas negras con brillo bronce están separadas por 8 líneas claras; las alas posteriores llevan tres colas y un gran parche anal rojo con puntos azules. Es Categoría II del Estado y CITES Apéndice II.",
+    "highlights": [
+      "Tres colas posteriores y un gran parche anal rojo con puntos azules",
+      "Ocho líneas claras dividen bandas negras con brillo bronce",
+      "Endémica de China, Categoría II protegida, CITES Apéndice II"
+    ],
+    "tags": [
+      "Tres colas",
+      "Categoría II",
+      "Tesoro alpino"
+    ]
+  },
+  "bianorlike": {
+    "region": "Himalaya, oeste y sur de China",
+    "intro": "El pavo real bluebottle común es un papiliónido tipo pavo real con alas negras densamente cubiertas de iridiscencia verde jade y verde dorado; las posteriores tienen parches azul-verdes, colas y manchas rojas anales. Similar al pavo real común pero más verde y brillante, centellea al sol.",
+    "highlights": [
+      "Alas densamente cubiertas de iridiscencia verde jade y dorado",
+      "Ala posterior con parche azul-verde, colas y manchas rojas anales",
+      "Pavo real común del Himalaya y oeste de China"
+    ],
+    "tags": [
+      "Iridiscencia jade",
+      "Parche azul-verde",
+      "Con cola"
+    ]
+  },
+  "thoas": {
+    "region": "Las Américas (sur de EE. UU. a Sudamérica)",
+    "intro": "El papilio Thoas (papilio rey) es un gran papilio americano muy parecido al gigante norteamericano. Sus alas negras están cruzadas por una banda amarilla amplia, con colas posteriores, manchas amarillas y marcas azules y rojas.",
+    "highlights": [
+      "Alas negras cruzadas por una banda amarilla amplia y atrevida",
+      "Alas posteriores con colas, manchas amarillas y marcas azul y rojo",
+      "Volador potente y extendido por las Américas"
+    ],
+    "tags": [
+      "Banda amarilla",
+      "Gigante americano",
+      "Con cola"
+    ]
+  },
+  "mocker": {
+    "region": "África subsahariana",
+    "intro": "El papilio imitador africano es una conocida especie modelo en estudios de mimetismo. Los machos tienen alas amarillo-blancas pálidas con bordes negros y colas; las hembras presentan numerosas formas, cada una mimetizando una mariposa tóxica distinta (la mayoría sin cola): un caso clásico de mimetismo batesiano.",
+    "highlights": [
+      "Los machos lucen una forma estable: amarillo-blanco pálido con colas",
+      "Las hembras son muy polimórficas, imitando distintos lepidópteros tóxicos (a menudo sin cola)",
+      "Especie de referencia en estudios de mimetismo batesiano y genética"
+    ],
+    "tags": [
+      "Hembras polimórficas",
+      "Mimetismo batesiano",
+      "Estrella de la investigación"
+    ]
+  },
+  "podalirius": {
+    "region": "Europa, norte de África, oeste de Asia hasta China",
+    "intro": "El podalirio (Iphiclides podalirius) tiene alas amarillo pálidas con varias rayas negras en cuña y notables colas posteriores en forma de espada larga, además de medias lunas azules y un parche anal naranja. Su vuelo elegante planea sobre las flores de las laderas.",
+    "highlights": [
+      "Alas amarillo-pálidas con rayas negras en cuña y largas colas posteriores en forma de espada",
+      "Las alas posteriores tienen medias lunas azules y un ocelo anal naranja",
+      "Mariposa europea célebre por su vuelo planeador elegante"
+    ],
+    "tags": [
+      "Rayas negras",
+      "Colas espada",
+      "Icono europeo"
+    ]
+  },
+  "alpineblack": {
+    "region": "Noreste y norte de China, Lejano Oriente ruso, Corea, Japón",
+    "intro": "El papilio negro alpino es uno de los pavos reales más bellos de Asia oriental. Sus alas negras están densamente cubiertas de iridiscencia esmeralda y dorada, con una banda azul-verde en el ala posterior, además de colas y un punto rojo anal. Los adultos de verano son más grandes y verdes que los de primavera.",
+    "highlights": [
+      "Alas densamente cubiertas de iridiscencia esmeralda y dorada; banda azul-verde llamativa en el ala posterior",
+      "Las alas posteriores tienen colas y un punto rojo anal",
+      "La forma de verano es grande y vívida: uno de los pavos reales más bellos de Asia oriental"
+    ],
+    "tags": [
+      "Banda esmeralda",
+      "Con cola",
+      "Icono asiático"
+    ]
+  },
+  "twotailpasha2": {
+    "region": "Yunnan y Sichuan, China (endémica)",
+    "intro": "El papilio de tres colas (en algunas fuentes 'pacha de dos colas') es una de las mariposas más raras del mundo, descubierta por primera vez en el oeste de Yunnan en los años 30. Sus alas negras lustrosas tienen finas barras transversales amarillo-pálidas; las posteriores presentan tres colas, un parche rojo translúcido cerca del margen y puntos azules.",
+    "highlights": [
+      "Tres colas posteriores con parche rojo translúcido y ocelos azules: extremadamente rara",
+      "Alas anteriores negras y lustrosas cruzadas por finas barras amarillo-pálidas",
+      "Descubierta por primera vez en Yunnan en los años 30; especie globalmente preciada"
+    ],
+    "tags": [
+      "Rara",
+      "Con cola",
+      "Endémica de China"
+    ]
+  },
+  "amphrysusbird": {
+    "region": "Península malaya, Sumatra, Java",
+    "intro": "El alas de pájaro malayo es una gran ala de pájaro con 19 subespecies conocidas. Los machos tienen alas anteriores negras con blanco a lo largo de los nervios y alas posteriores amarillo doradas con nervios nítidos sin manchas; el vuelo es elegante y las alas posteriores brillan como envueltas en oro. El tórax tiene pelos rojos.",
+    "highlights": [
+      "Alas posteriores doradas con nerviación nítida; los machos no tienen manchas",
+      "Una gran ala de pájaro de vuelo elegante",
+      "Las orugas comen Aristolochia; CITES Apéndice II"
+    ],
+    "tags": [
+      "Posteriores doradas",
+      "Nervios nítidos",
+      "Grande"
+    ]
+  },
+  "dogface": {
+    "region": "Trópicos americanos (México a Sudamérica)",
+    "intro": "La amarilla sin nubes es un pierídido mediano-grande del género Phoebis. Los machos tienen alas amarillo azufre brillantes a verde-amarillas con bordes más pálidos; suelen reunirse en enormes enjambres en las orillas de los ríos para beber o volar juntos en migraciones masivas.",
+    "highlights": [
+      "Machos amarillo azufre brillantes con alas amplias",
+      "A menudo forma migraciones o enjambres bebedores en las orillas",
+      "Un gran pierídido extendido por los trópicos americanos"
+    ],
+    "tags": [
+      "Amarillo azufre",
+      "Vuelo en enjambre",
+      "Las Américas"
+    ]
+  },
+  "blackveinpier": {
+    "region": "Sur de China, sur y sudeste de Asia",
+    "intro": "El sawtooth de venas negras tiene alas blancas con nervios negros marcados; el ápice y borde externo del ala anterior son negros con manchas blancas, y el margen del ala posterior tiene una hilera de marcas negras, con el reverso del ala posterior amarillento. Es un pierídido mediano-grande de vuelo fuerte.",
+    "highlights": [
+      "Alas blancas con venas negras marcadas, fácil de identificar",
+      "Ápice negro con manchas blancas; hilera de marcas negras en el margen posterior",
+      "Sawtooth mediano-grande, vuela rápido y bebe a menudo"
+    ],
+    "tags": [
+      "Venas negras",
+      "Sawtooth",
+      "Mediana-grande"
+    ]
+  },
+  "morphoaurora": {
+    "region": "Bolivia, sur de Perú",
+    "intro": "La morfo aurora es una pequeña morfo de azul pálido. Los machos destellan un azul pálido brillante con bordes negros aserrados en el borde anterior del ala anterior y gris en el margen interno del ala posterior; en vuelo, brilla en azul, verde y violeta. El reverso es gris-marrón marmolado con filas de ocelos.",
+    "highlights": [
+      "Las alas destellan un azul pálido brillante con un brillo azul-verde-violeta en vuelo",
+      "Una pequeña morfo con envergadura de unos 9–11 cm",
+      "Reverso gris-marrón marmolado con filas de ocelos"
+    ],
+    "tags": [
+      "Azul pálido",
+      "Brillo metálico",
+      "Selva sudamericana"
+    ]
+  },
+  "morphocisseis": {
+    "region": "Brasil, Bolivia",
+    "intro": "La morfo Cisseis es una gran morfo cuya envergadura puede superar los 18 cm en algunas subespecies. El ala anterior brilla en azul metálico vivo enmarcado por negro ancho, con un área marrón oscuro del cuerpo a la base. El ala posterior negra tiene un parche azul brillante junto al cuerpo; el reverso marrón presenta cuatro grandes ocelos.",
+    "highlights": [
+      "Una gran morfo; algunas subespecies superan los 18 cm de envergadura",
+      "Brillante destello azul metálico enmarcado por bordes negros anchos",
+      "Reverso marrón marmolado con cuatro grandes ocelos"
+    ],
+    "tags": [
+      "Grande",
+      "Azul con borde negro",
+      "Grandes ocelos"
+    ]
+  },
+  "morphocypris2": {
+    "region": "Colombia (mariposa nacional), Centroamérica",
+    "intro": "La morfo Cipris (M. cypris) es la mariposa nacional de Colombia, famosa por su azul metálico altamente reflectante e intenso, aún más saturado que la morfo azul. Una banda blanca diagonal cruza las alas, enmarcada por negro, haciendo el azul hipnótico.",
+    "highlights": [
+      "Mariposa nacional de Colombia; azul metálico intenso y altamente reflectante",
+      "Más azul y saturado que la morfo azul común",
+      "Una banda blanca diagonal cruza las alas, enmarcada por negro"
+    ],
+    "tags": [
+      "Símbolo de Colombia",
+      "Azul metálico intenso",
+      "Banda blanca"
+    ]
+  },
+  "morphohecuba": {
+    "region": "Cuenca del Amazonas, las Guayanas",
+    "intro": "La morfo Hécuba es una de las morfos más grandes, con envergaduras de hasta 20 cm. No es azul: toda el ala está tejida con patrones marrones y marrón-anaranjados que evocan los cielos del amanecer oriental: complejo, opulento y majestuoso.",
+    "highlights": [
+      "Una de las morfos más grandes, con envergaduras de hasta 20 cm",
+      "Patrones marrones y marrón-anaranjados que recuerdan un amanecer oriental",
+      "Un icono de nivel nacional en Brasil; representante de las morfos no azules"
+    ],
+    "tags": [
+      "Gigante",
+      "Marrones del amanecer",
+      "Morfo no azul"
+    ]
+  },
+  "morphoamathonte": {
+    "region": "Centroamérica al norte de Sudamérica",
+    "intro": "La morfo Amathonte es una gran morfo azul con un azul metálico profundo extraordinariamente vívido y saturado, más profundo que la morfo azul común. Los bordes negros son estrechos, así que el azul domina y brilla como zafiro a través de las alas; es una de las morfos de azul más puro.",
+    "highlights": [
+      "Azul metálico profundo saturado, más profundo que la morfo azul común",
+      "Bordes negros estrechos dan una vasta área azul pura",
+      "Las alas brillan como zafiro en vuelo"
+    ],
+    "tags": [
+      "Azul metálico profundo",
+      "Grande",
+      "Zafiro"
+    ]
+  },
+  "morphoanaxibia": {
+    "region": "Sureste de Brasil",
+    "intro": "La morfo Anaxibia es una gran morfo endémica de Brasil con un brillo metálico azul plateado a azul cielo, bordes negros estrechos y pureza translúcida: una de las morfos más elegantes.",
+    "highlights": [
+      "Brillo metálico azul plateado a azul cielo brillante",
+      "Bordes negros estrechos; el azul es claro y translúcido",
+      "Elegante gran morfo endémica del sureste de Brasil"
+    ],
+    "tags": [
+      "Azul plateado",
+      "Cristalino",
+      "Endémica de Brasil"
+    ]
+  },
+  "morphoamphitryon": {
+    "region": "Sudamérica (Bolivia, Perú)",
+    "intro": "La morfo Amphitryon es una morfo grande y no azul, con alas marrón-oscuras y brillo metálico marrón-anaranjado. Las alas marrón-oscuras tienen una cadena de manchas amarillo-anaranjadas marginales; el ala anterior tiene tres grandes ocelos y la posterior cuatro pequeños: una presencia opulenta y serena.",
+    "highlights": [
+      "Marrón profundo con brillo metálico marrón-anaranjado, una morfo no azul",
+      "Cadena de manchas amarillo-anaranjadas a lo largo de los márgenes; ala anterior con tres grandes ocelos",
+      "Grande y ornamentada; envergadura 16–18 cm"
+    ],
+    "tags": [
+      "Marrón y naranja",
+      "Grandes ocelos",
+      "Morfo no azul"
+    ]
+  },
+  "morphoaega": {
+    "region": "Brasil, Argentina, Paraguay",
+    "intro": "La morfo Aega es una morfo mediana. Los machos tienen alas azul metálico brillante con bordes negros; las hembras son amarillo-pardas con manchas naranjas. El azul es brillante y vivo: representante de las morfos más claras, común en bordes de bosque sudamericanos.",
+    "highlights": [
+      "Machos: azul metálico brillante con bordes negros; hembras: amarillo-pardas con manchas naranjas",
+      "Una morfo mediana con azul brillante y vivo",
+      "Representante de las morfos más claras; común en bordes de bosque sudamericanos"
+    ],
+    "tags": [
+      "Azul metálico vivo",
+      "Dimorfismo sexual",
+      "Borde de bosque"
+    ]
+  },
+  "morphodeidamia": {
+    "region": "Cuenca del Amazonas",
+    "intro": "La morfo Deidamia tiene un brillo metálico azul teñido de violeta, enmarcado por bordes negros anchos y parches blancos; las alas anteriores llevan bandas blancas diagonales. Todo el efecto es onírico, representante del subgénero Morpho.",
+    "highlights": [
+      "Brillo metálico azul con tonos violeta; bordes negros anchos",
+      "Bandas blancas diagonales y parches blancos en las alas anteriores",
+      "De la cuenca del Amazonas; representante del subgénero Morpho"
+    ],
+    "tags": [
+      "Azul-violeta",
+      "Bandas blancas",
+      "Onírica"
+    ]
+  },
+  "morphosulkowskyi": {
+    "region": "Andes (Colombia a Perú)",
+    "intro": "La morfo de Sulkowsky es una pequeña morfo con alas semitransparentes blanco-perla teñidas de azul pálido y rosa, con iridiscencia cambiante como nácar bajo la luna: onírica e ingrávida. Habita los bosques nublados de gran altitud de los Andes.",
+    "highlights": [
+      "Alas blanco-perla con iridiscencia translúcida azul pálido y rosa",
+      "Cambio iridiscente como nácar bajo la luna",
+      "Habita bosques nublados andinos de gran altitud; pequeña y etérea"
+    ],
+    "tags": [
+      "Iridiscencia perlada",
+      "Translúcida",
+      "Bosque nublado"
+    ]
+  },
+  "morpholuna": {
+    "region": "Brasil",
+    "intro": "La morfo Luna es una gran y espléndida morfo con un brillo metálico verde-blanco y cuerpo blanco. Las alas tienen una cadena de manchas negras tipo engranaje en los márgenes, y el reverso blanco lleva filas de ocelos negros: blanca como la nieve pero metálica, de noble porte.",
+    "highlights": [
+      "Las alas brillan en metálico verde-blanco; el cuerpo es blanco",
+      "Una cadena de manchas negras tipo engranaje recorre el margen alar",
+      "Del subgénero de las morfos blancas; prístina pero metálica"
+    ],
+    "tags": [
+      "Verde-blanco metálico",
+      "Blanco nieve",
+      "Grande"
+    ]
+  },
+  "morphopeleides": {
+    "region": "Centroamérica al norte de Sudamérica",
+    "intro": "La morfo azul Peleides es una de las morfos más famosas y exhibidas y una de las mariposas más grandes del mundo. Sus alas destellan un azul cielo metálico brillante enmarcado por negro ancho, mientras que el reverso marrón lleva filas de ocelos amarillo-dorados: una estrella de los mariposarios.",
+    "highlights": [
+      "Una de las morfos más famosas; favorita en los mariposarios",
+      "Azul cielo metálico brillante enmarcado por bordes negros anchos",
+      "Reverso marrón con filas de ocelos amarillo-dorados para defensa críptica"
+    ],
+    "tags": [
+      "Morfo azul clásica",
+      "Marco negro",
+      "Estrella de mariposario"
+    ]
+  },
+  "indianfritillary": {
+    "region": "La mayor parte de China, sur/sudeste de Asia, Nueva Guinea, Australia, noreste de África",
+    "intro": "Única especie tropical del género Argyreus, esta fritillaria está extendida por la región oriental y se expande al norte con el calentamiento global. El dimorfismo sexual es marcado: los machos tienen un moteado leopardo, mientras que las alas anteriores de las hembras son violeta-negras con una banda diagonal blanca, mimetizando a la tóxica Tigre Simple. Las orugas se alimentan de violetas.",
+    "highlights": [
+      "La única especie tropical del grupo Argyreus moteado de leopardo",
+      "Las hembras imitan a la tóxica Tigre Simple para evadir depredadores",
+      "Continúa expandiéndose hacia el norte con el calentamiento climático"
+    ],
+    "tags": [
+      "Alas leopardo",
+      "Mimetismo batesiano",
+      "Común urbana"
+    ]
+  },
+  "silverwashed": {
+    "region": "Eurasia, desde Europa Occidental y norte de África, a través de Siberia, hasta Japón, Corea y China",
+    "intro": "Una fritilaria mediana muy extendida por toda Eurasia, llamada así por las bandas plateado-verdes en el reverso del ala posterior. Los machos son naranja-amarillos con prominentes 'androconios' negros a lo largo de los nervios; las hembras son más oscuras-verdes con manchas negras más fuertes. Voladores potentes que planean por el dosel; las orugas se alimentan de violetas.",
+    "highlights": [
+      "Distintivo lavado plateado-verde en el reverso del ala posterior",
+      "Los machos tienen androconios negros marcados a lo largo de los nervios anteriores",
+      "Voladores potentes que planean por el dosel del bosque"
+    ],
+    "tags": [
+      "Reverso plateado-verde",
+      "Especie de bosque",
+      "Eurasiática"
+    ]
+  },
+  "saganafritillary": {
+    "region": "Este y sur de China, península coreana, Japón, Lejano Oriente ruso, Mongolia",
+    "intro": "Una fritilaria del este de Asia con dimorfismo sexual extremo: los machos son naranja-amarillos con marcas negras quebradas en las alas posteriores, mientras que las hembras son azul-negras con grandes manchas blancas y una banda blanca ancha, pareciendo otra especie. Univoltina; pasa el invierno como larva joven. Las orugas se alimentan de violetas.",
+    "highlights": [
+      "Dimorfismo sexual extremo entre los sexos",
+      "Las hembras son elegantemente azul-negras con bandas blancas",
+      "Univoltina, pasa el invierno como larva de primer instar"
+    ],
+    "tags": [
+      "Dimorfismo sexual",
+      "Asiática oriental",
+      "Comedora de violetas"
+    ]
+  },
+  "largesilverstripe": {
+    "region": "Shaanxi, Yunnan, Tíbet de China; Nepal, Sikkim, norte de la India, Myanmar",
+    "intro": "Entre las más grandes de las fritilarias leopardo, llamada así por las deslumbrantes franjas plateadas en el reverso bronce-verde. El dimorfismo sexual es fuerte: las hembras son más grandes, más oscuras, con áreas azul-verdes más amplias en el ala posterior. Habita laderas herbáceas alrededor de los bosques.",
+    "highlights": [
+      "Una de las fritilarias más grandes del género",
+      "Múltiples franjas plateadas brillan en el reverso del ala posterior",
+      "El área anal muestra un azul-verde vivo, una marca inconfundible"
+    ],
+    "tags": [
+      "Especie grande",
+      "Franjas plateadas",
+      "Bordes de montaña"
+    ]
+  },
+  "pallasfritillary": {
+    "region": "Centro-este de Europa a través de Siberia hasta China, Corea, Japón, Rusia",
+    "intro": "Una fritilaria mediana extendida por Eurasia con alas naranja-amarillas y motas negras uniformes. El reverso del ala posterior está dividido por una banda con borde blanco en un área externa violeta-gris y un área basal amarillo-marrón, una clave de identificación. Los machos tienen androconios negros delgados en las alas anteriores; las orugas se alimentan de violetas.",
+    "highlights": [
+      "El reverso del ala posterior está claramente dividido en áreas violeta-gris y amarillo-marrón",
+      "Los machos muestran androconios negros delgados en los nervios anteriores",
+      "Una fritilaria eurasiática común en pastizales y bordes de bosque"
+    ],
+    "tags": [
+      "Alas leopardo",
+      "Eurasiática amplia",
+      "Bordes de prado"
+    ]
+  },
+  "darkgreenfrit": {
+    "region": "Europa, Marruecos, Irán, Siberia, Asia Central, China, Corea, Japón",
+    "intro": "Una gran fritilaria paleártica extendida, la fritilaria verde oscura toma su nombre del brillo verde en el reverso del ala posterior. La cara superior naranja-llama está moteada con manchas negras ordenadas; el reverso del ala posterior lleva múltiples discos plateado-blancos brillantes. Habita arbustos-pasto montañosos y vuela rápido; las orugas se alimentan de violetas.",
+    "highlights": [
+      "Discos plateado-blancos brillantes esparcidos en el reverso del ala posterior",
+      "Cara superior naranja-llama con motas negras regulares",
+      "Habita hábitats de arbusto y pasto de alta montaña"
+    ],
+    "tags": [
+      "Especie grande",
+      "Manchas plateadas",
+      "Prado de montaña"
+    ]
+  },
+  "smallpearlfrit": {
+    "region": "Europa, Asia templada hasta China, y Norteamérica",
+    "intro": "Una pequeña fritilaria circum-holártica, llamada Small Pearl-bordered Fritillary en Europa y Silver-bordered Fritillary en Norteamérica. Su nombre viene de filas de manchas plateado-blancas tipo 'perla' sobre un reverso del ala posterior rojizo. Prefiere prados húmedos; las orugas se alimentan solo de violetas y pasan el invierno como larvas.",
+    "highlights": [
+      "Filas de manchas perla plateado-blancas alinean el reverso del ala posterior",
+      "Pequeña y delicada; habita prados húmedos",
+      "Distribuida por Europa, Asia y Norteamérica"
+    ],
+    "tags": [
+      "Especie pequeña",
+      "Manchas perladas",
+      "Prado húmedo"
+    ]
+  },
+  "clipper": {
+    "region": "Suroeste de China, sur de Asia, bosques del Sudeste asiático",
+    "intro": "Un gran ninfálido de los bosques tropicales, con alas verde-oliva a marrones y nervios negros marcados. Las alas anteriores llevan una fila de parches translúcidos tipo 'ventana'; el patrón del ala posterior es como una falda plisada, especialmente bello cuando está semi-cerrada. Volador fuerte y rápido que patrulla los bordes de bosque junto a arroyos.",
+    "highlights": [
+      "Parches tipo ventana translúcidos en las alas anteriores son únicos",
+      "El patrón del ala posterior recuerda una falda plisada",
+      "Volador potente y rápido a lo largo de arroyos y bordes de bosque"
+    ],
+    "tags": [
+      "Verde oliva",
+      "Bosque tropical",
+      "Joya ornamental"
+    ]
+  },
+  "easterncourtier": {
+    "region": "Noreste a centro-este de China, Corea, Lejano Oriente ruso",
+    "intro": "Un ninfálido apaturino mediano-grande: los machos muestran alas negras densamente rayadas con naranja-amarillo, con dos manchas naranja en la celda del ala anterior y una mancha tipo ojo en Cu1; en las hembras estas marcas se vuelven blanquecinas. Univoltina, los adultos vuelan en junio-julio, las orugas comen Celtis (almez) y los adultos prefieren la fruta podrida y el suelo húmedo.",
+    "highlights": [
+      "Los machos muestran densas rayas naranja-amarillas sobre fondo negro",
+      "La celda Cu1 del ala anterior lleva una mancha tipo ojo",
+      "Los adultos están dedicados a la fruta podrida y a las sales del barro"
+    ],
+    "tags": [
+      "Rayas naranja-negras",
+      "Asia oriental",
+      "Univoltina"
+    ]
+  },
+  "commonlascar": {
+    "region": "India, Sri Lanka, Sudeste asiático, sur de China y Taiwán",
+    "intro": "Un pequeño ninfálido de bosques de baja a media altitud en el sur y sudeste de Asia. La cara superior negra lleva tres bandas transversales naranja-amarillas que son más anchas y doradas que en los lascares típicos, de ahí su nombre chino 'mariposa de tres líneas doradas'. Multivoltina, vuelo lento, gusta de las flores y de chupar barro; las orugas comen lianas leguminosas.",
+    "highlights": [
+      "Tres bandas amarillo-doradas sobre fondo negro son conspicuas",
+      "Las bandas son más anchas que en los lascares típicos",
+      "Multivoltina y común en bosques de baja montaña"
+    ],
+    "tags": [
+      "Triple banda dorada",
+      "Bosque tropical",
+      "Comedora de leguminosas"
+    ]
+  },
+  "pallassailer": {
+    "region": "Europa central, Rusia, India, zona templada del este de Asia hasta Japón",
+    "intro": "Un pequeño velero blanquinegro del género Neptis con una raya longitudinal blanca rota en la celda del ala anterior y un reverso color castaño. Fácilmente confundible con el velero común. Una a dos generaciones por año; pasa el invierno como larva madura; vuelo lento y planeador; las orugas comen Lespedeza y otras leguminosas.",
+    "highlights": [
+      "La raya de la celda del ala anterior es rota: un rasgo de identificación",
+      "El reverso es castaño, haciendo destacar las marcas blancas",
+      "Fácilmente confundible con el velero común"
+    ],
+    "tags": [
+      "Velero blanquinegro",
+      "Vuelo planeador",
+      "Comedora de leguminosas"
+    ]
+  },
+  "commonsailer": {
+    "region": "Sur de China hasta Shaanxi y Henan; India, Myanmar, Vietnam, Sudeste asiático",
+    "intro": "Una especie dominante de la región oriental: cara superior pardo-negra cruzada por tres filas de manchas blancas que forman bandas tipo vela, con una raya larga y una marca en forma de flecha en la celda del ala anterior. El reverso amarillo-marrón tiene marcas blancas con bordes negros. La localidad tipo es Guangdong, China; vuela en patrullas planeadoras bajas; las orugas se alimentan de leguminosas y Ulmáceas.",
+    "highlights": [
+      "Tres filas de manchas blancas forman bandas tipo vela sobre fondo negro",
+      "La celda del ala anterior lleva una marca distintiva en forma de flecha",
+      "Una especie oriental dominante visible todo el año"
+    ],
+    "tags": [
+      "Triple banda blanca",
+      "Planeadora",
+      "Oriental amplia"
+    ]
+  },
+  "queen": {
+    "region": "Sur de EE. UU., México, Centroamérica, el Caribe y Sudamérica",
+    "intro": "Representante del Danaus americano, la Reina está estrechamente emparentada con la monarca pero es más pequeña, con alas marrón-castaño más oscuras y dos filas de puntos blancos en los bordes negros. Las orugas se alimentan de algodoncillo, acumulando cardenólidos; los machos tienen parches de aroma negros en las alas posteriores, con cortejo elaborado y migración limitada.",
+    "highlights": [
+      "Alas marrón-castaño con dos filas de puntos blancos en los bordes negros",
+      "Las orugas secuestran toxinas del algodoncillo para defensa química",
+      "Estrechamente emparentada con la monarca pero más pequeña"
+    ],
+    "tags": [
+      "Danaído americano",
+      "Toxinas de algodoncillo",
+      "Alas castañas"
+    ]
+  },
+  "chestnuttiger": {
+    "region": "Himalayas, Sudeste asiático, China, Taiwán, Corea, Japón",
+    "intro": "Una gran mariposa danaína con alas anteriores pardo-negras moteadas en azul-blanco translúcido y alas posteriores marrón-rojizas con marcas más pálidas: contraste sorprendente. Famosa por sus migraciones transoceánicas: un individuo voló de Japón a Hong Kong, más de 2.000 km en más de 80 días. Las orugas se alimentan de Asclepiadáceas tóxicas.",
+    "highlights": [
+      "Manchas anteriores azul-blancas translúcidas sobre alas posteriores marrón-rojizas",
+      "Récord de migración de más de 2.000 km a través del mar",
+      "Las orugas comen plantas tóxicas Asclepiadáceas"
+    ],
+    "tags": [
+      "Migrante",
+      "Azul translúcido",
+      "Gran danaído"
+    ]
+  },
+  "easterncommontiger": {
+    "region": "India, Sudeste asiático, sur de China y otras áreas tropicales asiáticas",
+    "intro": "Para evitar duplicar la ya listada Tigre Común (Danaus genutia), esta entrada se refiere al Tigre Oriental (Blanco) estrechamente relacionado. Las alas amarillo-anaranjadas con nervios negros bordeados de manchas blancas se parecen mucho al Tigre Común pero la base del ala posterior es más blanca. Las orugas se alimentan de Asclepiadáceas y acumulan toxinas.",
+    "highlights": [
+      "Alas amarillo-anaranjadas con nervios negros bordeados de manchas blancas",
+      "Pariente cercano del Tigre Común con base posterior más blanca",
+      "Las orugas secuestran toxinas del algodoncillo para defensa"
+    ],
+    "tags": [
+      "Patrón tigre",
+      "Especie hermana",
+      "Toxina de algodoncillo"
+    ]
+  },
+  "stripedbluecrow": {
+    "region": "India, Sudeste asiático, sur de China y Taiwán",
+    "intro": "Nombre estándar en chino 'cuervo irregular'. Los machos tienen brillo metálico azul-violeta de pavo real en las alas anteriores con manchas apicales blancas, y alas posteriores marrones con rayas blancas; el dimorfismo sexual es fuerte. Las orugas se alimentan de Apocináceas y Moráceas y almacenan toxinas; los adultos vuelan despacio y forman agrupaciones invernales, miembros del anillo mimético danaíno.",
+    "highlights": [
+      "Los machos muestran brillo azul-violeta de pavo real en las alas anteriores",
+      "Marcado dimorfismo sexual entre los sexos",
+      "Las orugas almacenan toxinas; los adultos forman agrupaciones masivas"
+    ],
+    "tags": [
+      "Azul-violeta pavo real",
+      "Mariposa cuervo",
+      "Dormideros masivos"
+    ]
+  },
+  "darkbluetiger": {
+    "region": "Himalayas, sur de la India, Sri Lanka, Sudeste asiático, sur de China y Taiwán",
+    "intro": "Nombre estándar en chino 'pequeño tigre azul moteado'. Las alas pardo-negras llevan rayas translúcidas color aguamarina pálido; las marcas basales del ala posterior se unen en pares formando 'V'. Los machos tienen bolsas odoríferas en forma de oreja en la celda Cu2 del ala posterior. Migrante estacional de larga distancia; las orugas comen Asclepiadáceas tóxicas.",
+    "highlights": [
+      "Alas pardo-negras con rayas aguamarina",
+      "Las marcas basales posteriores se emparejan en formas de 'V'",
+      "Realiza migraciones estacionales de larga distancia"
+    ],
+    "tags": [
+      "Rayas aguamarina",
+      "Migrante",
+      "Comedora de Asclepias"
+    ]
+  },
+  "largefaun": {
+    "region": "Este de la India, sur de China, Indochina, Taiwán",
+    "intro": "Especie tipo de los satirinos, con alas redondeadas y cuerpo marrón. La cara superior del ala anterior tiene una banda oblicua naranja-amarilla. El nombre proviene de una fila de manchas crema tipo perla que cruzan ambas alas por debajo. De vuelo lento, adicta a la fruta podrida, frecuenta el sotobosque sombreado; las orugas comen Smilax.",
+    "highlights": [
+      "Manchas crema tipo perla forman una fila como un collar bajo el ala",
+      "Vuelo lento y devoción a la fruta fermentada",
+      "Activa principalmente en el sotobosque sombreado"
+    ],
+    "tags": [
+      "Collar de perlas",
+      "Suelo de bosque",
+      "Amante de fruta podrida"
+    ]
+  },
+  "jungleglory": {
+    "region": "Guangxi, Hainan, Yunnan, Tíbet de China; Myanmar, Tailandia, Sri Lanka, India",
+    "intro": "Un gran satirino de bosque tropical con alas marrón profundo aterciopeladas con parches azul-violeta brillantes en el área central de cada ala, brillando vívidamente cuando las alas se abren. El reverso es marrón oscuro con bandas cruzadas y ocelos. Una especie indicadora de la integridad de la selva tropical, frecuenta el sotobosque sombreado y húmedo.",
+    "highlights": [
+      "Brillantes parches azul-violeta colocados en el área central de cada ala",
+      "Fuerte contraste contra el fondo marrón profundo aterciopelado",
+      "Actúa como especie indicadora de la salud de la selva tropical"
+    ],
+    "tags": [
+      "Parches azul-violeta",
+      "Satirino selvático",
+      "Especie indicadora"
+    ]
+  },
+  "jungleking": {
+    "region": "Yunnan de China; Myanmar, Tailandia, Singapur",
+    "intro": "Un gran satirino del género Thaumantis, con cara superior marrón profundo cruzada por una banda oblicua amarillo medio amplia en el ala anterior, pequeñas manchas blancas apicales y una difusión naranja a lo largo del margen del ala posterior; el reverso tiene dos grandes ocelos redondos formando mimetismo de hoja seca. Famoso como el 'Rey de la Jungla', es una de las mariposas preciadas de Yunnan.",
+    "highlights": [
+      "Banda oblicua amarillo medio amplia en el ala anterior destaca",
+      "Grandes ocelos del reverso crean mimetismo de hoja seca",
+      "Un raro 'rey de la jungla' de Yunnan"
+    ],
+    "tags": [
+      "Banda oblicua amarilla",
+      "Imita hoja seca",
+      "Raro de Yunnan"
+    ]
+  },
+  "orangeringlet": {
+    "region": "Europa, Asia templada y pastizales norteamericanos",
+    "intro": "Un pequeño satirino de pastizal del género Coenonympha, extendido por Europa, Asia templada y Norteamérica. Las alas son marrón-anaranjadas cálidas con ocelos negros con anillo amarillo pálido a lo largo de los márgenes; el vuelo es ligero y ondulante. Las orugas se alimentan de gramíneas y juncos; los adultos frecuentan prados húmedos, campos y aperturas de bordes de bosque, uno de los satirinos 'tipo azulito' más comunes de los pastizales del norte.",
+    "highlights": [
+      "Fondo marrón-anaranjado cálido con ocelos con anillo amarillo pálido: simple pero elegante",
+      "Extendida por pastizales eurasiáticos y norteamericanos; muy adaptable",
+      "Vuelo ligero y ondulante, tejiendo bajo entre las hierbas"
+    ],
+    "tags": [
+      "Satirino de pastizal",
+      "Marrón-anaranjado",
+      "Holártica"
+    ]
+  },
+  "blueeyewall": {
+    "region": "Europa, norte de África y oeste de Asia",
+    "intro": "La doncella de muro recibe su nombre por su costumbre de tomar el sol en muros y rocas iluminados. Las alas naranjas atravesadas por venas marrones recuerdan a una fritilaria, pero el ápice del ala anterior y las posteriores llevan ocelos negros con pupila blanca, rodeados en el reverso por anillos azul-grises. Se distribuye por toda Europa, norte de África y oeste de Asia, prefiriendo acantilados costeros, laderas secas con hierba y hábitats abiertos soleados.",
+    "highlights": [
+      "Ocelos con anillo azul-gris en ambas alas le dan una identificación clara",
+      "Fondo naranja con venas marrones recuerda a una fritilaria, pero es un satirino",
+      "Le encanta tomar el sol en muros de piedra y rocas, de ahí el nombre Wall Brown"
+    ],
+    "tags": [
+      "Satirino",
+      "Ocelo azul",
+      "Amante del sol"
+    ]
+  },
+  "darkringlet": {
+    "region": "Europa y Asia templada",
+    "intro": "El ringlet tiene alas tan marrón oscuras que parecen casi negras, con bordes blancos finos; los adultos recién emergidos lucen aterciopelados. El reverso muestra ocelos amarillos con pupila blanca: origen del nombre 'Ringlet'. Distribuido ampliamente desde Europa por toda Asia templada hasta China y Corea, prefiere prados húmedos y bordes de bosque y tolera condiciones frescas y húmedas; los machos patrullan en busca de pareja.",
+    "highlights": [
+      "Alas marrón profundo casi negras con bordes blancos; los adultos frescos parecen aterciopelados",
+      "Filas de ocelos amarillos con pupila blanca debajo dan a la especie su nombre inglés",
+      "Tolera la sombra húmeda, común en prados húmedos y senderos forestales"
+    ],
+    "tags": [
+      "Satirino",
+      "Marrón profundo",
+      "Ocelos en anillo"
+    ]
+  },
+  "lethewhite": {
+    "region": "Bosques de bambú del sur y sudeste de Asia",
+    "intro": "El Lethe de banda blanca es un satirino mediano de sotobosque del género Lethe. Sus alas marrones llevan una banda diagonal blanca llamativa en el ala anterior y un parche apical más pálido; el reverso está moteado con ocelos y finas estrías que recuerdan la hojarasca del bosque. Habita principalmente bosques de bambú del sur y sudeste de Asia y sur de China, prefiere lugares sombreados y húmedos y se alimenta de savia, fruta podrida y sales minerales en suelo húmedo.",
+    "highlights": [
+      "Una banda diagonal blanca llamativa en el ala anterior facilita su detección a la sombra",
+      "Ocelos y marcas finas del reverso imitan hojas caídas para descansar de forma críptica",
+      "Vive en bosques de bambú sombreados; le encantan la savia y la fruta podrida, rara vez visita flores"
+    ],
+    "tags": [
+      "Lethe",
+      "Banda blanca",
+      "Sombra de bambú"
+    ]
+  },
+  "bushbrown": {
+    "region": "Sur y sudeste de Asia y sur de China",
+    "intro": "El bushbrown común es uno de los pequeños satirinos marrones más familiares de Asia, con cara superior marrón uniforme y una hilera de ocelos tipo ojo de serpiente en el reverso, de ahí el nombre 'bushbrown'. Muestra formas estacionales claras: los adultos de estación seca tienen marcas reducidas, mientras que los de estación húmeda lucen ocelos nítidos. Distribuido desde el sur y sudeste de Asia hasta el sur de China, tiene varias generaciones al año, vuela bajo y brevemente, se alimenta de savia y excrementos, y las orugas comen gramíneas.",
+    "highlights": [
+      "Ocelos del reverso tipo ojo de serpiente alineados en una fila graduada",
+      "Formas estacionales seca y húmeda muy distintas; los ocelos pueden desvanecerse o destacar",
+      "El satirino marrón de tierras bajas más familiar de Asia, con vuelos rápidos y bajos"
+    ],
+    "tags": [
+      "Bushbrown",
+      "Marrón",
+      "Formas estacionales"
+    ]
+  },
+  "zebralongwing": {
+    "region": "Sudamérica, Centroamérica, México y sureste de EE. UU.",
+    "intro": "La heliconia cebra es representante de las heliconias de alas largas y estrechas, con un fondo negro cruzado por rayas amarillas brillantes como una cebra: coloración de advertencia clásica para una especie tóxica. Es la mariposa estatal de Florida. Los adultos se alimentan de polen para sintetizar toxinas cianogénicas y pueden vivir varios meses; docenas se posan juntas por la noche. Se extiende desde Sudamérica y Centroamérica por las Indias Occidentales hasta el sur de Texas y Florida; las orugas se alimentan de pasionarias.",
+    "highlights": [
+      "Alas negras con rayas amarillas brillantes recuerdan a una cebra: colores de advertencia clásicos",
+      "Los adultos se alimentan de polen para sintetizar toxinas, alcanzando vidas de varios meses",
+      "Docenas duermen juntas por la noche: rara conducta social entre mariposas"
+    ],
+    "tags": [
+      "Heliconia",
+      "Rayas cebra",
+      "Aviso tóxico"
+    ]
+  },
+  "redjester": {
+    "region": "Sur y sudeste de Asia",
+    "intro": "El bufón común es una mariposa mediana del género Symbrenthia. La cara superior negra está cruzada por bandas naranja-amarillas, mientras que el reverso es naranja-amarillo brillante con venas rojo-marrones como un mapa o una hoja caída. Se encuentra desde la India por Myanmar, Malasia y otras partes del sur y sudeste de Asia, frecuenta los bosques de colina y visita las flores de Lantana. Existen muchas formas regionales, formando una superespecie con sus parientes cercanos.",
+    "highlights": [
+      "Negro con bandas naranja-amarillas arriba y naranja con venas rojo-marrones abajo",
+      "El reverso parece una hoja o un mapa para descansar de forma críptica",
+      "Común en bosques de colina del sur y sudeste de Asia, aficionado a Lantana"
+    ],
+    "tags": [
+      "Bufón",
+      "Naranja y negro",
+      "Bosque de colina"
+    ]
+  },
+  "bandedorange": {
+    "region": "Brasil al centro de México",
+    "intro": "La heliconia naranja con bandas es la única especie del género Dryadula, con largas alas estrechas naranja brillante cruzadas por gruesas barras negras; los machos son vívidamente moteados mientras que las hembras son más pálidas y borrosas. Forma parte de un anillo mimético batesiano naranja, evitada por las aves. Distribuida desde Brasil hasta el centro de México, ocasionalmente alcanza Kansas en verano. Habita llanuras tropicales de baja altitud y aldeas, con adultos alimentándose de néctar y excrementos de aves; las orugas se alimentan de pasionarias y pequeños grupos descansan en la hierba.",
+    "highlights": [
+      "Naranja brillante con gruesas barras negras; machos vívidos, hembras pálidas y borrosas",
+      "Miembro de un anillo mimético batesiano naranja, evitada por las aves",
+      "La única especie de Dryadula, una típica heliconia de alas estrechas"
+    ],
+    "tags": [
+      "Dryadula",
+      "Naranja y negro",
+      "Mimetismo batesiano"
+    ]
+  },
+  "daggerwing": {
+    "region": "Brasil a través de Centroamérica hasta Florida",
+    "intro": "El daggerwing rojizo recibe su nombre por las largas y agudas colas posteriores en forma de daga. La cara superior naranja brillante cruzada por tres líneas negras finas es muy distintiva, mientras que el reverso es marrón-negro moteado que recuerda una hoja seca. Se extiende desde Brasil a través de Centroamérica, México y las Indias Occidentales hasta la península de Florida, con vagabundos que llegan a Arizona y al sur de Texas. Habita bosques tropicales de tierras bajas y bosques de hammock; las orugas se alimentan de Ficus.",
+    "highlights": [
+      "Largas colas posteriores tipo daga únicas, con tres líneas negras sobre cara superior naranja",
+      "Reverso moteado imita una hoja seca para un camuflaje perfecto en reposo",
+      "Los machos se posan en lo alto de las copas soleadas, patrullando territorios de forma conspicua"
+    ],
+    "tags": [
+      "Daggerwing",
+      "Imita hoja seca",
+      "Bosque tropical"
+    ]
+  },
+  "apatuilia": {
+    "region": "Europa y este de Asia",
+    "intro": "El emperador púrpura menor es representativo del género Apatura. Los machos destellan un violeta-azul metálico en ciertos ángulos: un color estructural, no pigmento. Las alas llevan bandas blancas y ocelos con anillo naranja, con un reverso color tostado-naranja. Extendido por Europa y el este de Asia, ampliamente distribuido en China. Las orugas se alimentan de hojas de sauce y álamo y pasan el invierno en grietas de la corteza; los adultos aman la savia, la fruta podrida y el barro, rara vez visitan flores.",
+    "highlights": [
+      "Los machos destellan iridiscencia estructural violeta-azul que cambia con el ángulo",
+      "Extendida por Eurasia; las orugas comen sauces y pasan el invierno en grietas de corteza",
+      "Los adultos disfrutan de savia y fruta fermentada, rara vez visitan flores"
+    ],
+    "tags": [
+      "Apatura",
+      "Iridiscencia violeta",
+      "Eurasiática amplia"
+    ]
+  },
+  "apatumetis": {
+    "region": "Sureste de Europa a través de Asia Central hasta Asia oriental",
+    "intro": "El emperador púrpura de Freyer es la Apatura europea de distribución más estrecha. Similar al emperador púrpura menor pero con la banda mediana del ala posterior no dentada, extendiéndose hasta la celda Cu2. Los machos tienen iridiscencia estructural azul-violeta. Se extiende desde el sureste de Europa por el Cáucaso y Asia Central hasta Heilongjiang, Corea y Japón, en tierras bajas de bosque ribereño; las orugas se alimentan de sauces.",
+    "highlights": [
+      "Banda posterior no dentada, alcanza la celda Cu2: clave de identificación frente al emperador púrpura menor",
+      "Los machos muestran iridiscencia estructural azul-violeta similar a A. ilia",
+      "Confinado a bosques ribereños, uno de los emperadores púrpura más raros de Europa"
+    ],
+    "tags": [
+      "Apatura",
+      "Iridiscencia violeta-azul",
+      "Bosque ribereño"
+    ]
+  },
+  "blueadmiral": {
+    "region": "Sur, sudeste y este de Asia",
+    "intro": "El almirante azul es el único miembro del género Kaniska. Una banda azul pálido brillante cruza las alas marrón oscuras, con forma de Y en el ala anterior y punteada de negro en el ala posterior, con márgenes fuertemente festoneados. El reverso recuerda la corteza de árbol para un excelente camuflaje. Extendido por las regiones oriental y paleártica meridional, pasa el invierno como adulto; los machos defienden territorios y se alimentan de savia, fruta podrida y excrementos; las orugas comen Smilax.",
+    "highlights": [
+      "Una banda azul brillante en forma de Y en el ala anterior cruza las alas oscuras",
+      "Reverso tipo corteza lo hace casi invisible en reposo",
+      "Pasa el invierno como adulto; los machos son fuertemente territoriales, aficionados a savia y fruta podrida"
+    ],
+    "tags": [
+      "Kaniska",
+      "Banda azul",
+      "Hibernación adulta"
+    ]
+  },
+  "tortoiseshell": {
+    "region": "Europa y Asia templada",
+    "intro": "La ortiguera es una de las mariposas de jardín más clásicas de la Eurasia templada y la mariposa nacional de Dinamarca. Las alas son naranja zorruno con marcas negras y amarillas en el ala anterior y una hilera de medias lunas azules a lo largo del margen; el reverso es marrón oscuro como corteza para una hibernación segura. Extendida desde Europa por Siberia hasta China y Japón, las orugas se alimentan en grupo de ortigas y los adultos hibernan en cuevas y edificios.",
+    "highlights": [
+      "Fondo naranja zorruno con marcas negras y amarillas y una hilera de medias lunas azules marginales",
+      "Mariposa nacional de Dinamarca, una de las mariposas de jardín más familiares de la Eurasia templada",
+      "Pasa el invierno como adulto; las orugas se alimentan en grupo de ortigas"
+    ],
+    "tags": [
+      "Aglais",
+      "Naranja zorruno",
+      "Común en jardín"
+    ]
+  },
+  "asiancomma": {
+    "region": "Asia oriental y norte de Indochina",
+    "intro": "La coma asiática (Polygonia c-aureum) es un miembro familiar del género de las comas. Alas naranja-amarillas llevan manchas negras; los márgenes alares están dentados de forma irregular, más en las formas de otoño. El reverso tipo corteza tiene una marca plateada-blanca en forma de coma en medio del ala posterior, fuente del nombre del género. Extendida desde el este de Asia hasta el norte de Indochina, ampliamente distribuida en China salvo el Tíbet, las orugas se alimentan de Humulus (Cannabaceae), con varias generaciones al año y es común en las afueras urbanas.",
+    "highlights": [
+      "Márgenes alares irregulares y dentados recuerdan hojas secas; la forma de otoño es más angular",
+      "Marca plateada-blanca en forma de coma en el reverso del ala posterior da al género su nombre",
+      "Común en los suburbios del este asiático; las orugas se alimentan de Humulus"
+    ],
+    "tags": [
+      "Polygonia",
+      "Borde de hoja",
+      "Coma plateada"
+    ]
+  },
+  "bluepansy": {
+    "region": "África, sur de Asia, sudeste asiático y Australia",
+    "intro": "El pensamiento azul es una de las especies vistosas del género Junonia. Los machos destellan un azul-esmeralda metálico en la base del ala posterior con ocelos con anillo naranja esparcidos por las alas, mientras que las hembras son más apagadas con ocelos más prominentes. Ambos sexos muestran polifenismo estacional. Ampliamente distribuido en África, sur y sudeste de Asia, sur de China y Australia, prefiere praderas abiertas, tierras de cultivo y jardines; las orugas se alimentan de plantas de Acanthaceae.",
+    "highlights": [
+      "Los machos destellan azul-esmeralda metálico en la base del ala posterior con ocelos con anillo naranja",
+      "Marcado dimorfismo sexual más formas estacionales seca y húmeda añaden gran variedad",
+      "Extendido por los trópicos del Viejo Mundo; favorece prados abiertos y jardines"
+    ],
+    "tags": [
+      "Junonia",
+      "Esmeralda metálico",
+      "Ocelos"
+    ]
+  },
+  "mapwing": {
+    "region": "Europa, el Paleártico, hasta el este de Asia",
+    "intro": "La mariposa mapa europea toma su nombre de la red blanca en su reverso, que parece un mapa. Es famosamente dimórfica estacional: los adultos de primavera son rojo-anaranjados con manchas negras y los de verano son negros con bandas blancas y marcas naranjas: una vez se pensó que eran dos especies. Se extiende desde España por toda Europa y el Paleártico hasta Asia Central, Lejano Oriente ruso, Corea y Japón; las orugas se alimentan de ortigas y los adultos frecuentan bordes de bosque húmedos, claros y orillas de ríos.",
+    "highlights": [
+      "Red blanca en el reverso recuerda un mapa, fuente del nombre",
+      "Formas de primavera rojo-naranja y verano blanco-negro una vez confundidas con dos especies",
+      "Las orugas comen ortigas; los adultos frecuentan bordes de bosque húmedos y orillas"
+    ],
+    "tags": [
+      "Araschnia",
+      "Patrón de mapa",
+      "Dimorfismo estacional"
+    ]
+  },
+  "pearlcrescent": {
+    "region": "Norteamérica y México",
+    "intro": "La media luna perlada es uno de los pequeños ninfálidos más familiares del este de Norteamérica. Caras superiores naranja con bordes negros densamente trazadas en marcas negras finas; una media luna tipo perla en el parche oscuro del reverso del ala posterior le da su nombre. Los patrones alares son muy variables, con varias generaciones cada año. Distribuida en la mayor parte de EE. UU., México y sur de Canadá, ama pastos, bordes de carreteras, campos y otros hábitats abiertos y es combativa, persiguiendo a menudo a otras mariposas fuera de su territorio.",
+    "highlights": [
+      "Media luna color perla en el parche oscuro del reverso del ala posterior le da su nombre",
+      "El pequeño ninfálido más familiar del este de Norteamérica con patrones alares muy variables",
+      "Combativa: persigue a menudo a otras mariposas fuera de su territorio"
+    ],
+    "tags": [
+      "Phyciodes",
+      "Media luna perla",
+      "Común en Norteamérica"
+    ]
+  },
+  "mourningcloak": {
+    "region": "Eurasia y Norteamérica",
+    "intro": "La capa de luto (Camberwell Beauty en el Reino Unido) es un gran ninfálido longevo; los adultos pueden vivir 10–11 meses. Alas marrón-castaño aterciopeladas tienen anchos márgenes amarillos con filas de manchas azul-violetas; el reverso tipo corteza ofrece excelente camuflaje invernal. Extendida por Eurasia y Norteamérica, pasa el invierno como adulta y es a menudo la primera mariposa en volar a inicios de primavera; las orugas se alimentan de sauce, álamo, olmo y abedul.",
+    "highlights": [
+      "Alas marrón-castaño aterciopeladas con bordes amarillos anchos y manchas azul-violetas",
+      "Los adultos hibernan y viven más de diez meses, las primeras mariposas de primavera",
+      "Reverso tipo corteza la hace casi invisible al descansar en troncos"
+    ],
+    "tags": [
+      "Nymphalis",
+      "Borde amarillo aterciopelado",
+      "Hibernador longevo"
+    ]
+  },
+  "commonsergeant": {
+    "region": "Sur y sudeste de Asia",
+    "intro": "El sargento común es un miembro mediano del género Athyma, llamado así por las bandas blancas rotas que cruzan sus alas marrón oscuras y se asemejan a las charreteras de un sargento. La celda del ala anterior lleva una raya blanca segmentada y el reverso es naranja-marrón brillante con bandas blancas. Distribuido desde el sur y sudeste de Asia hasta el sur de China, es común en bosques abiertos y alrededor de habitaciones humanas, volando bajo y lento; las orugas se alimentan de Glochidion.",
+    "highlights": [
+      "Bandas blancas rotas en alas marrón oscuras recuerdan las charreteras de un sargento",
+      "La celda del ala anterior muestra una raya blanca segmentada; el reverso es naranja-marrón brillante con bandas blancas",
+      "Común en tierras bajas del sur y sudeste de Asia; vuela bajo, cerca del suelo"
+    ],
+    "tags": [
+      "Athyma",
+      "Bandas blancas",
+      "Rayas de sargento"
+    ]
+  },
+  "superbahelcyra": {
+    "region": "Oeste, sur, centro y este de China y Taiwán; norte de Vietnam",
+    "intro": "La Helcyra soberbia es representativa del género Helcyra. Las alas son blanco-níveas con un brillo plateado y un ápice de ala anterior oscuro: un ninfálido mediano de vuelo veloz de los bosques perennifolios de hoja ancha del este de Asia. Los adultos aman la savia y la fruta podrida, las orugas se alimentan de Aphananthe (Cannabaceae) y pasan el invierno como larvas dormidas pegadas a hojas muertas; rara en el norte de Taiwán.",
+    "highlights": [
+      "Alas blanco-níveas con brillo plateado, ápice oscuro del ala anterior contrasta con dos puntos blancos",
+      "Los adultos aman la savia fermentada y la fruta podrida, rara vez visitan flores",
+      "Las orugas tienen largas espinas tipo asta en la cabeza; la pupa imita una hoja seca"
+    ],
+    "tags": [
+      "Blanco plateado",
+      "Visitante de savia",
+      "Maestra mimética"
+    ]
+  },
+  "coclescyrestis": {
+    "region": "Hainan en China; Tailandia, Malasia, Vietnam, Laos",
+    "intro": "La mariposa mapa marmoleada se llama así por la fila de ocelos a lo largo de sus márgenes, con dicromatismo sexual marcado: las hembras son crema-amarillas translúcidas mientras que los machos son gris-marrones cruzados por una banda blanca ancha. Se extiende desde el sur de China por Indochina, volando rápido al sol y alimentándose de néctar de flores, fruta podrida y savia; las alas posteriores tienen colas cortas.",
+    "highlights": [
+      "Filas regulares de ocelos a lo largo del margen alar, de ahí el nombre chino 'ocho ojos'",
+      "Dicromatismo sexual: hembras crema translúcidas, machos gris-marrón con banda blanca",
+      "Colas posteriores cortas y parches anales negros destacan"
+    ],
+    "tags": [
+      "Fila de ocelos",
+      "Dicromatismo sexual",
+      "Cyrestis"
+    ]
+  },
+  "delphispolyura": {
+    "region": "Norte de la India, Pakistán a Myanmar; península malaya, Sumatra, Borneo",
+    "intro": "El nawab enjoyado (Polyura delphis) es una pasha grande y robusta con envergadura cercana a 10 cm, alas blanco-perladas rodeadas de negro ancho y dos colas posteriores delgadas. Se extiende desde el norte de la India y Pakistán por Myanmar hasta las Sundas, vuela poderosa y rápidamente, y los machos defienden territorios en el dosel.",
+    "highlights": [
+      "Envergadura hasta 10 cm; alas blanco-perladas rodeadas de negro ancho",
+      "Dos colas posteriores delgadas; vuelo poderoso",
+      "Los machos defienden territorios en el dosel, expulsando a los intrusos"
+    ],
+    "tags": [
+      "Dos colas",
+      "Blanco perlado",
+      "Grande"
+    ]
+  },
+  "athamaspolyura": {
+    "region": "Himalayas, India, Sri Lanka, sudeste de Asia hasta Indonesia",
+    "intro": "El nawab común (Polyura athamas) es una pasha con colas más cortas y robustas que sus parientes. Las alas marrón-negras están cruzadas por una banda aguamarina pálida. Extendido desde los Himalayas hasta las tierras bajas del sudeste asiático, vuela extremadamente rápido y se reúne en suelo húmedo, excrementos animales y fruta podrida para extraer minerales: una pasha familiar en bordes de bosque tropical.",
+    "highlights": [
+      "Colas cortas y robustas; alas marrón-negras cruzadas por una banda aguamarina pálida",
+      "Vuelo veloz; se reúne en suelo húmedo y excrementos para extraer minerales",
+      "Extendida desde los Himalayas hasta las Sundas en bosques de tierras bajas"
+    ],
+    "tags": [
+      "Colas cortas",
+      "Volador veloz",
+      "Bebedor mineral"
+    ]
+  },
+  "jasiuscharaxes": {
+    "region": "Sur de Europa a lo largo del Mediterráneo, norte de África, África subsahariana, oeste de Asia",
+    "intro": "La pasha de dos colas es el único Charaxes que se encuentra en Europa y una de las mariposas más grandes del Mediterráneo. Las alas tienen una banda naranja a lo largo de los márgenes y dos colas posteriores prominentes; el reverso tiene un patrón tipo mosaico. Los adultos aman la fruta podrida y nunca visitan flores, son extremadamente combativos, las orugas se alimentan de madroños y hay dos generaciones al año.",
+    "highlights": [
+      "Único Charaxes de Europa y una de las mariposas más grandes del Mediterráneo",
+      "Banda marginal naranja, colas posteriores gemelas, reverso tipo mosaico",
+      "Los machos defienden territorios agresivamente; su batir de alas se oye a metros de distancia"
+    ],
+    "tags": [
+      "Dos colas",
+      "Mediterránea",
+      "Territorial"
+    ]
+  },
+  "brenthisino": {
+    "region": "Europa a través de Asia templada hasta Japón y Corea",
+    "intro": "La fritilaria menor marmoleada es una pequeña fritilaria leopardo distribuida por toda la Eurasia templada. La cara superior naranja-marrón se asemeja a la fritilaria de Pallas pero más oscura; el reverso es en gran parte café-marrón con medias lunas blancas en forma de coma o 'C', fuente de su nombre. Las orugas se alimentan de ortiga urticante y reina de los prados desde Europa por la Asia templada hasta Japón.",
+    "highlights": [
+      "Reverso marcado con medias lunas blancas en forma de coma o 'C', fuente del nombre",
+      "Cara superior se asemeja a la fritilaria de Pallas pero más oscura en tono",
+      "Las orugas comen ortiga y reina de los prados, extendidas por Eurasia"
+    ],
+    "tags": [
+      "Marcas en media luna",
+      "Pequeño leopardo",
+      "Templada eurasiática"
+    ]
+  },
+  "undosaeuthalia": {
+    "region": "Zhejiang, Fujian, Guangdong, Sichuan en China (endémica de China)",
+    "intro": "La Euthalia ondulada es una Euthalia endémica de China. Los sexos lucen muy similares, con fondo gris-verde-marrón cruzado por bandas de manchas amarillo-blancas claramente delineadas dispuestas en una línea ligeramente ondulada. Habita bosques de baja montaña en Zhejiang, Fujian, Guangdong y Sichuan, con orugas alimentándose de Quercus glauca (Fagaceae); un ninfálido común de bosque en las montañas Tianmu.",
+    "highlights": [
+      "Endémica de China; alas gris-verdes cruzadas por bandas onduladas amarillo-blancas",
+      "Los sexos son similares; las orugas comen Quercus glauca (Fagaceae)",
+      "Una Euthalia común en los bosques de baja montaña de las montañas Tianmu"
+    ],
+    "tags": [
+      "Endémica de China",
+      "Patrón ondulado",
+      "Euthalia"
+    ]
+  },
+  "cyanecethosia": {
+    "region": "India hasta sur de China (Yunnan, Guangdong, Guangxi, Hainan, Sichuan) e Indochina",
+    "intro": "La encajera plana tiene caras superiores marrón-rojizas en los machos cruzadas por una banda blanca diagonal en el ala anterior, con un margen alar profundamente serrado y dimorfismo sexual pronunciado. Distribuida desde la India hasta el sur de China e Indochina, en años recientes se ha extendido a la península malaya y Singapur. Gregaria, las orugas se alimentan de pasionarias y los adultos vuelan despacio por los bordes de bosque.",
+    "highlights": [
+      "Margen alar serrado y banda blanca diagonal en el ala anterior, fuente de su nombre",
+      "Fuerte dimorfismo sexual; las orugas se alimentan en grupo de pasionarias",
+      "Recientemente se expandió hacia el sur a la península malaya y Singapur"
+    ],
+    "tags": [
+      "Banda blanca",
+      "Margen serrado",
+      "Encajera"
+    ]
+  },
+  "penthesileacet": {
+    "region": "Sudeste asiático (Java, Timor, Sumba) y Territorio del Norte, Australia",
+    "intro": "La encajera leonada es una Cethosia coloreada brillantemente con grandes parches naranjas bordeados de negro y manchas blancas alargadas en el ala anterior. Habita bosques monzónicos y matorrales de enredaderas desde el sudeste asiático hasta el Territorio del Norte de Australia, vive a lo largo de arroyos, con orugas que se alimentan exclusivamente de enredaderas Adenia (Passifloraceae): se ve más a menudo al inicio de la estación seca.",
+    "highlights": [
+      "Grandes parches naranjas bordeados de negro con manchas blancas alargadas en el ala anterior",
+      "Habita orillas de arroyo en bosques monzónicos; las orugas se alimentan de enredaderas Adenia",
+      "Distribuida desde el sudeste asiático hasta el Territorio del Norte de Australia"
+    ],
+    "tags": [
+      "Alas naranjas",
+      "Margen serrado",
+      "Orilla de arroyo"
+    ]
+  },
+  "andromachaacr": {
+    "region": "Indonesia, Papúa Nueva Guinea, Australia y Fiyi",
+    "intro": "La grasshopper (Acraea andromacha) tiene alas anteriores casi transparentes como vidrio y alas posteriores blancas con una banda negra ancha con manchas blancas y puntos rojos: las 'manchas estrella' que le dan su nombre. Distribuida desde Indonesia por Nueva Guinea hasta Australia y Fiyi, las orugas se alimentan de pasionarias, los adultos secuestran toxinas y el vuelo lento y derivante las protege de la mayoría de los depredadores.",
+    "highlights": [
+      "Alas anteriores translúcidas tipo vidrio; banda negra del ala posterior con manchas tipo estrella",
+      "Las orugas secuestran toxinas de pasionarias; los adultos derivan despacio sin temor",
+      "Distribuida desde Indonesia hasta Australia y Fiyi por bordes de bosque tropical"
+    ],
+    "tags": [
+      "Alas de vidrio",
+      "Manchas estrella",
+      "Almacén tóxico"
+    ]
+  },
+  "morganegreta": {
+    "region": "México, Centroamérica al norte de Sudamérica",
+    "intro": "La Greta de Morgan es pariente cercana de la mariposa de alas de cristal de banda más amplia (Greta oto). La membrana alar entre los nervios oscuros es transparente como vidrio, con un ápice del ala anterior engrosado. Habita selvas húmedas desde México hasta el norte de Sudamérica, derivando cerca del suelo, las alas transparentes y los patrones oscuros mezclándose con el entorno: un modelo de mimetismo itomine de libro.",
+    "highlights": [
+      "Membrana alar tipo vidrio con nervios oscuros nítidos",
+      "Ápice del ala anterior engrosado la distingue de Greta oto",
+      "Habita selvas neotropicales; la transparencia la oculta de los depredadores"
+    ],
+    "tags": [
+      "Alas de vidrio",
+      "Itomine",
+      "Mimetismo"
+    ]
+  },
+  "thyodamascyr": {
+    "region": "Himalayas, India, Indochina, sur/centro/este de China, Japón y Taiwán",
+    "intro": "El mapa común (también llamado mariposa mapa o muralla) tiene alas blancas o crema densamente cruzadas por finas líneas marrones como un mapa. Extendido desde los Himalayas por el sudeste asiático hasta el sur de China y Japón, las orugas se alimentan de Ficus (Moraceae). A menudo se posa en el dosel alto o en superficies rocosas, manteniendo las alas planas en reposo, con vuelo lento.",
+    "highlights": [
+      "Alas cruzadas por finas líneas marrones como un mapa, una 'mariposa mapa' de manual",
+      "Las orugas comen Ficus; a menudo se posa en el dosel alto o en superficies rocosas",
+      "Márgenes de ala posterior ondulados con colas cortas; descansa con las alas extendidas"
+    ],
+    "tags": [
+      "Patrón de mapa",
+      "Líneas de red",
+      "Muralla"
+    ]
+  },
+  "issoriaacraea": {
+    "region": "Centro, este, sur y suroeste de China, Himalayas occidentales, sudeste asiático hasta Indonesia y Filipinas",
+    "intro": "La coster amarilla tiene alas amarillo-marrones rodeadas por un borde negro ancho con manchas gris-blancas; las alas son resistentes y translúcidas. Extendida desde el sur de China por los Himalayas y el sudeste asiático, las orugas se alimentan en grupo de ramio y otras plantas Urticaceae y acumulan toxinas, mientras que el vuelo lento y derivante reduce la depredación.",
+    "highlights": [
+      "Alas amarillo-marrones con bordes negros anchos; alas resistentes y translúcidas",
+      "Las orugas se alimentan en grupo de ramio, una plaga común de las plantaciones de ramio",
+      "Los adultos secuestran toxinas; su vuelo derivante evade a la mayoría de depredadores"
+    ],
+    "tags": [
+      "Coster amarilla",
+      "Comedora de ramio",
+      "Almacén tóxico"
+    ]
+  },
+  "terpsicoreacr": {
+    "region": "India, Sri Lanka, sudeste asiático hasta Maldivas, Myanmar; recientemente extendida a Australia",
+    "intro": "La coster leonada tiene alas naranjas brillantes con manchas negras y márgenes con puntos blancos, con alas largas y resistentes. Extendida desde la India y Sri Lanka por el sudeste asiático en pastizales y matorrales, en la última década aproximadamente se ha extendido rápidamente al este hacia Australia. Vuelo lento y derivante; el naranja brillante es un color de advertencia, y la mayoría de depredadores insectos la evitan.",
+    "highlights": [
+      "Alas naranjas brillantes con manchas negras y márgenes con puntos blancos, muy llamativas",
+      "Común en pastizales y matorrales; recientemente se extendió rápidamente a Australia",
+      "Color naranja de advertencia más toxinas corporales mantienen alejados a los depredadores"
+    ],
+    "tags": [
+      "Coster leonada",
+      "Color de advertencia",
+      "Especie expansiva"
+    ]
+  },
+  "hypseacethosia": {
+    "region": "Península malaya, Sumatra, Borneo, sur de Tailandia, Filipinas",
+    "intro": "La encajera malaya tiene alas carmesí con manchas apicales en blanco y negro y márgenes profundamente serrados: una Cethosia vívida de las selvas del sudeste asiático. Distribuida desde la península malaya hasta las Sundas, las orugas se alimentan en grupo de enredaderas Adenia (Passifloraceae) y acumulan toxinas; vuelo lento, a menudo agrupándose en flores de bordes de bosque.",
+    "highlights": [
+      "Alas carmesí con manchas apicales en blanco y negro y márgenes profundamente serrados",
+      "Una encajera vívida de las selvas de las Sundas; las orugas se alimentan en grupo de Adenia",
+      "Cuerpo tóxico, vuelo lento, con color brillante como señal de advertencia"
+    ],
+    "tags": [
+      "Carmesí",
+      "Margen serrado",
+      "Malaya"
+    ]
+  },
+  "lethevermayb": {
+    "region": "Himalayas, sur de China hasta bosques de tierras bajas y media altitud de Indochina",
+    "intro": "El bandeado de árbol (Lethe verma) tiene alas marrón-ahumadas; una banda blanca diagonal ancha como un cinturón de jade cruza el ala anterior, mientras que el ala posterior tiene una fila de ocelos marginales. Habita la sombra de bosques de baja y media altitud, alimentándose de savia, fruta podrida y suelo húmedo; las orugas se alimentan de Phyllostachys y otros bambúes. Los sexos están patroneados de forma similar.",
+    "highlights": [
+      "Una banda blanca diagonal ancha cruza el ala anterior como un cinturón de jade",
+      "Una fila de ocelos negros con anillo amarillo a lo largo del margen del ala posterior",
+      "Se alimenta de savia y fruta podrida en sombra de bosque; las orugas se alimentan de bambú"
+    ],
+    "tags": [
+      "Banda de jade",
+      "Lethe",
+      "Sombra de bosque"
+    ]
+  },
+  "niceastibo": {
+    "region": "Himalayas, India, Nepal a sur y este de China, Indochina",
+    "intro": "El sargento brillante (Athyma) es un ninfálido aterciopelado; los machos tienen alas negro-aterciopeladas con filas regulares de manchas blancas resaltadas con líneas azules, y tres rayas cortas azul-blancas en la celda. Distribuido desde los Himalayas por los bosques montañosos del sur de China e Indochina, vuela rápidamente, a menudo descansando en arbustos bajos o suelo húmedo con las alas extendidas, y visita excrementos de carnívoros para obtener minerales.",
+    "highlights": [
+      "Alas negro-aterciopeladas con filas pulcras de manchas blancas y bordes en líneas azules",
+      "Tres rayas azul-blancas en la celda; las hembras más apagadas y verdosas",
+      "Vuelo veloz; descansa con alas extendidas, visita excrementos por minerales"
+    ],
+    "tags": [
+      "Negro aterciopelado",
+      "Filas de puntos blancos",
+      "Sargento"
+    ]
+  },
+  "bisaltidedolesch": {
+    "region": "India, Sri Lanka, sudeste asiático al sur de China, norte de Australia",
+    "intro": "La hoja otoñal recibe su nombre por su reverso que parece una hoja caída, con la línea central actuando como nervio cruzando ambas alas, mientras que la cara superior es naranja-amarilla con un ápice de ala anterior oscuro. Extendida desde la India por el sudeste asiático hasta el sur de China y selvas del norte de Australia, las orugas se alimentan de plantas Acanthaceae. En reposo con alas cerradas imita perfectamente una hoja seca: una clásica evolución paralela al hoja india.",
+    "highlights": [
+      "Cara superior naranja-amarilla con ápice oscuro; reverso imita hoja seca con nervios",
+      "Las orugas se alimentan de Acanthaceae; los adultos aman fruta podrida y savia",
+      "Famoso imitador de hoja por evolución paralela, paralelo a Kallima"
+    ],
+    "tags": [
+      "Imita hoja seca",
+      "Naranja-amarillo",
+      "Selva"
+    ]
+  },
+  "eginaacraea": {
+    "region": "África subsahariana: del oeste y centro de África al este y sur de África",
+    "intro": "El burro errante es una Acraea africana grande y familiar con alas rojo-anaranjadas; el ápice oscuro del ala anterior está incrustado con filas de manchas naranja y blancas, y el reverso está salpicado de estrellas blancas y puntos negros. Extendida por bordes de bosque y sabanas del África subsahariana, las orugas se alimentan de Passifloraceae y acumulan toxinas; el vuelo lento se apoya en colores de advertencia.",
+    "highlights": [
+      "Alas rojo-anaranjadas; ápice negro del ala anterior incrustado con filas de manchas naranja-blancas",
+      "Reverso salpicado de estrellas blancas y puntos negros, fuente del nombre chino 'estrella blanca'",
+      "Extendida por África; las orugas secuestran toxinas de pasionarias como defensa de advertencia"
+    ],
+    "tags": [
+      "Estrellas blancas",
+      "Alas naranjas",
+      "Africana"
+    ]
+  },
+  "eightyeight": {
+    "region": "Centroamérica al centro de Sudamérica; localidad tipo Guyana",
+    "intro": "La mariposa 88 recibe su nombre por las líneas negras concéntricas en el reverso de su ala posterior que se asemejan al número 88: la especie tipo del género Diaethria. Distribuida desde Centroamérica hasta el centro de Sudamérica, las orugas se alimentan de Trema (Cannabaceae) y los adultos se alimentan de fruta podrida y jugo de excrementos, a menudo posándose en hojas para mostrar el icónico patrón numérico.",
+    "highlights": [
+      "Las líneas negras del reverso del ala posterior forman el número 88, la fuente del nombre",
+      "La cara superior muestra bandas iridiscentes azul-verdes sobre negro con bases de ala anterior rojas",
+      "Las orugas comen Trema; los adultos se alimentan de fruta podrida y jugo de excrementos"
+    ],
+    "tags": [
+      "Patrón 88",
+      "Azul iridiscente",
+      "Sudamérica"
+    ]
+  }
+}

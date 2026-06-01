@@ -187,6 +187,222 @@ const I18N = {
 };
 const LANG_NAMES = {'zh-CN':'简体中文','en':'English','ja':'日本語','es':'Español'};
 
+// ============== 蝴蝶名字本地化(BNAME) ==============
+// 策略:zh-CN=b.cn, en=b.en (158 种全部覆盖,b.en 是英文俗名是国际通用名)
+// ja/es 由下表精确翻译精选 36 种世界名蝶;未列出的 fallback 到英文俗名 b.en
+// (158 种全语言精确翻译工作量极大且部分种没有公认日/西俗名,fallback 到学术英文是合理选择)
+const BNAME = {
+  ja: {
+    monarch: 'オオカバマダラ', morpho: 'メネラウスモルフォ', machaon: 'キアゲハ',
+    peacock: 'クジャクチョウ', glasswing: 'スカシジャノメ',
+    oakleaf: 'コノハチョウ', birdwing: 'アレキサンドラトリバネアゲハ',
+    paintedlady: 'ヒメアカタテハ', plaintiger: 'カバマダラ',
+    tailedjay: 'ミカドアゲハ近縁種', tiger: 'アメリカトラアゲハ',
+    mormon: 'シロオビアゲハ', cabbage: 'モンシロチョウ',
+    brimstone: 'ヤマキチョウ', commonblue: 'シルビアシジミ近縁種',
+    skipper: 'シルバースポットセセリ', redadmiral: 'アカタテハ',
+    pansy: 'クジャクパンジー', emperor: 'オオムラサキ',
+    postman: 'ポストマン', cypris: 'レテノールモルフォ',
+    apollo: 'ウスバキチョウ近縁(アポロ)', citrus: 'ナミアゲハ',
+    bluebottle: 'アオスジアゲハ', chinapeacock: 'カラスアゲハ近縁',
+    dragontail: 'リボンアゲハ', goldbirdwing: 'キシタアゲハ',
+    greatmormon: 'ナガサキアゲハ', parispeacock: 'パリスタテハアゲハ',
+    luehdorfia: 'ギフチョウ近縁', goldenkaiser: 'ゴールデンカイザーインディア',
+    paperkite: 'オオゴマダラ', owl: 'フクロウチョウ',
+    redlacewing: 'ベニモンレースウィング', jezebel: 'ベニモンシロチョウ',
+    orangetip: 'オオアカモンシロ', bluetiger: 'ルリマダラ',
+    eightyeight: '88チョウ', jungleglory: 'ムラサキジャノメ',
+    morphopeleides: 'ペレイデスモルフォ', morphocypris2: 'キプリスモルフォ',
+    morphosulkowskyi: 'スルコウスキーモルフォ',
+    ulysses: 'オオルリアゲハ', bhutanitis: 'ブータンシボリアゲハ',
+    paradisebirdwing: 'ゴクラクトリバネアゲハ', croesusbirdwing: 'クロエススートリバネアゲハ',
+    rajahbrooke: 'ラジャ・ブルックトリバネアゲハ', greenbirdwing: 'グリーントリバネアゲハ',
+    goldenbirdwing2: 'キバネトリバネアゲハ', zebralongwing: 'シマドクチョウ'
+  },
+  es: {
+    monarch: 'Mariposa Monarca', morpho: 'Morfo Azul de Menelao', machaon: 'Macaón',
+    peacock: 'Pavo Real Europeo', glasswing: 'Mariposa de Cristal',
+    oakleaf: 'Mariposa Hoja Seca', birdwing: 'Alas de Pájaro de la Reina Alejandra',
+    paintedlady: 'Vanesa de los Cardos', plaintiger: 'Tigre Llano',
+    tailedjay: 'Cola de Golondrina con Cola', tiger: 'Cola de Golondrina Tigre del Este',
+    mormon: 'Mormón Común', cabbage: 'Mariposa de la Col',
+    brimstone: 'Limonera Común', commonblue: 'Niña Común',
+    skipper: 'Saltarina con Manchas Plateadas', redadmiral: 'Almirante Rojo',
+    pansy: 'Pensamiento Pavo Real', emperor: 'Emperador Japonés',
+    postman: 'Mariposa Cartero', cypris: 'Morfo Rhetenor (Diosa de la Luz)',
+    apollo: 'Apolo', citrus: 'Cola de Golondrina Asiática',
+    bluebottle: 'Botella Azul Común', chinapeacock: 'Pavo Real Chino',
+    dragontail: 'Cola de Dragón', goldbirdwing: 'Alas de Pájaro Doradas',
+    greatmormon: 'Gran Mormón', parispeacock: 'Pavo Real de París',
+    luehdorfia: 'Luehdorfia China', goldenkaiser: 'Káiser de la India Dorado',
+    paperkite: 'Cometa de Papel', owl: 'Mariposa Búho',
+    redlacewing: 'Encaje Rojo', jezebel: 'Jezebel de Base Roja',
+    orangetip: 'Gran Punta Naranja', bluetiger: 'Tigre Azul',
+    eightyeight: 'Mariposa 88', jungleglory: 'Gloria de la Jungla',
+    morphopeleides: 'Morfo Peleides', morphocypris2: 'Morfo Cypris',
+    morphosulkowskyi: 'Morfo de Sulkowsky',
+    ulysses: 'Mariposa Ulises', bhutanitis: 'Cola de Golondrina de Bután',
+    paradisebirdwing: 'Alas de Pájaro del Paraíso', croesusbirdwing: 'Alas de Pájaro de Creso',
+    rajahbrooke: 'Alas de Pájaro del Rajá Brooke', greenbirdwing: 'Alas de Pájaro Verde',
+    goldenbirdwing2: 'Alas de Pájaro Doradas (Helena)', zebralongwing: 'Alas Largas Cebra'
+  }
+};
+// 取得当前语言下蝴蝶的显示名:
+//   zh-CN => b.cn (中文,数据原生)
+//   en    => b.en (英文俗名,158 种全有)
+//   ja/es => BNAME 表中精选种;未列出 fallback 到 b.en
+function bname(b){
+  if (!b) return '';
+  const lang = (typeof CUR_LANG === 'string' ? CUR_LANG : 'zh-CN');
+  if (lang === 'zh-CN') return b.cn;
+  if (lang === 'en') return b.en || b.cn;
+  const map = BNAME[lang];
+  if (map && map[b.id]) return map[b.id];
+  return b.en || b.cn;  // fallback 到英文俗名
+}
+window.BNAME = BNAME;
+window.bname = bname;
+
+// ============== 分类骨架翻译(科/属/科 note) ==============
+// 5 科中文名 + note 翻译为 en/ja/es;91 属仅给精选属(用户视野内的明星属)做精确翻译,其余 fallback 到拉丁名(国际通用)
+const FAMILY_I18N = {
+  Papilionidae: {
+    cn: { name:'凤蝶科', note:'中至大型，多有尾突，后翅常具眼斑；含世界最大的蝴蝶，以及多种珍稀濒危的鸟翼凤蝶。'},
+    en: { name:'Swallowtails', note:'Medium to large butterflies, often with hindwing tails and eyespots; includes the world\u2019s largest butterflies and many rare birdwings.'},
+    ja: { name:'アゲハチョウ科', note:'中型から大型のチョウで、後翅に尾状突起や眼状紋を持つことが多い。世界最大のチョウや希少なトリバネアゲハ類を含む。'},
+    es: { name:'Papiliónidos (Macaones)', note:'Mariposas medianas a grandes, a menudo con colas y ocelos en las alas posteriores; incluyen las mariposas más grandes del mundo y muchas especies de alas de pájaro raras.'}
+  },
+  Pieridae: {
+    cn: { name:'粉蝶科', note:'中小型，多为白、黄色；翅色来自独特的蝶呤色素，含许多常见的农田与花园蝶种。'},
+    en: { name:'Whites and Yellows', note:'Small to medium, predominantly white or yellow; their colors come from unique pterin pigments. Includes many familiar garden and farmland species.'},
+    ja: { name:'シロチョウ科', note:'小型から中型で、白色や黄色が多い。プテリン色素による独特な発色を持ち、農地や庭でよく見られる種を多く含む。'},
+    es: { name:'Piéridos (Blancas y Amarillas)', note:'Mariposas pequeñas a medianas, predominantemente blancas o amarillas; sus colores provienen de pigmentos pterínicos únicos. Incluyen muchas especies comunes de jardín y campo.'}
+  },
+  Lycaenidae: {
+    cn: { name:'灰蝶科', note:'蝴蝶中第二大科，体型小巧，色彩常呈金属蓝/铜色；许多种幼虫与蚂蚁互利共生。'},
+    en: { name:'Gossamer-winged Butterflies', note:'The second largest family of butterflies. Small, often with metallic blue or copper coloration. Many larvae have a symbiotic relationship with ants.'},
+    ja: { name:'シジミチョウ科', note:'チョウの中で2番目に大きい科。小型で金属的な青や銅色を持つ種が多く、幼虫はアリと共生関係を結ぶ種が多い。'},
+    es: { name:'Licénidos', note:'La segunda familia más grande de mariposas. Pequeñas, a menudo con coloraciones azules o cobrizas metálicas. Muchas larvas mantienen relaciones simbióticas con hormigas.'}
+  },
+  Hesperiidae: {
+    cn: { name:'弄蝶科', note:'身体粗壮多毛、触角末端弯钩，飞行急促跳跃，形态介于蝶与蛾之间。'},
+    en: { name:'Skippers', note:'Robust, hairy bodies with hooked antennae tips. Their fast, darting flight bridges the morphology between butterflies and moths.'},
+    ja: { name:'セセリチョウ科', note:'がっしりとして毛深い体、先端が鉤状の触角、素早く跳ねるような飛び方。チョウとガの中間的な形態を持つ。'},
+    es: { name:'Hespéridos (Saltarinas)', note:'Cuerpos robustos y peludos con puntas de antenas en forma de gancho. Su vuelo rápido y errático las sitúa entre mariposas y polillas.'}
+  },
+  Nymphalidae: {
+    cn: { name:'蛱蝶科', note:'蝴蝶中最大的科，前足退化（"刷足蝶"）；拟态、迁徙、结构色的代表种皆出于此。'},
+    en: { name:'Brush-footed Butterflies', note:'The largest family of butterflies, with reduced forelegs (\u201cbrush-footed\u201d). Includes the famous champions of mimicry, migration and structural color.'},
+    ja: { name:'タテハチョウ科', note:'チョウの中で最大の科。前脚が退化(刷毛足)し、擬態・渡り・構造色で名高い種を多数含む。'},
+    es: { name:'Ninfálidos (Patas de Cepillo)', note:'La familia más grande de mariposas, con las patas delanteras reducidas ("patas de cepillo"). Incluye los grandes campeones del mimetismo, la migración y los colores estructurales.'}
+  }
+};
+const GENUS_I18N = {
+  // 精选明星属:常见+用户视野内,提供 en/ja/es 译名
+  Danaus:        { en:'Tiger Milkweed Genus',    ja:'マダラチョウ属',     es:'Género de Mariposas Tigre' },
+  Vanessa:       { en:'Painted Ladies',          ja:'アカタテハ属',       es:'Vanesas' },
+  Morpho:        { en:'Morpho Butterflies',      ja:'モルフォチョウ属',   es:'Morfos' },
+  Aglais:        { en:'Tortoiseshells',          ja:'クジャクチョウ属',   es:'Pavos Reales' },
+  Greta:         { en:'Glasswings',              ja:'スカシジャノメ属',   es:'Mariposas de Cristal' },
+  Kallima:       { en:'Oakleaf Butterflies',     ja:'コノハチョウ属',     es:'Mariposas Hoja' },
+  Junonia:       { en:'Pansies',                 ja:'タテハモドキ属',     es:'Pensamientos' },
+  Sasakia:       { en:'Japanese Emperors',       ja:'オオムラサキ属',     es:'Emperadores Japoneses' },
+  Heliconius:    { en:'Longwings',               ja:'ドクチョウ属',       es:'Heliconios' },
+  Caligo:        { en:'Owl Butterflies',         ja:'フクロウチョウ属',   es:'Mariposas Búho' },
+  Idea:          { en:'Tree Nymphs',             ja:'オオゴマダラ属',     es:'Ninfas de los Árboles' },
+  Diaethria:     { en:'Eighty-eight Butterflies',ja:'88チョウ属',         es:'Mariposas 88' },
+  Papilio:       { en:'Swallowtails',            ja:'アゲハ属',           es:'Macaones' },
+  Ornithoptera:  { en:'Birdwings',               ja:'トリバネアゲハ属',   es:'Alas de Pájaro' },
+  Graphium:      { en:'Swordtails / Bluebottles',ja:'アオスジアゲハ属',   es:'Cola de Espada' },
+  Troides:       { en:'Golden Birdwings',        ja:'キシタアゲハ属',     es:'Alas de Pájaro Doradas' },
+  Parnassius:    { en:'Apollos',                 ja:'ウスバキチョウ属',   es:'Apolos' },
+  Bhutanitis:    { en:'Bhutan Glory Group',      ja:'ブータンシボリアゲハ属', es:'Glorias de Bután' },
+  Pieris:        { en:'Cabbage Whites',          ja:'モンシロチョウ属',   es:'Blancas de la Col' },
+  Gonepteryx:    { en:'Brimstones',              ja:'ヤマキチョウ属',     es:'Limoneras' },
+  Delias:        { en:'Jezebels',                ja:'カザリシロチョウ属', es:'Jezabeles' },
+  Polyommatus:   { en:'Common Blues',            ja:'シジミチョウ属',     es:'Azules Comunes' },
+  Hesperia:      { en:'Branded Skippers',        ja:'セセリチョウ属',     es:'Saltarinas' }
+};
+// 取科本地化名(回退到拉丁名,数据自带的科都是带拉丁名的)
+function famName(la) {
+  const lang = (typeof CUR_LANG === 'string' ? CUR_LANG : 'zh-CN');
+  const f = FAMILY_I18N[la];
+  if (!f) return la;
+  if (lang === 'zh-CN') return f.cn.name;
+  return (f[lang] && f[lang].name) || f.en.name;
+}
+function famNote(la) {
+  const lang = (typeof CUR_LANG === 'string' ? CUR_LANG : 'zh-CN');
+  const f = FAMILY_I18N[la];
+  if (!f) return '';
+  if (lang === 'zh-CN') return f.cn.note;
+  return (f[lang] && f[lang].note) || f.en.note;
+}
+function genusName(la) {
+  const lang = (typeof CUR_LANG === 'string' ? CUR_LANG : 'zh-CN');
+  if (lang === 'zh-CN') return null; // 中文用数据中的 cn 字段
+  const g = GENUS_I18N[la];
+  if (!g) return la;  // 未译属 fallback 到拉丁名(国际通用)
+  return g[lang] || g.en || la;
+}
+window.FAMILY_I18N = FAMILY_I18N;
+window.GENUS_I18N = GENUS_I18N;
+window.famName = famName; window.famNote = famNote; window.genusName = genusName;
+
+// ============== 目级 note 翻译(鳞翅目简介) ==============
+const ORDER_NOTE = {
+  'zh-CN': '包括蝴蝶与蛾类，全球已知约 18 万种；其中蝴蝶约 1.4–2 万种。本图鉴 158 种分属 5 科 91 属。',
+  en: 'Includes butterflies and moths; about 180,000 species known worldwide, of which roughly 14,000–20,000 are butterflies. This atlas covers 158 species across 5 families and 91 genera.',
+  ja: 'チョウとガを含み、世界で約 18 万種が知られる。そのうちチョウは約 1.4〜2 万種。本図鑑では 5 科 91 属 158 種を収録。',
+  es: 'Incluye mariposas y polillas; se conocen unas 180.000 especies en todo el mundo, de las cuales unas 14.000–20.000 son mariposas. Este atlas reúne 158 especies en 5 familias y 91 géneros.'
+};
+function orderNote(){
+  const lang = (typeof CUR_LANG === 'string' ? CUR_LANG : 'zh-CN');
+  return ORDER_NOTE[lang] || ORDER_NOTE['zh-CN'];
+}
+window.orderNote = orderNote;
+
+// 取本地化的 family 显示串。数据中 b.family = "蛱蝶科 Nymphalidae" 这种"中文名 拉丁名"格式;
+// 切语言时取出拉丁名 + famName 重组(英=Brush-footed Butterflies Nymphalidae 等)
+function familyDisplay(famStr) {
+  if (!famStr) return '';
+  const parts = famStr.trim().split(/\s+/);
+  const la = parts[parts.length-1];
+  if (la && /^[A-Z]/.test(la) && window.famName) {
+    return famName(la) + ' ' + la;
+  }
+  return famStr;
+}
+window.familyDisplay = familyDisplay;
+
+// ============== 物种长文本(intro/region/highlights/tags) i18n 异步加载 ==============
+// 因为文本量大,放在独立 json 文件里按需加载;加载完成自动触发 applyI18n 重渲。
+const SPECIES_I18N = { 'zh-CN': null /* 用 b 自带字段 */, en: null, ja: null, es: null };
+async function loadSpeciesI18n(lang) {
+  if (lang === 'zh-CN' || SPECIES_I18N[lang]) return SPECIES_I18N[lang];
+  try {
+    const res = await fetch('i18n_species_'+lang+'.json');
+    if (!res.ok) throw new Error('not ok');
+    SPECIES_I18N[lang] = await res.json();
+    return SPECIES_I18N[lang];
+  } catch(e) {
+    SPECIES_I18N[lang] = {};  // 加载失败置空对象,避免反复请求
+    return null;
+  }
+}
+// 取得指定字段的本地化值;未翻译的回退到中文原文(暂用)
+function bfield(b, key) {
+  if (!b) return '';
+  const lang = (typeof CUR_LANG === 'string' ? CUR_LANG : 'zh-CN');
+  if (lang === 'zh-CN') return b[key];
+  const map = SPECIES_I18N[lang];
+  if (map && map[b.id] && map[b.id][key] != null) return map[b.id][key];
+  return b[key]; // 回退到原文(中文)
+}
+window.SPECIES_I18N = SPECIES_I18N;
+window.loadSpeciesI18n = loadSpeciesI18n;
+window.bfield = bfield;
+
 // 选择当前语言:localStorage > navigator.language 前缀匹配 > zh-CN兜底
 function detectLang(){
   try{
@@ -208,7 +424,15 @@ function setLang(code){
   try{ localStorage.setItem('lang', code); }catch(e){}
   document.documentElement.lang = code;
   if (typeof window.applyI18n === 'function') window.applyI18n();
+  // 异步加载该语言的物种长文本翻译,加载完再刷新一次
+  if (code !== 'zh-CN') {
+    loadSpeciesI18n(code).then(()=>{ if (typeof window.applyI18n === 'function') window.applyI18n(); });
+  }
 }
 window.I18N = I18N; window.LANG_NAMES = LANG_NAMES;
 window.t = t; window.setLang = setLang; window.detectLang = detectLang;
 Object.defineProperty(window, 'CUR_LANG', { get(){ return CUR_LANG; } });
+// 首次进入若不是中文,异步加载物种翻译;加载完触发一次applyI18n
+if (CUR_LANG !== 'zh-CN') {
+  loadSpeciesI18n(CUR_LANG).then(()=>{ if (typeof window.applyI18n === 'function') window.applyI18n(); });
+}

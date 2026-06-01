@@ -1,0 +1,2214 @@
+{
+  "monarch": {
+    "region": "North America (migrates to Mexico for overwintering)",
+    "intro": "The Monarch is the most iconic species of the milkweed butterflies (Danainae) and one of North America's most familiar butterflies. Its vivid orange wings, traced with black veins and bordered by white-spotted edges, make it both a major pollinator and an ecological symbol.",
+    "highlights": [
+      "Performs a multi-generational migration of thousands of kilometers, from Canada to overwintering sites in Mexico",
+      "Larvae feed exclusively on milkweed and accumulate cardiac toxins that warn off predators",
+      "Its bold orange-and-black pattern is a textbook example of aposematic warning coloration"
+    ],
+    "tags": [
+      "Migration King",
+      "Pollinator",
+      "Aposematism"
+    ]
+  },
+  "morpho": {
+    "region": "Tropical rainforests of Central and South America",
+    "intro": "The Blue Morpho is famous for its dazzling metallic-blue wings and is one of about 30 species in the genus Morpho. Its dorsal wing surface shimmers in iridescent blue, while the underside is dull brown with cryptic eyespots.",
+    "highlights": [
+      "The blue color is not pigment but a structural color produced by light interference within the microscopic scales",
+      "Its structural-color principle has inspired biomimetic research in anti-counterfeiting, optics, and materials science",
+      "The flashing blue-brown alternation in flight confuses pursuing predators"
+    ],
+    "tags": [
+      "Structural Color",
+      "Biomimicry",
+      "Rainforest Spirit"
+    ]
+  },
+  "machaon": {
+    "region": "Across Eurasia and North America",
+    "intro": "The Old World Swallowtail is the type species of the genus Papilio and one of the most widely distributed butterflies, ranging across the Palearctic and into North America. Its bright yellow wings are crossed by black veins and adorned with blue patches, red eyespots, and characteristic sword-like tails.",
+    "highlights": [
+      "The type species of genus Papilio, of major taxonomic significance",
+      "The sword-like tails and red eyespots on the hindwings divert predator strikes away from the body",
+      "When alarmed, the larva everts a bright orange osmeterium that releases a defensive odor"
+    ],
+    "tags": [
+      "Type Species",
+      "Swallowtail",
+      "Wide Range"
+    ]
+  },
+  "peacock": {
+    "region": "Europe and temperate Asia (eastward to Japan)",
+    "intro": "The European Peacock takes its name from the four prominent peacock-feather-like eyespots on its wings. Its deep red-brown ground color makes it one of Europe's most easily recognized butterflies, often overwintering inside buildings or hollow trees.",
+    "highlights": [
+      "The four lifelike eyespots flash open when the butterfly is startled, scaring off bird predators",
+      "When the wings are closed, the nearly black undersides perfectly mimic a dead leaf",
+      "Adults overwinter, so they can be seen flying as early as the first warm days of spring"
+    ],
+    "tags": [
+      "Eyespot Defense",
+      "Overwintering",
+      "Leaf Mimicry"
+    ]
+  },
+  "glasswing": {
+    "region": "Central to South America",
+    "intro": "The Glasswing is famed for its almost completely transparent wings; only the veins and edges remain opaque brown, while the wing membrane is as clear as glass, making it a master of natural invisibility.",
+    "highlights": [
+      "Nano-scale bumps on the wing surface eliminate reflections, achieving near-perfect anti-glare transparency",
+      "Its transparent wings make it extremely difficult for predators to lock onto in flight",
+      "Its anti-reflective structure has inspired anti-glare designs for displays and optical lenses"
+    ],
+    "tags": [
+      "Transparent Wings",
+      "Natural Cloak",
+      "Anti-Reflective"
+    ]
+  },
+  "oakleaf": {
+    "region": "South to East Asia (India to Japan)",
+    "intro": "The Indian Leafwing is a textbook case of natural mimicry. With wings closed, its underside resembles a dead leaf complete with midrib and even mock fungal blotches; in flight, it suddenly reveals brilliant blue-purple and orange bands.",
+    "highlights": [
+      "When at rest with closed wings, mimics a dead leaf in stunning detail, including veins and mold spots",
+      "Reveals striking blue-purple and orange bands on the upperside when wings open",
+      "One of the most cited classic examples of camouflage in textbooks"
+    ],
+    "tags": [
+      "Leaf Mimicry",
+      "Camouflage Master",
+      "High Contrast"
+    ]
+  },
+  "birdwing": {
+    "region": "Forests of eastern Papua New Guinea",
+    "intro": "Queen Alexandra's Birdwing is the largest butterfly in the world; female wingspans exceed 25 cm. It occurs only in a small area of Oro Province, Papua New Guinea, making it extraordinarily rare.",
+    "highlights": [
+      "The world's largest butterfly: females may reach a 28 cm wingspan, like a small bird",
+      "Striking sexual dimorphism: males are iridescent blue-green; larger females are brown",
+      "Listed as endangered and strictly protected under international conventions; habitat is severely restricted"
+    ],
+    "tags": [
+      "World's Largest",
+      "Endangered",
+      "Sexual Dimorphism"
+    ]
+  },
+  "paintedlady": {
+    "region": "Worldwide (almost everywhere except Antarctica and South America)",
+    "intro": "The Painted Lady is the most widely distributed butterfly species, found on nearly every continent. With orange-brown wings patterned in black and white, it is highly adaptable and a celebrated long-distance migrant.",
+    "highlights": [
+      "The most widespread butterfly on Earth, present on almost every continent",
+      "Capable of intercontinental migration; some populations travel between Europe and sub-Saharan Africa",
+      "High fecundity and a broad range of host plants make it an exceptionally successful generalist"
+    ],
+    "tags": [
+      "Most Widespread",
+      "Intercontinental Migrant",
+      "Highly Adaptive"
+    ]
+  },
+  "plaintiger": {
+    "region": "Asia, Africa, and Australia",
+    "intro": "Also known as the African Queen, the Plain Tiger is a medium-sized milkweed butterfly distributed across Asia, Africa, and Australia. Its orange-brown wings, edged in black with white spots, place it in the same subfamily as the Monarch and make it a key subject in mimicry studies.",
+    "highlights": [
+      "Larvae feed on milkweeds and accumulate toxins; adults wear classic warning colors",
+      "A model species for Batesian mimicry, copied by many palatable butterflies",
+      "Believed to be one of the earliest butterflies depicted in human art (in ancient Egyptian frescoes)"
+    ],
+    "tags": [
+      "Mimicry Model",
+      "Toxic Warning",
+      "Ancient Species"
+    ]
+  },
+  "tailedjay": {
+    "region": "South Asia, Southeast Asia, and Australia",
+    "intro": "The Tailed Jay is a tropical swallowtail famous for its glossy black wings dotted with fluorescent green spots. It flies swiftly and often hovers between flowers with rapidly beating wings.",
+    "highlights": [
+      "Striking black background scattered with fluorescent green spots",
+      "Extremely fast flight with a high wingbeat rate, making it hard to catch",
+      "Highly adaptable and common in urban gardens and green spaces"
+    ],
+    "tags": [
+      "Fluorescent Green",
+      "Speed Flier",
+      "Tropical Common"
+    ]
+  },
+  "tiger": {
+    "region": "Eastern North America",
+    "intro": "The Eastern Tiger Swallowtail is one of the commonest butterflies of eastern North America. Its yellow wings bear four bold black tiger stripes, with blue and orange markings and tails on the hindwing. It is the official state butterfly of several U.S. states.",
+    "highlights": [
+      "Bold yellow ground color with black tiger stripes makes it instantly recognizable",
+      "Females occur in two forms—yellow and a black mimic of the toxic Pipevine Swallowtail",
+      "Designated state insect of Virginia, Georgia, and several other U.S. states"
+    ],
+    "tags": [
+      "State Butterfly",
+      "Tiger Stripes",
+      "Female Dimorphism"
+    ]
+  },
+  "mormon": {
+    "region": "Widespread across Asia (South to East Asia)",
+    "intro": "The Common Mormon is a widespread Asian swallowtail with black wings adorned with white bands. Its females occur in several mimetic forms imitating distasteful species, making it a classic subject for studies of mimetic polymorphism.",
+    "highlights": [
+      "Females have multiple mimetic forms imitating different toxic butterflies (Batesian mimicry)",
+      "The mimicry is controlled by a single supergene, a star case in evolutionary genetics",
+      "Males are monomorphic, so sexual dimorphism is striking"
+    ],
+    "tags": [
+      "Polymorphic Mimicry",
+      "Supergene",
+      "Wide Range"
+    ]
+  },
+  "cabbage": {
+    "region": "Worldwide (native to Eurasia, now spread to every continent)",
+    "intro": "The Cabbage White is one of the world's commonest butterflies. Its white wings carry black wingtips and spots, and its larva (the cabbage worm) feeds on Brassicaceae crops, making it a notorious agricultural pest.",
+    "highlights": [
+      "Has spread globally with human agriculture, an extremely successful invasive species",
+      "Larvae are major pests of cabbage, rapeseed, and other brassicaceous crops",
+      "Produces multiple generations per year and is abundant in urban vegetable patches and gardens"
+    ],
+    "tags": [
+      "Cosmopolitan",
+      "Crop Pest",
+      "Whites Family Icon"
+    ]
+  },
+  "brimstone": {
+    "region": "Europe, Asia, and North Africa (Palearctic)",
+    "intro": "The male Brimstone is a brilliant sulphur yellow while the female is pale greenish-white; the leaf-shaped wings have pointed tips. It is widely thought to be the source of the English word 'butterfly' (the butter-colored fly).",
+    "highlights": [
+      "Wing shape and venation mimic a leaf, providing perfect camouflage when at rest",
+      "Adults can live up to a year, making it one of Europe's longest-lived butterflies",
+      "Widely cited as one possible origin of the English word 'butterfly'"
+    ],
+    "tags": [
+      "Sulphur Yellow",
+      "Leaf Mimic",
+      "Long-Lived"
+    ]
+  },
+  "commonblue": {
+    "region": "Eurasia (Palearctic), introduced to North America",
+    "intro": "The Common Blue is Europe's most familiar small blue. Males flash bright violet-blue uppersides; females are brownish with orange spots. Tiny but charming, it is a quintessential member of the Lycaenidae.",
+    "highlights": [
+      "Pronounced sexual dimorphism: males bright blue, females brown with orange",
+      "Larvae are myrmecophilous, secreting honeydew to attract protective ants",
+      "A flagship species of the Lycaenidae—small in size but enormous in numbers"
+    ],
+    "tags": [
+      "Ant Symbiosis",
+      "Tiny Sprite",
+      "Sexual Dimorphism"
+    ]
+  },
+  "skipper": {
+    "region": "Europe, Asia, North America (Holarctic)",
+    "intro": "The Silver-spotted Skipper is a typical Hesperiidae: small, stout, hairy, with brown wings and characteristic silver-white spots beneath. Its rapid, darting flight places it visually between butterflies and moths.",
+    "highlights": [
+      "Distinctive silver-white spots on the underside give it its name",
+      "Stout body and hooked antennae give it a moth-like appearance",
+      "Flies in quick, jumping bursts—the very behavior behind the English name 'skipper'"
+    ],
+    "tags": [
+      "Skipper Icon",
+      "Silver Spots",
+      "Darting Flight"
+    ]
+  },
+  "redadmiral": {
+    "region": "Northern Hemisphere temperate zones (Europe, Asia, North America, North Africa)",
+    "intro": "The Red Admiral has black wings crossed by a vivid red band and dotted with white spots. A close relative of the Painted Lady, it is energetic and territorial, often patrolling gardens.",
+    "highlights": [
+      "Striking contrast of black with bright red bands and white spots",
+      "Closely related to the Painted Lady (Vanessa cardui)",
+      "A migratory species that moves north to breed during warm seasons"
+    ],
+    "tags": [
+      "Red Band",
+      "Migratory",
+      "Vanessa Cousin"
+    ]
+  },
+  "pansy": {
+    "region": "South and Southeast Asia",
+    "intro": "The Peacock Pansy has orange-yellow wings adorned with multiple peacock-like eyespots. It exhibits clear seasonal polyphenism, with dry-season and wet-season forms differing markedly in their underside patterns.",
+    "highlights": [
+      "Multiple peacock-feather eyespots intimidate would-be predators",
+      "Seasonal dimorphism: dry-season and wet-season forms differ noticeably",
+      "A common medium-sized nymphalid in South Asian gardens and wetlands"
+    ],
+    "tags": [
+      "Peacock Eyespots",
+      "Seasonal Forms",
+      "South Asia"
+    ]
+  },
+  "emperor": {
+    "region": "Japan, Korean Peninsula, China, northern Taiwan, northern Vietnam",
+    "intro": "The Great Purple Emperor is the national butterfly of Japan. The male flashes a brilliant violet-blue metallic sheen in sunlight. Large and powerful in flight, it is regarded as a jewel of East Asian forests.",
+    "highlights": [
+      "National butterfly of Japan, with deep cultural significance",
+      "Males have iridescent violet-blue structural coloration; females are duller",
+      "Larvae feed on Celtis (hackberry); the species depends on mature broadleaf forests"
+    ],
+    "tags": [
+      "Japan's National",
+      "Purple Iridescence",
+      "Forest Jewel"
+    ]
+  },
+  "postman": {
+    "region": "Central and South America",
+    "intro": "The Postman is a famous Neotropical longwing with black wings crossed by red and yellow bands. It forms Müllerian mimicry rings with sympatric species and shows extraordinary geographic variation, making it a star of evolutionary research.",
+    "highlights": [
+      "Forms Müllerian mimicry with closely related species, sharing warning colors",
+      "Geographic populations show enormous wing-pattern variation, a model system for speciation",
+      "Adults can feed on pollen for protein, granting them an unusually long lifespan"
+    ],
+    "tags": [
+      "Müllerian Mimicry",
+      "Model Organism",
+      "Pollen Feeder"
+    ]
+  },
+  "cypris": {
+    "region": "Northern South American rainforests (Brazil, Peru, etc.)",
+    "intro": "Cypris Morpho, also called Helena Morpho, is hailed as one of the world's most beautiful butterflies. The male's wings shine in mesmerizing metallic blue-violet, layered from deep navy to luminous azure like a haloed sky. It is exceptionally rare in the wild.",
+    "highlights": [
+      "Wing blue is a structural color from microscopic scales, glowing like polished metal",
+      "Strong sexual dimorphism: dazzling males, brownish females with rows of eyespots",
+      "Low reproductive rates and rarity in the wild make it a prized specimen"
+    ],
+    "tags": [
+      "Structural Color",
+      "Most Beautiful",
+      "Rainforest Jewel"
+    ]
+  },
+  "goldenkaiser": {
+    "region": "China (Hainan, Guangdong, Fujian, Guangxi) and Vietnam, Laos",
+    "intro": "Kaiser-i-Hind is China's only first-class state-protected butterfly, dubbed the 'giant panda of butterflies' or 'queen of butterflies.' Its wings are densely scaled in jade green that glows softly, with golden crescent spots and slender tails on the hindwings—rare and precious.",
+    "highlights": [
+      "China's only Class I state-protected butterfly, as iconic as the giant panda",
+      "Wings densely scaled in jade green; golden crescent spots inspire its name",
+      "Lives in evergreen broadleaf forests above 1000 m and serves as an ecological indicator"
+    ],
+    "tags": [
+      "Class I Protected",
+      "Queen of Butterflies",
+      "Endemic to China"
+    ]
+  },
+  "luehdorfia": {
+    "region": "Mid- and lower Yangtze region of China (endemic)",
+    "intro": "The Chinese Luehdorfia is a precious endemic of China and a Class II state-protected species, hailed as a national treasure by entomologists. Its black wings are crossed by yellow tiger-like bands, and dense yellow hairs cover its thorax and wing bases. It is among the earliest butterflies to emerge in spring.",
+    "highlights": [
+      "Endemic to China, Class II protected, a 'living fossil' of conservation note",
+      "Black wings with tiger-like yellow bands; flies as early as March",
+      "Larvae feed only on Asarum species, demanding very specific habitats"
+    ],
+    "tags": [
+      "Class II Protected",
+      "China Endemic",
+      "Early Spring"
+    ]
+  },
+  "parispeacock": {
+    "region": "Southern China and South/Southeast Asia",
+    "intro": "The Paris Peacock is one of the most spectacularly colored species of Papilio. Black-brown wings dusted with emerald scales bear a brilliant metallic blue-green patch on the hindwing. Swift in flight, it is a familiar but breathtaking sight in southern China.",
+    "highlights": [
+      "Metallic blue-green patch on the hindwing dazzles in sunlight, easily recognized",
+      "Eyespots and tails on the hindwing form a 'false head' to misdirect predators",
+      "A swift flier fond of white flowers, common on broadleaf hillsides"
+    ],
+    "tags": [
+      "Emerald Patch",
+      "False Head",
+      "Southern China"
+    ]
+  },
+  "broadtail": {
+    "region": "Central-southern China (endemic)",
+    "intro": "The Broad-tailed Swallowtail is a large, endemic Chinese papilionid and a 'three-have' protected species. Its most striking feature is the unusually broad pair of tails (each containing two veins). The black-brown wings sport purplish-red crescents, and it hides in remote mountain forests.",
+    "highlights": [
+      "Uniquely broad tails containing two wing veins each—unmatched among swallowtails",
+      "Endemic to China, inhabiting deep forests at 300–1500 m elevation",
+      "Larvae feed on Magnoliaceae plants such as Liriodendron and Magnolia officinalis"
+    ],
+    "tags": [
+      "China Endemic",
+      "Broad Tails",
+      "Mountain Recluse"
+    ]
+  },
+  "junglequeen": {
+    "region": "Southern China, Indochina, and Taiwan",
+    "intro": "The Jungle Queen is a large forest butterfly with orange to ochre wings ringed by arrow- or fish-shaped black markings—its namesake feature. Underside eyespots line up impressively. It glides silently along bamboo trails at dawn and dusk.",
+    "highlights": [
+      "Arrow- or fish-shaped black markings around the wings give the species its name",
+      "Rows of eyespots beneath startle or misdirect predators",
+      "Larvae feed on palms and grasses; adults love tree sap and rotting fruit"
+    ],
+    "tags": [
+      "Arrow Markings",
+      "Bamboo Forest",
+      "Forest Glider"
+    ]
+  },
+  "apollo": {
+    "region": "Eurasian high mountains (Europe to Xinjiang, China)",
+    "intro": "The Apollo is a precious large alpine parnassian. Its wings are white and semi-transparent, with bright red eyespots ringed in black on the hindwings—like a snow-mountain spirit. It was among the first insects ever protected under CITES.",
+    "highlights": [
+      "Translucent white wings with red eyespots define classic alpine butterfly imagery",
+      "One of the first insects listed under CITES; legally protected in many countries",
+      "Inhabits sub-alpine zones from 750–2000 m; larvae feed on Sedum"
+    ],
+    "tags": [
+      "Alpine Parnassian",
+      "CITES Listed",
+      "Red-Spotted White"
+    ]
+  },
+  "citrus": {
+    "region": "Most of China and East Asia",
+    "intro": "The Chinese Yellow Swallowtail is one of the most familiar large papilionids in Chinese gardens and countryside. Its black wings carry yellow bands, and the hindwings bear tails with red and blue eyespots. Its larvae feed on citrus and Sichuan-pepper leaves.",
+    "highlights": [
+      "The most familiar garden swallowtail; larvae feed on citrus, hence the name",
+      "Multivoltine: produces several generations from May to October",
+      "Larvae extrude an orange osmeterium when alarmed—an introductory species for studying metamorphosis"
+    ],
+    "tags": [
+      "Garden Common",
+      "Citrus Feeder",
+      "Multi-Generation"
+    ]
+  },
+  "bluebottle": {
+    "region": "East Asia, South Asia, Southeast Asia",
+    "intro": "The Common Bluebottle is a swift swallowtail with dark wings crossed by a band of translucent jade-green spots resembling a jade belt. It loves camphor trees and often gathers at flowers and damp sand to drink.",
+    "highlights": [
+      "A jade-green band across the wings looks like a translucent belt",
+      "Prefers Lauraceae plants; larvae feed on camphor",
+      "Adults sometimes form dense aggregations of dozens in autumn flower beds"
+    ],
+    "tags": [
+      "Jade Band",
+      "Camphor Lover",
+      "Swift Flier"
+    ]
+  },
+  "chinapeacock": {
+    "region": "Most of China and East Asia",
+    "intro": "The Common Peacock is a widespread large swallowtail in China. Its black body and wings are dusted with iridescent emerald scales, and the hindwings bear tails plus violet-grey and dark-red crescent spots. In sunlight the wings dazzle—it is among Shanghai's largest butterflies.",
+    "highlights": [
+      "Black ground dusted with iridescent emerald scales glows like jewels in sunlight",
+      "Violet-red crescent marks on the hindwing submargin are key ID features",
+      "Large and powerful in flight; a frequent flower visitor"
+    ],
+    "tags": [
+      "Emerald Scales",
+      "Large Swallowtail",
+      "Iridescent"
+    ]
+  },
+  "dragontail": {
+    "region": "China (north of Jiangxi and Hunan) and the Korean Peninsula",
+    "intro": "The Dragontail Butterfly, also called the Chinese Windmill, is celebrated as the inspiration for the Chinese 'Butterfly Lovers' legend. Its long ribbon-like tails sweep behind as it flies; males are white with black markings and females tan with black, like dancing silken ribbons.",
+    "highlights": [
+      "Extremely long ribbon-like tails create an elegant dancing flight",
+      "Pronounced sexual dichromatism: white males, brown-yellow females",
+      "Once listed among China's 14 most precious butterflies; larvae feed on Aristolochia"
+    ],
+    "tags": [
+      "Butterfly Lovers",
+      "Ribbon Tails",
+      "Sexual Dichromatism"
+    ]
+  },
+  "goldbirdwing": {
+    "region": "Southern China and South/Southeast Asia",
+    "intro": "The Golden Birdwing is a large birdwing butterfly and one of China's largest butterflies, a Class II state-protected species. Velvety black forewings contrast with brilliant golden hindwings—like flowing golden silk in flight.",
+    "highlights": [
+      "Among China's largest butterflies; Class II state-protected species",
+      "Brilliant golden hindwings against velvety black forewings—stunning contrast",
+      "Larvae feed on Aristolochiaceae and accumulate toxins for defense"
+    ],
+    "tags": [
+      "Class II Protected",
+      "China's Largest",
+      "Golden Hindwings"
+    ]
+  },
+  "greatmormon": {
+    "region": "China south of the Yangtze and East/South Asia",
+    "intro": "The Great Mormon is a large swallowtail occurring in tailed and tailless forms, famed for marked sexual dimorphism and female polymorphism. Males show velvety blue-black; females come in several distinct forms with bold red spots near the wing bases.",
+    "highlights": [
+      "Females are polymorphic—several strikingly different wing forms within one species",
+      "Males show velvety blue-black sheen with vivid red spots at wing bases",
+      "Large and slow in flight, fond of visiting flowers"
+    ],
+    "tags": [
+      "Polymorphic Females",
+      "Velvety Blue",
+      "Large Papilio"
+    ]
+  },
+  "swallowtailmoth": {
+    "region": "Southern China and South/Southeast Asia",
+    "intro": "The Dragontail (Lamproptera) is one of the world's smallest swallowtails, with a wingspan of only about 4 cm. The center of the forewing is transparent, and the hindwings trail extremely long tails like a tiny swallow. It hovers and even flies backward over streams.",
+    "highlights": [
+      "One of the world's smallest swallowtails, with glassy transparent forewings",
+      "Tails are extraordinarily long for a swallowtail, swallow-like in flight",
+      "Hovers and flies backwards like a hummingbird"
+    ],
+    "tags": [
+      "Tiny Swallowtail",
+      "Glass Forewings",
+      "Hover Flight"
+    ]
+  },
+  "jezebel": {
+    "region": "Southern China and South/Southeast Asia",
+    "intro": "The Red-spot Jezebel is a winter-active pierid common in southern China. Its dark upperside contrasts with vivid yellow and red patches beneath the hindwing, lending a festive air. Larvae feed on Loranthaceae and sandalwood mistletoes.",
+    "highlights": [
+      "Brilliant yellow and red underside, evoking auspicious 'good news' coloration",
+      "Among the most common pierids of southern Chinese winters",
+      "Larvae feed gregariously on parasitic Loranthaceae and Santalaceae"
+    ],
+    "tags": [
+      "Festive Colors",
+      "Winter Common",
+      "Gregarious Larvae"
+    ]
+  },
+  "orangetip": {
+    "region": "Southern China and South/Southeast Asia",
+    "intro": "The Great Orange Tip is one of the largest pierids, with white wings bearing a striking orange-red triangle at the forewing tip rimmed in black. Its underside mimics a dead leaf, providing excellent resting camouflage.",
+    "highlights": [
+      "Large pierid with a vivid orange-red 'crane crown' tip on the forewing",
+      "Underside resembles a dead leaf for cryptic resting",
+      "Strong, fast flight; larvae feed on Capparaceae"
+    ],
+    "tags": [
+      "Orange Tip",
+      "Large Pierid",
+      "Leaf Camouflage"
+    ]
+  },
+  "migrant": {
+    "region": "Southern China, South/Southeast Asia, Australia",
+    "intro": "The Common Emigrant is a familiar medium-sized pierid with variable color forms ranging from silvery white to lemon yellow. It performs seasonal mass migrations and feeds as larvae on legumes such as Cassia and Senna.",
+    "highlights": [
+      "Highly variable wing color, from creamy white to lemon yellow",
+      "Famous for seasonal mass migrations—hence the name 'Migrant'",
+      "Highly fecund and common in southern farmlands and forests"
+    ],
+    "tags": [
+      "Mass Migration",
+      "Polymorphic",
+      "Southern Common"
+    ]
+  },
+  "commontiger": {
+    "region": "Southern China and South/Southeast Asia, Australia",
+    "intro": "The Common Tiger has orange-brown wings veined with black and rimmed in spotted black borders—a quintessential milkweed butterfly. Closely related to the Monarch, larvae sequester toxins from Asclepiadaceae, and the orange-and-black warns of unpalatability.",
+    "highlights": [
+      "Classic orange-and-black warning coloration of Danainae",
+      "A close relative of the Monarch within the same genus",
+      "Larvae feed on Asclepiadaceae, accumulating defensive toxins"
+    ],
+    "tags": [
+      "Warning Color",
+      "Danaid Icon",
+      "Toxin Storage"
+    ]
+  },
+  "bluetiger": {
+    "region": "Southern China and South/Southeast Asia",
+    "intro": "The Blue Tiger has dark brown wings covered with translucent pale-blue patches and stripes—elegant and cool-toned. It migrates and gathers in vast aggregations in mountain valleys, creating spectacular 'butterfly valley' overwintering scenes.",
+    "highlights": [
+      "Distinctive dark wings with cool, translucent blue markings",
+      "Mass migrations form famous overwintering 'butterfly valleys'",
+      "Larvae feed on Asclepiadaceae; adults frequent Eupatorium flowers"
+    ],
+    "tags": [
+      "Blue Markings",
+      "Mass Aggregation",
+      "Butterfly Valley"
+    ]
+  },
+  "dukeforester": {
+    "region": "Southern China and Southeast Asia",
+    "intro": "The Duke Forester (square-eyed faun) has broad, squared wings whose underside bears large eyespots resembling phoenix eyes to startle predators. It haunts shaded humid bamboo forests at dusk, with a fluttering, drifting flight; larvae feed on bamboos and other grasses.",
+    "highlights": [
+      "Large 'phoenix-eye' eyespots beneath startle predators",
+      "Broad, square wings drift through bamboo forests at twilight",
+      "Larvae feed on bamboo, tightly tied to bamboo-forest ecosystems"
+    ],
+    "tags": [
+      "Phoenix Eyespots",
+      "Bamboo Twilight",
+      "Square Wings"
+    ]
+  },
+  "eveningbrown": {
+    "region": "Southern China, South/Southeast Asia, Africa, Australia",
+    "intro": "The Evening Brown has dark-brown wings with orange-and-black eyespots on the forewings; the underside resembles a dead leaf and shows distinct dry-season and wet-season forms. Active mainly at dawn, dusk, and on overcast days, it haunts rice paddies, grasslands, and forest edges.",
+    "highlights": [
+      "Underside mimics a dead leaf; dry- and wet-season forms differ markedly",
+      "Crepuscular activity (hence 'evening brown') with low, gliding flight",
+      "Larvae feed on rice and other grasses, closely tied to farmland"
+    ],
+    "tags": [
+      "Leaf Mimicry",
+      "Seasonal Forms",
+      "Crepuscular"
+    ]
+  },
+  "peablue": {
+    "region": "Widely distributed across Eurasia, Africa, and Australia, including China south of the Huai River",
+    "intro": "The Pea Blue is a tiny, widely distributed lycaenid. Males have brownish-violet uppersides with a violet sheen, while the underside is grey-white with delicate wavy striations and orange-yellow markings, dark spots, and slender tails near the hindwing margin. Larvae bore into legume flowers and pods.",
+    "highlights": [
+      "A globally distributed small blue with finely waved, elegant underside patterns",
+      "Slender hindwing tails plus dark spots form a 'false head' to fool predators",
+      "Larvae bore into legume pods—hence the common name 'Pea Blue'"
+    ],
+    "tags": [
+      "Cosmopolitan Blue",
+      "False Head",
+      "Wavy Underside"
+    ]
+  },
+  "redlacewing": {
+    "region": "Southern China, South and Southeast Asia",
+    "intro": "The Red Lacewing is a vibrantly colored medium-to-large nymphalid. The upperside ranges from orange-red to dark red, with serrated wing margins ringed by white V-marks, like delicate red lace. Sexual dimorphism is present, and the female is paler.",
+    "highlights": [
+      "Serrated margins set off by white V-marks resemble red lace—hence the name",
+      "Strong contrast of orange-red ground with black reticulation makes it dazzling",
+      "Larvae feed gregariously on Adenia (Passifloraceae)"
+    ],
+    "tags": [
+      "Red Lace",
+      "Serrated Margin",
+      "Vivid Nymphalid"
+    ]
+  },
+  "paperkite": {
+    "region": "Taiwan and Southeast Asian islands",
+    "intro": "The Paper Kite is a large and graceful danaid with translucent cream-white wings densely traced by black veins and spots, like rice paper or a kite. Its slow, drifting flight and large size earn it the nickname 'big silly butterfly,' and it stars in many butterfly houses.",
+    "highlights": [
+      "Cream wings traced by black like a paper kite—hence its English name",
+      "Slow, drifting flight gives it the affectionate nickname 'big silly butterfly'",
+      "Larvae feed on toxic Parsonsia, so adults bear warning coloration"
+    ],
+    "tags": [
+      "Paper Wings",
+      "Slow Drifter",
+      "Graceful Glider"
+    ]
+  },
+  "owl": {
+    "region": "Tropical rainforests of Central and South America",
+    "intro": "The Owl Butterfly is a world-famous large butterfly with huge eyespots resembling owl's eyes on the wing undersides—a masterful predator-startling pattern. The upperside shimmers with violet-blue. It flies low at dawn, dusk, and on cloudy days.",
+    "highlights": [
+      "Massive owl-eye eyespots on the underside intimidate predators",
+      "Large and powerful, with a wingspan up to 15 cm",
+      "Active at dusk; feeds on fermenting fruit juices"
+    ],
+    "tags": [
+      "Owl Eyespots",
+      "Giant Nymphalid",
+      "Twilight Flier"
+    ]
+  },
+  "nawab": {
+    "region": "Southern China, South and Southeast Asia",
+    "intro": "The Common Nawab is a robust, large nymphalid with pale yellow-green wings bordered by broad black, and each hindwing carries two tails (four in total)—the source of its Chinese name. Fast and powerful in flight, it loves tree sap and rotten fruit.",
+    "highlights": [
+      "Each hindwing has two tails, totaling four—an instant ID feature",
+      "Pale yellow-green with black borders; sturdy build and rapid flight",
+      "Aggressively feeds on sap and rotten fruit, often jousting for territory"
+    ],
+    "tags": [
+      "Four Tails",
+      "Robust & Swift",
+      "Forest Bully"
+    ]
+  },
+  "bluecrow": {
+    "region": "Southern China, South and Southeast Asia",
+    "intro": "The Blue-spotted Crow has dark-brown wings with a violet-blue sheen, edged by rows of white and blue spots—understated yet metallic. It mimics, and is mimicked by, several danaids; larvae feed on toxic Apocynaceae plants.",
+    "highlights": [
+      "Dark wings with violet-blue iridescence and rows of blue and white edge spots",
+      "Forms mutual mimicry with other danaids, sharing warning signals",
+      "Larvae feed on Apocynaceae, accumulating toxins; males have scent patches"
+    ],
+    "tags": [
+      "Violet Sheen",
+      "Mimicry Ring",
+      "Toxic Crow"
+    ]
+  },
+  "orangealbatross": {
+    "region": "Northern India to Myanmar and Southeast Asia",
+    "intro": "The Orange Albatross is the only living butterfly with wings entirely a vivid orange-red. Males have pure brilliant uppersides; females have black wing edges and dark hindwing bands. Males gather on riverbanks to mud-puddle, while females fly mostly in the canopy.",
+    "highlights": [
+      "The only extant butterfly with wings entirely pure orange-red",
+      "Males have pure-colored wings; females have black borders and hindwing bands",
+      "Males gather on sandy riverbanks to drink; females stay in the canopy"
+    ],
+    "tags": [
+      "All Orange",
+      "Sole Orange Butterfly",
+      "Mud-Puddler"
+    ]
+  },
+  "sawtooth": {
+    "region": "Southern China, India, and Southeast Asia",
+    "intro": "The Red-base Jezebel (Sawtooth) is a medium-to-large pierid. Its yellow wings are fringed in pink-red hairs; the forewing has a wide black border with embedded yellow spots, and the silvery underside is dotted with pale-brown rings, with a striking red basal patch on the hindwing.",
+    "highlights": [
+      "Distinctive pinkish-red fringe is a key ID feature",
+      "Silvery underside with pale-brown rings; red base on the hindwing is striking",
+      "Inhabits forest edges, often flying fast along streams and openings"
+    ],
+    "tags": [
+      "Pink Fringe",
+      "Red Base",
+      "Stream Mud-Puddler"
+    ]
+  },
+  "chocalbatross": {
+    "region": "Southern China, Taiwan, and Southeast Asia",
+    "intro": "The Chocolate Albatross is a familiar pierid from lowlands to mid-elevations. Males have white uppersides with a sawtooth black-brown forewing margin and yellow on the hindwing; females have stronger dark markings. It flies fast and visits flowers and damp ground.",
+    "highlights": [
+      "Sawtooth inner edge of the dark forewing border is a key ID feature",
+      "Marked sexual dimorphism; females show heavier black markings",
+      "Multivoltine and seen year-round; fast flier that loves to mud-puddle"
+    ],
+    "tags": [
+      "Sawtooth Margin",
+      "Sexual Dimorphism",
+      "Common Pierid"
+    ]
+  },
+  "commongull": {
+    "region": "Southern China, South Asia, and Southeast Asia",
+    "intro": "The Common Gull has soft white-pink wings with bold black veins and a row of black triangular markings along the outer margins. The dry-season form has thicker, yellower black markings, distinct from the wet-season form. Common at forest edges and flower clusters.",
+    "highlights": [
+      "Crisp black veins and a row of black triangles along the outer margin",
+      "Has dry- and wet-season forms; the dry form is bolder and yellower",
+      "Common at forest edges and flower patches, an active flier"
+    ],
+    "tags": [
+      "Black Veins",
+      "Seasonal Forms",
+      "Forest Edge"
+    ]
+  },
+  "paleclouded": {
+    "region": "Eurasian temperate zone, including most of China",
+    "intro": "The Pale Clouded Yellow has lemon-yellow wings with broad black margins on both fore- and hindwings. Females are dimorphic, with a yellow form and a paler whitish form. It basks on grasslands, fields, and pastures; larvae feed on legumes.",
+    "highlights": [
+      "Lemon-yellow wings rimmed with broad black borders",
+      "Females are dimorphic—yellow form and pale whitish form",
+      "Loves to bask on bare ground and rocks; larvae feed on legumes"
+    ],
+    "tags": [
+      "Yellow & Black",
+      "Sun Basker",
+      "Legume Feeder"
+    ]
+  },
+  "orangetipeu": {
+    "region": "From Europe to East Asian temperate zones (including China)",
+    "intro": "The European Orange Tip is a white pierid; males have a brilliant orange-red patch at the forewing tip while females are pure white. The hindwing underside features beautiful moss-green clouds (actually a mix of yellow and black scales), forming perfect camouflage in flowery vegetation.",
+    "highlights": [
+      "Sexual dimorphism: males have orange wing tips, females are pure white",
+      "The mossy green clouds beneath are mixed yellow-black scales—superb camouflage",
+      "An early spring butterfly of damp meadows, woodlands, and riverbanks"
+    ],
+    "tags": [
+      "Orange Tip",
+      "Mossy Camouflage",
+      "Spring Butterfly"
+    ]
+  },
+  "cleopatra": {
+    "region": "Mediterranean coasts, southern Europe, and North Africa",
+    "intro": "The Cleopatra is the most striking species of Gonepteryx. Males are lemon-yellow with a deep-orange flush across the forewing center; their hooked wing tips and small hindwing tails resemble a leaf. Females are paler. The leaf-shaped wings give superb mimicry.",
+    "highlights": [
+      "Males show a deep-orange flush in the forewing center—the boldest of brimstones",
+      "Hooked tips and small hindwing tails enable leaf mimicry",
+      "Active in the Mediterranean from late winter through autumn"
+    ],
+    "tags": [
+      "Orange Flush",
+      "Leaf Mimic",
+      "Mediterranean"
+    ]
+  },
+  "fieldii": {
+    "region": "Endemic to central-western China and the Himalayas",
+    "intro": "The Fielder's Clouded Yellow is endemic to China. Its wings are a vivid orange-red with broad black outer borders and pink fringes. It resembles the Pale Clouded Yellow but is more orange. It inhabits valleys, streams, and forest edges.",
+    "highlights": [
+      "Wings more orange-red than the closely related Pale Clouded Yellow",
+      "Pink wing fringes and large dark cell-end spots on both wings",
+      "Endemic to China, frequenting valleys, streams, and forest edges"
+    ],
+    "tags": [
+      "Orange-Red",
+      "China Endemic",
+      "Pink Fringe"
+    ]
+  },
+  "blackveined": {
+    "region": "Eurasian temperate zone",
+    "intro": "The Black-veined White has thinly scaled, semi-transparent white wings crossed by bold black veins; the forewing edge bears smoky-black triangles. It often gathers in flowery patches and damp ground; larvae feed on Rosaceae plants.",
+    "highlights": [
+      "Bold black veins on white wings; sparse scales make wings semi-transparent",
+      "Smoky-black triangular marks line the forewing margin",
+      "Often groups at flowers and mud-puddles; larvae feed on Rosaceae"
+    ],
+    "tags": [
+      "Black-Veined White",
+      "Translucent",
+      "Group Mud-Puddler"
+    ]
+  },
+  "commonmime": {
+    "region": "Southern China, South Asia, and Southeast Asia",
+    "intro": "The Common Mime is a renowned mimic with several forms: the typical form has dark-brown wings densely speckled with white spots and white-dotted edges, mimicking toxic blue tigers; another orange-striped form mimics common tigers. It evades predators by imitating distasteful butterflies.",
+    "highlights": [
+      "Multiple forms imitate toxic species like Blue Tiger or Common Tiger",
+      "A classic case of Batesian mimicry, leveraging others' warning colors",
+      "Larvae feed on Lauraceae plants in low-elevation forests"
+    ],
+    "tags": [
+      "Master Mimic",
+      "Polymorphic",
+      "Batesian Mimicry"
+    ]
+  },
+  "limepapilio": {
+    "region": "Widespread in Asia, expanding into the Middle East and Oceania",
+    "intro": "The Lime Butterfly, also known as the Tailless Swallowtail, is one of the most successful colonizing swallowtails. Its black wings are densely patterned with yellow blotches and dots; the hindwing has no tail but bears a red-and-blue eyespot. Highly fecund, it is a common citrus pest.",
+    "highlights": [
+      "No hindwing tails; black ground densely speckled with yellow—easily recognized",
+      "Among the most successful swallowtails worldwide, highly adaptable",
+      "Larvae feed on Rutaceae and are common in citrus orchards"
+    ],
+    "tags": [
+      "Tailless",
+      "Highly Invasive",
+      "Citrus Pest"
+    ]
+  },
+  "citrusswallowtail": {
+    "region": "Sub-Saharan Africa and Madagascar",
+    "intro": "The Citrus Swallowtail is one of Africa's most familiar swallowtails. Like the Lime Butterfly, it has black wings dotted with yellow, no hindwing tails, and red-and-blue eyespots in the anal angle. It is a major pest of African citrus.",
+    "highlights": [
+      "The African counterpart of the Lime Butterfly—black with yellow, tailless",
+      "Red-and-blue eyespots in the anal angle; flies rapidly",
+      "Larvae feed on Rutaceae and are an important citrus pest in Africa"
+    ],
+    "tags": [
+      "African Common",
+      "Tailless",
+      "Citrus Pest"
+    ]
+  },
+  "paradisebirdwing": {
+    "region": "New Guinea",
+    "intro": "The Paradise Birdwing is one of the world's most spectacular butterflies. Males glow with a dazzling golden-green sheen, and the hindwings extend into uniquely long, slender hooked tails—the only birdwing with tails. Females are larger and brown-and-white.",
+    "highlights": [
+      "Golden-green metallic sheen and unique long, hooked hindwing tails",
+      "The only species in the genus Ornithoptera with tails on the hindwing",
+      "CITES Appendix II listed; a rare giant of tropical rainforests"
+    ],
+    "tags": [
+      "Golden Green",
+      "Hooked Tails",
+      "New Guinea"
+    ]
+  },
+  "commonbirdwing": {
+    "region": "South to Southeast Asia and southern China",
+    "intro": "The Common Birdwing is a large birdwing butterfly. The male's forewings are velvety black with grey-white along the veins; the hindwings are golden yellow with black borders, blazing in flight. Crimson hairs adorn the thorax. CITES Appendix II.",
+    "highlights": [
+      "Golden hindwings with black borders blaze in flight",
+      "Black forewings with grey-white along the veins; crimson tufts on the thorax",
+      "Larvae feed on Aristolochia and accumulate defensive toxins"
+    ],
+    "tags": [
+      "Golden Hindwings",
+      "Large",
+      "CITES Listed"
+    ]
+  },
+  "oblongbirdwing": {
+    "region": "Indonesian and New Guinean islands",
+    "intro": "The Oblong-spot Birdwing is a large island birdwing of Southeast Asia. Males have black forewings and golden hindwings marked with elongated black streaks. It resembles the Common Birdwing but its yellow markings are more elongate. The thorax bears red tufts.",
+    "highlights": [
+      "Golden hindwings with elongated black streaks, hence the name",
+      "An island-distributed large birdwing",
+      "Larvae feed on Aristolochia and contain defensive toxins"
+    ],
+    "tags": [
+      "Golden Hindwings",
+      "Elongate Marks",
+      "Island Species"
+    ]
+  },
+  "easterntiger": {
+    "region": "Eastern North America",
+    "intro": "The Eastern Tiger Swallowtail is one of North America's most iconic butterflies. Yellow wings carry four bold black tiger stripes and dark borders, and the hindwings have tails plus blue and orange spots. Females are dimorphic, with yellow and black forms.",
+    "highlights": [
+      "Yellow with bold tiger stripes—an emblematic North American butterfly",
+      "Hindwing tails, blue and orange spots; females have a melanic black form",
+      "State butterfly of several U.S. states; common in gardens"
+    ],
+    "tags": [
+      "Tiger Stripes",
+      "North American Icon",
+      "Female Dimorphism"
+    ]
+  },
+  "clubtail": {
+    "region": "South to Southeast Asia and southern China",
+    "intro": "The Common Clubtail is a curious swallowtail whose hindwing tails are unusually long and end in a club-like swelling. The wings are dark brown, with grey-white streaks on the forewings and yellow-white spots and a red anal patch on the hindwings.",
+    "highlights": [
+      "Long, club-tipped hindwing tails are unique and unmistakable",
+      "Yellow-white spots line the hindwing, with a red patch at the anal angle",
+      "Mimics toxic Atrophaneura species for protection"
+    ],
+    "tags": [
+      "Club Tails",
+      "Red Anal Spot",
+      "Mimicry"
+    ]
+  },
+  "bhutanitis": {
+    "region": "Himalayas, southwestern China, Myanmar, Thailand",
+    "intro": "The Bhutan Glory, also called the Multi-tailed Swallowtail, is a precious alpine swallowtail. Its dark-brown wings carry many fine pale-yellow waved lines; the hindwings have several tails, with a striking large red and blue-black spot in the anal angle. CITES Appendix II.",
+    "highlights": [
+      "Multiple hindwing tails plus a large red anal patch are unique",
+      "Dark wings densely traced by pale-yellow wavy lines",
+      "A rare alpine species protected under CITES Appendix II"
+    ],
+    "tags": [
+      "Multi-Tailed",
+      "Alpine Treasure",
+      "CITES Listed"
+    ]
+  },
+  "spanishfestoon": {
+    "region": "Spain, Portugal, southern France, North Africa",
+    "intro": "The Spanish Festoon is a small tailless papilionid of the subfamily Parnassiinae. Its black-and-yellow wings carry intricate festoon-like patterns and bright red spots on the forewings. It flies from late winter to late spring and is a beloved Mediterranean spring butterfly.",
+    "highlights": [
+      "Black-and-yellow festoon pattern with vivid red forewing spots—easy ID",
+      "Tailless swallowtail with serrated wing margins",
+      "Mediterranean early-spring species; larvae feed on Aristolochia"
+    ],
+    "tags": [
+      "Red Spots",
+      "Festoon Pattern",
+      "Mediterranean"
+    ]
+  },
+  "chineseswordtail": {
+    "region": "Central and southern China",
+    "intro": "The Chinese Swordtail is a distinctive Chinese sword-swallowtail. Its wings are pale yellow-white with several black transverse bars; the hindwings carry long sword-like tails and orange-yellow plus blue anal patches. It emerges in early spring with a light, agile flight.",
+    "highlights": [
+      "Long sword-like hindwing tails inspire its name",
+      "Pale yellow-white wings with black transverse bars and orange-blue anal spots",
+      "Univoltine in early spring with a light, agile flight"
+    ],
+    "tags": [
+      "Sword Tails",
+      "Black Bars",
+      "Early Spring"
+    ]
+  },
+  "greenbirdwing": {
+    "region": "Indonesia, New Guinea, northern Australia",
+    "intro": "The Green Birdwing, also called the Cairns Birdwing, is the national butterfly of Indonesia. Males have brilliant golden-green patches against black wings, the sheen shifting with the angle of light; females are large and brown with white spots. The thorax bears red hairs.",
+    "highlights": [
+      "Golden-green patches on black; sheen shifts with viewing angle",
+      "National butterfly of Indonesia, a giant of tropical rainforests",
+      "Larvae feed on Aristolochia; CITES Appendix II"
+    ],
+    "tags": [
+      "Golden Green",
+      "National Butterfly",
+      "Large"
+    ]
+  },
+  "iceclear": {
+    "region": "Eastern China, Korean Peninsula, Japan",
+    "intro": "The Ice-clear Parnassian is an elegant species of Parnassius. Its semi-transparent white wings show black veins; the forewing has grey transverse bars and the hindwing has a black band along the inner margin with black hairs. It flies slowly from early spring to early summer—pure as ice and snow.",
+    "highlights": [
+      "Translucent white wings with black veins—pure as ice and snow",
+      "Black band with black hairs along the inner margin of the hindwing",
+      "Slow flight; larvae feed on Aristolochiaceae and Corydalis"
+    ],
+    "tags": [
+      "Translucent White",
+      "Black Veins",
+      "Early Spring"
+    ]
+  },
+  "rajahbrooke": {
+    "region": "Malay Peninsula, Borneo, Sumatra",
+    "intro": "Rajah Brooke's Birdwing is the national butterfly of Malaysia. Its velvet-black wings carry a row of jagged jade-green markings on the forewings—shaped like a green leaf—and a band of brilliant red hairs around the neck. The golden-green scales shimmer in sunlight, exquisitely regal.",
+    "highlights": [
+      "A row of jagged jade-green forewing markings shaped like leaves",
+      "A band of bright red hairs around the neck inspires its name",
+      "National butterfly of Malaysia; scales shimmer with iridescence"
+    ],
+    "tags": [
+      "Jade Wedges",
+      "Red Collar",
+      "National Butterfly"
+    ]
+  },
+  "croesusbirdwing": {
+    "region": "Maluku Islands of Indonesia",
+    "intro": "Wallace's Golden Birdwing is a famed large swallowtail discovered by Alfred Russel Wallace. Males have dazzling golden-orange to golden-green patches on the hindwings and forewing bases; the sheen shifts from orange to green with the viewing angle, brilliantly set off by black.",
+    "highlights": [
+      "Males show patches that shift from gold-orange to gold-green with angle",
+      "First described by Alfred Russel Wallace, an iconic species in his works",
+      "CITES Appendix II; endemic to the Maluku Islands"
+    ],
+    "tags": [
+      "Golden Sheen",
+      "Wallace",
+      "Large"
+    ]
+  },
+  "commonrose": {
+    "region": "South to Southeast Asia and southern China",
+    "intro": "The Common Rose has black wings with white patches on the hindwings and a row of vivid crescent red spots, plus a red abdomen. It is toxic and bitter, serving as a model for many palatable mimic butterflies.",
+    "highlights": [
+      "Row of red crescents on the hindwing and red abdomen advertise toxicity",
+      "Sequesters aristolochic acids and is mimicked by many butterflies",
+      "Flies leisurely, confident in its chemical defense"
+    ],
+    "tags": [
+      "Red Crescents",
+      "Toxic Model",
+      "Red Abdomen"
+    ]
+  },
+  "bluebirdwing": {
+    "region": "Solomon Islands, New Ireland",
+    "intro": "The Blue Birdwing is a rare blue birdwing (now treated as a subspecies of the Green Birdwing). Males show a deep metallic blue-green gradient on a black background, glinting blue under different light. The abdomen is golden-yellow; the thorax bears red hairs.",
+    "highlights": [
+      "Males show a metallic blue-green gradient that glints under varied light",
+      "A rare blue form among birdwing butterflies",
+      "Larvae feed on Aristolochia; CITES Appendix II"
+    ],
+    "tags": [
+      "Metallic Blue",
+      "Rare",
+      "Large"
+    ]
+  },
+  "ulysses": {
+    "region": "Northern Australia, New Guinea, Indonesia",
+    "intro": "The Ulysses Butterfly (Mountain Blue) is the icon of Queensland, Australia. Its wings flash with a brilliant electric blue framed by broad black borders—blue lightning in flight, like sapphires—plus tails on the hindwings.",
+    "highlights": [
+      "Vast electric-blue patches with black borders flash in flight",
+      "The tourism icon butterfly of Queensland, Australia",
+      "Hindwings carry tails; structural color shifts with angle"
+    ],
+    "tags": [
+      "Electric Blue",
+      "Mountain Blue",
+      "Tailed"
+    ]
+  },
+  "atrophaneura": {
+    "region": "Taiwan (endemic)",
+    "intro": "The Magellan Birdwing (Atrophaneura) is a large endemic Taiwanese atrophaneurine. Its dark-brown wings carry vast pink-to-magenta patches on the hindwings, especially vivid in the anal area, glowing like dawn in flight. The thorax bears red tufts.",
+    "highlights": [
+      "Vast pink-magenta patches on the hindwings glow like dawn",
+      "An endemic large atrophaneurine of Taiwan",
+      "Larvae feed on Aristolochia; defensive toxins are sequestered"
+    ],
+    "tags": [
+      "Pink Hindwings",
+      "Taiwan Endemic",
+      "Large"
+    ]
+  },
+  "fivebar": {
+    "region": "Southern China, South Asia, and Southeast Asia",
+    "intro": "The Fivebar Swordtail has pale yellow-green to white wings with several black diagonal bars and long slender hindwing tails plus red anal spots. It flies fast and gathers at streamside damp sand to drink.",
+    "highlights": [
+      "Pale green-white wings with several black diagonal bars and long tails",
+      "Striking red spots in the anal angle",
+      "Swift flight; males form mud-puddling groups along streams"
+    ],
+    "tags": [
+      "Diagonal Bars",
+      "Sword Tails",
+      "Stream Mud-Puddler"
+    ]
+  },
+  "goldenbirdwing2": {
+    "region": "Philippines, Lanyu Island in Taiwan",
+    "intro": "The Iridescent Birdwing is a large birdwing whose hindwings are golden yellow and—uniquely—shimmer with a blue-green iridescence at certain angles. The thorax sports red hairs.",
+    "highlights": [
+      "Golden hindwings shimmer blue-green at certain angles—truly unique",
+      "A large birdwing with majestic flight",
+      "Larvae feed on Aristolochia; CITES Appendix II"
+    ],
+    "tags": [
+      "Iridescent Hindwings",
+      "Iridescence",
+      "Large"
+    ]
+  },
+  "threetail": {
+    "region": "Shaanxi, Sichuan, Yunnan, China (endemic)",
+    "intro": "The Chinese Three-tailed Swallowtail is a rare endemic alpine papilionid of China. Its bronze-glossed black bands are split by 8 pale lines; the hindwings carry three tails plus a large red anal patch with blue dots. It is Class II state-protected and CITES Appendix II.",
+    "highlights": [
+      "Three hindwing tails and a large red anal patch with blue dots",
+      "Eight pale lines divide bronze-glossed black bands",
+      "China endemic, Class II protected, CITES Appendix II"
+    ],
+    "tags": [
+      "Three Tails",
+      "Class II Protected",
+      "Alpine Treasure"
+    ]
+  },
+  "bianorlike": {
+    "region": "Himalayas, western and southern China",
+    "intro": "The Common Bluebottle Peacock is a peacock-type swallowtail with black wings densely scaled in jade-green and golden-green iridescence; the hindwings bear blue-green patches, tails, and red anal spots. Similar to the Common Peacock but greener and brighter, it shimmers in sunlight.",
+    "highlights": [
+      "Wings densely scaled with jade-green and golden-green iridescence",
+      "Hindwing has a blue-green patch, tails, and red anal spots",
+      "A common peacock swallowtail of the Himalayas and western China"
+    ],
+    "tags": [
+      "Jade Iridescence",
+      "Blue-Green Patch",
+      "Tailed"
+    ]
+  },
+  "thoas": {
+    "region": "The Americas (southern U.S. to South America)",
+    "intro": "The Thoas Swallowtail (King Swallowtail) is a large American papilio, very similar to North America's Giant Swallowtail. Its black wings are crossed by a broad yellow band, with hindwing tails, yellow spots, and blue and red marks.",
+    "highlights": [
+      "Black wings crossed by a wide, bold yellow band",
+      "Hindwings have tails, yellow spots, and blue and red marks",
+      "A widespread, powerful flier of the Americas"
+    ],
+    "tags": [
+      "Yellow Band",
+      "American Giant",
+      "Tailed"
+    ]
+  },
+  "mocker": {
+    "region": "Sub-Saharan Africa",
+    "intro": "The Mocker Swallowtail is a renowned model species in mimicry research. Males have pale yellow-white wings with black borders and tails; females come in many forms, each mimicking a different toxic butterfly (most without tails)—a classic case of Batesian mimicry.",
+    "highlights": [
+      "Males have a stable form: pale yellow-white wings with tails",
+      "Females are highly polymorphic, each form mimicking a different toxic butterfly (often tailless)",
+      "A textbook species in studies of Batesian mimicry and genetics"
+    ],
+    "tags": [
+      "Polymorphic Females",
+      "Batesian Mimicry",
+      "Research Star"
+    ]
+  },
+  "podalirius": {
+    "region": "Europe, North Africa, western Asia to China",
+    "intro": "The Scarce Swallowtail (Iphiclides podalirius) has pale-yellow wings with several wedge-shaped black streaks and striking long sword-like hindwing tails, plus blue crescents and an orange anal patch. Its graceful flight glides over hillside flowers.",
+    "highlights": [
+      "Pale-yellow wings with wedge-shaped black streaks and long sword-like hindwing tails",
+      "Hindwings have blue crescents and an orange anal eyespot",
+      "A celebrated European butterfly known for its elegant gliding flight"
+    ],
+    "tags": [
+      "Black Streaks",
+      "Sword Tails",
+      "European Icon"
+    ]
+  },
+  "alpineblack": {
+    "region": "Northeast and North China, Russian Far East, Korea, Japan",
+    "intro": "The Alpine Black Swallowtail is one of East Asia's most beautiful peacock papilios. Its black wings are densely scaled with iridescent emerald and gold, with a blue-green band across the hindwing plus tails and a red anal spot. Summer adults are larger and more vividly green than spring ones.",
+    "highlights": [
+      "Wings densely scaled in iridescent emerald and gold; a striking blue-green band on the hindwing",
+      "Hindwings carry tails and a red anal spot",
+      "Summer form is large and vivid—one of East Asia's most beautiful peacock papilios"
+    ],
+    "tags": [
+      "Emerald Band",
+      "Tailed",
+      "East Asian Icon"
+    ]
+  },
+  "twotailpasha2": {
+    "region": "Yunnan and Sichuan, China (endemic)",
+    "intro": "The Three-tailed Swallowtail (also called Two-tailed Pasha in some sources) is one of the world's rarest butterflies, first discovered in western Yunnan in the 1930s. Its glossy black wings have fine pale-yellow transverse bars; the hindwings carry three tails, a translucent red patch near the margin, and blue spots.",
+    "highlights": [
+      "Three hindwing tails with a translucent red patch and blue eyespots—extremely rare",
+      "Glossy black forewings crossed by fine pale-yellow bars",
+      "First discovered in Yunnan in the 1930s; a globally precious species"
+    ],
+    "tags": [
+      "Rare",
+      "Tailed",
+      "China Endemic"
+    ]
+  },
+  "amphrysusbird": {
+    "region": "Malay Peninsula, Sumatra, Java",
+    "intro": "The Malay Birdwing is a large birdwing with 19 known subspecies. Males have black forewings with white along the veins and golden-yellow hindwings with clear veins and no spots; flight is graceful and the hindwings glow as if cloaked in gold. The thorax bears red hairs.",
+    "highlights": [
+      "Golden hindwings with crisp venation; males have unmarked golden hindwings",
+      "A large birdwing with elegant flight",
+      "Larvae feed on Aristolochia; CITES Appendix II"
+    ],
+    "tags": [
+      "Golden Hindwings",
+      "Crisp Veins",
+      "Large"
+    ]
+  },
+  "dogface": {
+    "region": "Tropical Americas (Mexico to South America)",
+    "intro": "The Cloudless Sulphur is a medium-to-large pierid in genus Phoebis. Males have brilliant sulphur-yellow to yellow-green wings with paler edges; they often gather in huge swarms at riverbanks to drink or fly together in mass migrations.",
+    "highlights": [
+      "Brilliant sulphur-yellow males with broad wings",
+      "Often forms huge mass migrations or drinking swarms on riverbanks",
+      "A widespread large pierid of the tropical Americas"
+    ],
+    "tags": [
+      "Sulphur Yellow",
+      "Swarm Flight",
+      "Americas"
+    ]
+  },
+  "blackveinpier": {
+    "region": "Southern China, South and Southeast Asia",
+    "intro": "The Black-veined Sawtooth has white wings with bold black veins; the forewing apex and outer margin are black with white spots, and the hindwing margin has a row of black markings, with the underside of the hindwing flushed yellow. It is a medium-to-large pierid with strong flight.",
+    "highlights": [
+      "White wings with bold black veins—instantly recognizable",
+      "Black forewing apex with white spots; row of black marks on hindwing margin",
+      "A medium-to-large sawtooth, swift flier and frequent mud-puddler"
+    ],
+    "tags": [
+      "Bold Black Veins",
+      "Sawtooth",
+      "Medium-Large"
+    ]
+  },
+  "morphoaurora": {
+    "region": "Bolivia, southern Peru",
+    "intro": "The Aurora Morpho is a small pale-blue morpho. Males flash a brilliant pale-blue with serrated black on the forewing leading edge and grey on the hindwing inner margin; in flight, blue, green, and violet shimmer. The underside is grey-brown marbled with rows of eyespots.",
+    "highlights": [
+      "Wings flash brilliant pale blue with shimmering blue-green-violet sheen in flight",
+      "A small morpho with wingspan around 9–11 cm",
+      "Underside is grey-brown marbled with rows of eyespots"
+    ],
+    "tags": [
+      "Pale Blue",
+      "Metallic Sheen",
+      "South American Rainforest"
+    ]
+  },
+  "morphocisseis": {
+    "region": "Brazil, Bolivia",
+    "intro": "Cisseis Morpho is a large morpho whose wingspan can exceed 18 cm in some subspecies. The forewing flashes bright metallic blue framed by broad black, with a dark-brown body-to-base area. The black hindwing has a brilliant blue patch near the body, while the brown underside bears four large eyespots.",
+    "highlights": [
+      "A large morpho; some subspecies exceed 18 cm wingspan",
+      "Bright blue metallic flash framed by broad black borders",
+      "Brown underside marbled with four large eyespots"
+    ],
+    "tags": [
+      "Large",
+      "Blue with Black Border",
+      "Big Eyespots"
+    ]
+  },
+  "morphocypris2": {
+    "region": "Colombia (national butterfly), Central America",
+    "intro": "The Cypris Morpho (M. cypris) is the national butterfly of Colombia, famous for its highly reflective, intense metallic blue—even more saturated than the Blue Morpho. A diagonal white band crosses the wings, framed by black, making the blue mesmerizing.",
+    "highlights": [
+      "National butterfly of Colombia; highly reflective intense metallic blue",
+      "Bluer and more saturated than the common Blue Morpho",
+      "A white diagonal band crosses the wings, framed by black"
+    ],
+    "tags": [
+      "Colombia's Symbol",
+      "Intense Metallic Blue",
+      "White Band"
+    ]
+  },
+  "morphohecuba": {
+    "region": "Amazon Basin, Guianas",
+    "intro": "Hecuba Morpho is one of the largest morphos, with wingspans up to 20 cm. It is not blue: the entire wing is woven with brown and orange-brown patterns evoking dawn skies of the Orient—complex, opulent, and majestic.",
+    "highlights": [
+      "One of the largest morphos, with wingspans up to 20 cm",
+      "Brown and orange-brown patterns recall an oriental sunrise sky",
+      "A national-level icon in Brazil; a non-blue morpho representative"
+    ],
+    "tags": [
+      "Giant",
+      "Sunrise Browns",
+      "Non-Blue Morpho"
+    ]
+  },
+  "morphoamathonte": {
+    "region": "Central America to northern South America",
+    "intro": "The Amathonte Morpho is a large blue morpho with extraordinarily vivid, saturated metallic deep blue—deeper than the common Blue Morpho. Black borders are narrow, so the blue dominates and shimmers like sapphire across the wings; it is one of the purest-blue morphos.",
+    "highlights": [
+      "Saturated metallic deep blue, deeper than the common Blue Morpho",
+      "Narrow black borders give vast, pure blue area",
+      "Wings shimmer like sapphire in flight"
+    ],
+    "tags": [
+      "Deep Metallic Blue",
+      "Large",
+      "Sapphire"
+    ]
+  },
+  "morphoanaxibia": {
+    "region": "Southeastern Brazil",
+    "intro": "Anaxibia Morpho is a large endemic Brazilian morpho with brilliantly clear silver-blue to sky-blue metallic sheen, slim black borders, and translucent purity—one of the most elegant morphos.",
+    "highlights": [
+      "Brilliant silver-blue to sky-blue metallic sheen",
+      "Slim black borders; the blue is clear and translucent",
+      "An elegant large morpho endemic to southeastern Brazil"
+    ],
+    "tags": [
+      "Silver Blue",
+      "Crystal Clear",
+      "Brazil Endemic"
+    ]
+  },
+  "morphoamphitryon": {
+    "region": "South America (Bolivia, Peru)",
+    "intro": "Amphitryon Morpho is a large, non-blue morpho with deep brown wings and metallic orange-brown sheen. The dark-brown wings have a chain of yellow-orange marginal spots; the forewing has three large eyespots and the hindwing four small ones—a calmly opulent presence.",
+    "highlights": [
+      "Deep brown with metallic orange-brown sheen, a non-blue morpho",
+      "Chain of yellow-orange spots along the margins; forewing with three large eyespots",
+      "Large and ornate; wingspan 16–18 cm"
+    ],
+    "tags": [
+      "Brown & Orange",
+      "Big Eyespots",
+      "Non-Blue Morpho"
+    ]
+  },
+  "morphoaega": {
+    "region": "Brazil, Argentina, Paraguay",
+    "intro": "Aega Morpho is a medium morpho. Males have bright metallic blue wings with black borders; females are tan-yellow with orange spots. The blue is bright and lively—a representative of the lighter morphos, common at South American forest edges.",
+    "highlights": [
+      "Males: bright metallic blue with black borders; females: tan-yellow with orange spots",
+      "A medium morpho with a bright, lively blue",
+      "Representative of the lighter morphos; common at South American forest edges"
+    ],
+    "tags": [
+      "Bright Metallic Blue",
+      "Sexual Dimorphism",
+      "Forest Edge"
+    ]
+  },
+  "morphodeidamia": {
+    "region": "Amazon Basin",
+    "intro": "Deidamia Morpho has a blue metallic sheen tinged with violet, framed by broad black borders and white patches; the forewings carry diagonal white bands. The whole effect is dreamlike—a representative of the subgenus Morpho.",
+    "highlights": [
+      "Blue metallic sheen with violet undertones; broad black borders",
+      "Diagonal white bands and white patches on the forewings",
+      "From the Amazon Basin; a representative of subgenus Morpho"
+    ],
+    "tags": [
+      "Blue-Violet",
+      "White Bands",
+      "Dreamlike"
+    ]
+  },
+  "morphosulkowskyi": {
+    "region": "Andes (Colombia to Peru)",
+    "intro": "Sulkowsky's Morpho is a small morpho with semi-transparent pearl-white wings tinged in pale blue and pink, shifting iridescence like moonlit nacre—dreamy and weightless. It inhabits high-altitude cloud forests of the Andes.",
+    "highlights": [
+      "Pearl-white wings with pale blue and pink translucent iridescence",
+      "Iridescent shift like moonlit nacre",
+      "Inhabits high-altitude Andean cloud forests; small and ethereal"
+    ],
+    "tags": [
+      "Pearl Iridescence",
+      "Translucent",
+      "Cloud Forest"
+    ]
+  },
+  "morpholuna": {
+    "region": "Brazil",
+    "intro": "Luna Morpho is a large, splendid morpho with a shining metallic green-white sheen and a white body. The wings have a chain of cog-like black spots along the margins, and the white underside carries rows of black eyespots—snow-white yet metallic, of noble bearing.",
+    "highlights": [
+      "Wings shine in metallic green-white; the body is white",
+      "A chain of cog-like black spots lines the wing margin",
+      "From the white-morpho subgenus; pristine yet metallic"
+    ],
+    "tags": [
+      "Metallic Green-White",
+      "Snow White",
+      "Large"
+    ]
+  },
+  "morphopeleides": {
+    "region": "Central America to northern South America",
+    "intro": "The Peleides Blue Morpho is one of the most famous and frequently exhibited morphos and one of the world's largest butterflies. Its wings flash brilliant metallic sky-blue framed by broad black, while the brown underside bears rows of golden-yellow eyespots—a butterfly-house star.",
+    "highlights": [
+      "One of the most famous morphos; a butterfly house favorite",
+      "Brilliant metallic sky-blue framed by broad black borders",
+      "Brown underside with rows of golden-yellow eyespots for cryptic defense"
+    ],
+    "tags": [
+      "Classic Blue Morpho",
+      "Black Frame",
+      "Butterfly House Star"
+    ]
+  },
+  "indianfritillary": {
+    "region": "Most of China, South/Southeast Asia, New Guinea, Australia, northeastern Africa",
+    "intro": "The only tropical species of the genus Argyreus, this fritillary is widespread in the Oriental region and spreading north with global warming. Sexes differ markedly: males have leopard-like black spotting, while female forewings are violet-black with a white diagonal band, mimicking the toxic Plain Tiger. Larvae feed on violets.",
+    "highlights": [
+      "The only tropical species in the leopard-spotted Argyreus group",
+      "Females mimic the toxic Plain Tiger to evade predators",
+      "Continues to spread northward with climate warming"
+    ],
+    "tags": [
+      "Leopard Wings",
+      "Batesian Mimicry",
+      "Urban Common"
+    ]
+  },
+  "silverwashed": {
+    "region": "Eurasia, from Western Europe and North Africa across Siberia to Japan, Korea, and China",
+    "intro": "A widespread medium fritillary across Eurasia, named for the silvery-green washed bands on the underside of the hindwing. Males are orange-yellow with prominent black scent-streaks along the veins; females are darker green with bolder black spots. Strong fliers, they glide in the canopy; larvae feed on violets.",
+    "highlights": [
+      "Distinctive silver-green wash on the underside of the hindwing",
+      "Males have bold black scent-streaks along forewing veins",
+      "Powerful fliers that glide through the forest canopy"
+    ],
+    "tags": [
+      "Silver-Green Underside",
+      "Woodland Species",
+      "Eurasian"
+    ]
+  },
+  "saganafritillary": {
+    "region": "Eastern and southern China, Korean Peninsula, Japan, Russian Far East, Mongolia",
+    "intro": "An East Asian fritillary with extreme sexual dimorphism: males are orange-yellow with broken black markings on the hindwings, while females are blue-black with large white spots and a wide white band, looking like another species. Univoltine; overwinters as a young larva. Larvae feed on violets.",
+    "highlights": [
+      "Extreme sexual dimorphism between sexes",
+      "Females are elegantly blue-black with white bands",
+      "Univoltine, overwintering as first-instar larvae"
+    ],
+    "tags": [
+      "Sexual Dimorphism",
+      "East Asian",
+      "Violet-Feeder"
+    ]
+  },
+  "largesilverstripe": {
+    "region": "Shaanxi, Yunnan, Tibet of China; Nepal, Sikkim, northern India, Myanmar",
+    "intro": "Among the largest of the leopard fritillaries, named for the dazzling silver stripes arrayed across a bronzed-green underside. Sexual dimorphism is strong: females are larger, darker, with wider blue-green areas on the hindwing. Inhabits grassy slopes around forests.",
+    "highlights": [
+      "One of the largest fritillaries in the genus",
+      "Multiple silver stripes shine across the underside of the hindwing",
+      "Anal area shows vivid blue-green, an unmistakable mark"
+    ],
+    "tags": [
+      "Large Species",
+      "Silver Stripes",
+      "Mountain Edges"
+    ]
+  },
+  "pallasfritillary": {
+    "region": "Central-eastern Europe across Siberia to China, Korea, Japan, Russia",
+    "intro": "A widespread medium Eurasian fritillary with orange-yellow wings and even black spotting. The hindwing underside is divided by a white-edged band into a violet-grey outer area and a yellow-brown basal area, a key ID feature. Males have slender black scent-streaks on the forewings; larvae feed on violets.",
+    "highlights": [
+      "Hindwing underside clearly divided into violet-grey and yellow-brown areas",
+      "Males show slender black scent-streaks on forewing veins",
+      "A common Eurasian fritillary across grassland and forest edges"
+    ],
+    "tags": [
+      "Leopard Wings",
+      "Eurasian Wide",
+      "Meadow Edge"
+    ]
+  },
+  "darkgreenfrit": {
+    "region": "Europe, Morocco, Iran, Siberia, Central Asia, China, Korea, Japan",
+    "intro": "A widespread Palearctic large fritillary, the Dark Green Fritillary takes its name from the green sheen on the hindwing underside. The flame-orange upperside is patterned with neat black spots; the underside hindwing carries multiple bright silver-white discs. It inhabits mountain shrub-grass and flies swiftly; larvae feed on violets.",
+    "highlights": [
+      "Bright silver-white discs scattered on the hindwing underside",
+      "Flame-orange upperside with regular black spotting",
+      "Inhabits high-mountain grass-and-shrub habitats"
+    ],
+    "tags": [
+      "Large Species",
+      "Silver Spots",
+      "Mountain Meadow"
+    ]
+  },
+  "smallpearlfrit": {
+    "region": "Europe, temperate Asia to China, and North America",
+    "intro": "A circum-Holarctic small fritillary, called the Small Pearl-bordered Fritillary in Europe and the Silver-bordered Fritillary in North America. Its name comes from rows of silver-white 'pearl' spots set against a rusty-red hindwing underside. Prefers moist meadows; larvae feed only on violets and overwinter as larvae.",
+    "highlights": [
+      "Rows of silver-white pearl spots line the hindwing underside",
+      "Small and delicate; inhabits moist meadows",
+      "Distributed across Europe, Asia, and North America"
+    ],
+    "tags": [
+      "Small Species",
+      "Pearl Silver Spots",
+      "Wet Meadow"
+    ]
+  },
+  "clipper": {
+    "region": "Southwest China, South Asia, Southeast Asian forests",
+    "intro": "A large nymphalid of tropical forests, with olive-green to brown wings and bold black veins. The forewings carry a row of translucent 'window' patches; the hindwing pattern is like a pleated skirt, especially beautiful when half-closed. Strong, fast flier patrolling streamside forest edges.",
+    "highlights": [
+      "Translucent window-like patches on the forewings are unique",
+      "Hindwing pattern resembles a pleated skirt",
+      "Powerful, swift flier along streams and forest edges"
+    ],
+    "tags": [
+      "Olive Green",
+      "Tropical Forest",
+      "Premium Showpiece"
+    ]
+  },
+  "easterncourtier": {
+    "region": "Northeast to central and east China, Korea, Russian Far East",
+    "intro": "A medium-to-large apaturine nymphalid: males show black wings densely streaked with orange-yellow, with two orange spots in the forewing cell and an eye-like Cu1 spot; females have these markings turning whitish. Univoltine, adults fly in June–July, larvae feed on Celtis (hackberry), and adults relish rotten fruit and damp soil.",
+    "highlights": [
+      "Males show dense orange-yellow streaks on a black background",
+      "Forewing Cu1 cell carries an eye-like spot",
+      "Adults are devoted to rotten fruit and mud-puddle salts"
+    ],
+    "tags": [
+      "Orange-Black Streaks",
+      "East Asian",
+      "Univoltine"
+    ]
+  },
+  "commonlascar": {
+    "region": "India, Sri Lanka, Southeast Asia, southern China and Taiwan",
+    "intro": "A small nymphalid of low- to mid-elevation forests in South and Southeast Asia. The black upperside carries three orange-yellow transverse bands that are wider and more golden than typical lascars, hence its Chinese name 'Golden Three-line Butterfly.' Multivoltine, slow-flying, fond of flowers and mud-puddling; larvae feed on legume vines.",
+    "highlights": [
+      "Three golden-yellow bands on a black background are conspicuous",
+      "Bands are wider than in typical lascars",
+      "Multivoltine and common in low-mountain forests"
+    ],
+    "tags": [
+      "Golden Triple Band",
+      "Tropical Forest",
+      "Legume Feeder"
+    ]
+  },
+  "pallassailer": {
+    "region": "Central Europe, Russia, India, East Asian temperate zone to Japan",
+    "intro": "A small black-and-white sailer in genus Neptis with a broken white longitudinal streak in the forewing cell and a chestnut underside. Easily confused with the Common Sailer. One to two generations per year; overwinters as a mature larva; flight is slow and gliding; larvae feed on Lespedeza and other legumes.",
+    "highlights": [
+      "The forewing cell streak is broken—an ID feature",
+      "Underside is chestnut, making white markings stand out",
+      "Easily confused with the Common Sailer"
+    ],
+    "tags": [
+      "Black-and-White Sailer",
+      "Gliding Flight",
+      "Legume Feeder"
+    ]
+  },
+  "commonsailer": {
+    "region": "Southern China to Shaanxi and Henan; India, Myanmar, Vietnam, Southeast Asia",
+    "intro": "A dominant species of the Oriental region: black-brown upperside crossed by three rows of white spots forming sail-like bands, with a long streak and arrow-shaped mark in the forewing cell. The yellowish-brown underside has black-edged white marks. Type locality is Guangdong, China; flies in low gliding patrols; larvae feed on legumes and Ulmaceae.",
+    "highlights": [
+      "Three rows of white spots form sail-like bands on a black background",
+      "Forewing cell carries a distinctive arrow-shaped mark",
+      "A dominant Oriental species seen all year round"
+    ],
+    "tags": [
+      "Triple White Bands",
+      "Glider",
+      "Oriental Wide"
+    ]
+  },
+  "queen": {
+    "region": "Southern U.S., Mexico, Central America, the Caribbean, and South America",
+    "intro": "A representative of the American Danaus, the Queen is closely related to the Monarch but smaller, with darker chestnut-brown wings and two rows of white dots on the black borders. Larvae feed on milkweed, accumulating cardenolides; males have black scent-patches on the hindwings, with elaborate courtship and limited migration.",
+    "highlights": [
+      "Chestnut-brown wings with two rows of white dots on black borders",
+      "Larvae sequester milkweed toxins for chemical defense",
+      "Closely related to the Monarch but smaller in size"
+    ],
+    "tags": [
+      "American Danaid",
+      "Milkweed Toxins",
+      "Chestnut Wings"
+    ]
+  },
+  "chestnuttiger": {
+    "region": "Himalayas, Southeast Asia, China, Taiwan, Korea, Japan",
+    "intro": "A large milkweed butterfly with black-brown forewings dotted in pale blue-white translucent spots and reddish-brown hindwings with paler markings—striking contrast. Famous for trans-oceanic migrations: one individual flew from Japan to Hong Kong, over 2,000 km in 80+ days. Larvae feed on toxic Asclepiadaceae.",
+    "highlights": [
+      "Pale blue-white translucent forewing spots over reddish-brown hindwings",
+      "Record migration of over 2,000 km across the sea",
+      "Larvae feed on toxic Asclepiadaceae plants"
+    ],
+    "tags": [
+      "Migrant",
+      "Translucent Blue",
+      "Large Danaid"
+    ]
+  },
+  "easterncommontiger": {
+    "region": "India, Southeast Asia, southern China and other tropical Asian areas",
+    "intro": "To avoid duplicating the already-listed Common Tiger (Danaus genutia), this entry refers to the closely related Eastern (White) Tiger. Orange-yellow wings with white-spotted black veins look very like the Common Tiger but the hindwing base is whiter. Larvae feed on Asclepiadaceae and accumulate toxins.",
+    "highlights": [
+      "Orange-yellow wings with black veins fringed by white spots",
+      "A close relative of the Common Tiger with a whiter hindwing base",
+      "Larvae sequester milkweed toxins for defense"
+    ],
+    "tags": [
+      "Tiger Pattern",
+      "Sister Species",
+      "Milkweed Toxin"
+    ]
+  },
+  "stripedbluecrow": {
+    "region": "India, Southeast Asia, southern China and Taiwan",
+    "intro": "Standard Chinese name 'irregular crow.' Males have peacock-blue-violet metallic sheen on the forewings with white apical spots, and brown hindwings with white streaks; sexual dimorphism is strong. Larvae feed on Apocynaceae and Moraceae and store toxins; adults fly slowly and form winter aggregations, members of the danaine mimicry ring.",
+    "highlights": [
+      "Males show peacock-blue-violet sheen on the forewings",
+      "Marked sexual dimorphism between sexes",
+      "Larvae store toxins; adults form mass aggregations"
+    ],
+    "tags": [
+      "Peacock Blue-Violet",
+      "Crow Butterfly",
+      "Mass Roosts"
+    ]
+  },
+  "darkbluetiger": {
+    "region": "Himalayas, southern India, Sri Lanka, Southeast Asia, southern China and Taiwan",
+    "intro": "Standard Chinese name 'small spotted blue tiger.' Black-brown wings carry pale aquamarine translucent stripes; hindwing basal marks join in pairs forming 'V' shapes. Males have ear-shaped scent pouches in cell Cu2 of the hindwing. Long-distance seasonal migrant; larvae feed on toxic Asclepiadaceae.",
+    "highlights": [
+      "Black-brown wings with aquamarine stripes",
+      "Hindwing basal marks pair up into 'V' shapes",
+      "Performs long-distance seasonal migrations"
+    ],
+    "tags": [
+      "Aquamarine Stripes",
+      "Migrant",
+      "Asclepias-Feeder"
+    ]
+  },
+  "largefaun": {
+    "region": "Eastern India, southern China, Indochina, Taiwan",
+    "intro": "Type species of the satyrines, with rounded wings and brown body. The forewing upperside has an orange-yellow oblique band. The name comes from a row of cream pearl-like spots crossing both wings underneath. Slow-flying, addicted to rotten fruit, frequents shaded forest understorey; larvae feed on Smilax.",
+    "highlights": [
+      "Cream pearl-like spots line the underside like a string of beads",
+      "Slow flight and devotion to fermenting fruit",
+      "Mostly active in shaded forest understorey"
+    ],
+    "tags": [
+      "Pearl String",
+      "Forest Floor",
+      "Rotten-Fruit Lover"
+    ]
+  },
+  "jungleglory": {
+    "region": "Guangxi, Hainan, Yunnan, Tibet of China; Myanmar, Thailand, Sri Lanka, India",
+    "intro": "A large tropical forest satyrine with velvet-deep-brown wings inset with brilliant blue-violet patches in the central area of each wing—glowing vividly when wings open. The underside is dark brown with cross bands and eyespots. An indicator species for rainforest integrity, it haunts shaded humid understorey.",
+    "highlights": [
+      "Brilliant blue-violet patches set in the central area of each wing",
+      "Strong contrast against velvet-deep-brown ground",
+      "Acts as an indicator species for rainforest health"
+    ],
+    "tags": [
+      "Blue-Violet Patches",
+      "Rainforest Satyr",
+      "Indicator Species"
+    ]
+  },
+  "jungleking": {
+    "region": "Yunnan of China; Myanmar, Thailand, Singapore",
+    "intro": "A large satyrine of genus Thaumantis, with deep-brown upperside crossed by a wide medium-yellow oblique band on the forewing, small white apical spots, and orange suffusion along the hindwing margin; the underside has two large round eyespots forming dead-leaf mimicry. Famed as the 'King of the Jungle,' it is one of Yunnan's precious butterflies.",
+    "highlights": [
+      "Wide medium-yellow oblique band on forewing stands out",
+      "Underside large eyespots create dead-leaf mimicry",
+      "A rare 'jungle king' of Yunnan"
+    ],
+    "tags": [
+      "Yellow Oblique Band",
+      "Leaf Mimicry",
+      "Yunnan Rare"
+    ]
+  },
+  "orangeringlet": {
+    "region": "Europe, temperate Asia, and North American grasslands",
+    "intro": "A small grassland satyrine of genus Coenonympha, widespread across Europe, temperate Asia, and North America. The wings are warm orange-brown with pale-yellow ringed black eyespots along the margins; flight is light and undulating. Larvae feed on grasses and sedges; adults frequent damp meadows, fields, and forest-edge openings, one of the most common 'small-blue-like' satyrs of northern grasslands.",
+    "highlights": [
+      "Warm orange-brown ground with pale-yellow ringed eyespots—simple yet elegant",
+      "Widespread across Eurasian and North American grasslands; highly adaptable",
+      "Light, undulating flight, weaving low among grasses"
+    ],
+    "tags": [
+      "Grassland Satyr",
+      "Orange-Brown",
+      "Holarctic"
+    ]
+  },
+  "blueeyewall": {
+    "region": "Europe, North Africa, and western Asia",
+    "intro": "The Wall Brown is named for its habit of basking on sunlit stone walls and rock faces. Orange wings traced with brown veins recall a fritillary, but the forewing apex and hindwings each carry white-pupiled black eyespots, with blue-grey rings around the eyespots underneath. Widespread across Europe, North Africa, and western Asia, it favors coastal cliffs, dry grass slopes, and sunny open habitats.",
+    "highlights": [
+      "Eyespots ringed with blue-grey on both wings give it a clear ID",
+      "Orange ground with brown veins resembles a fritillary, but it is a satyrine",
+      "Loves to bask on stone walls and rocks, hence the English name 'Wall Brown'"
+    ],
+    "tags": [
+      "Satyrine",
+      "Blue Eyespot",
+      "Sun Lover"
+    ]
+  },
+  "darkringlet": {
+    "region": "Europe and temperate Asia",
+    "intro": "The Ringlet has wings so dark brown they appear nearly black, with thin white edges; freshly emerged adults look velvety. The underside displays prominent yellow-ringed white-pupiled eyespots—the source of the English name 'Ringlet'. Widely distributed from Europe across temperate Asia to China and Korea, it favors damp meadows and forest edges and tolerates cool, humid conditions; males patrol in search of mates.",
+    "highlights": [
+      "Wings are deep brown almost black with white edges; fresh adults look velvety",
+      "Rows of yellow-ringed white-pupiled eyespots beneath give the species its English name",
+      "Tolerates damp shade, common in moist meadows and forest paths"
+    ],
+    "tags": [
+      "Satyrine",
+      "Deep Brown",
+      "Ring Eyespots"
+    ]
+  },
+  "lethewhite": {
+    "region": "South and Southeast Asian bamboo forests",
+    "intro": "The White-banded Lethe is a medium-sized shade-loving satyrine of the genus Lethe. Its brown wings carry a striking diagonal white band on the forewing and a paler apical patch; the underside is patterned with eyespots and fine streaks resembling forest leaf litter. It mainly inhabits bamboo forests of South and Southeast Asia and southern China, prefers shady humid sites, and feeds on tree sap, rotten fruit, and mineral salts on damp ground.",
+    "highlights": [
+      "A bold diagonal white band on the forewing makes it easy to spot under shade",
+      "Underside eyespots and fine markings mimic fallen leaves for cryptic resting",
+      "Lives in shaded bamboo forests; loves sap and rotten fruit, rarely visits flowers"
+    ],
+    "tags": [
+      "Lethe",
+      "White Band",
+      "Bamboo Shade"
+    ]
+  },
+  "bushbrown": {
+    "region": "South and Southeast Asia and southern China",
+    "intro": "The Common Bushbrown is one of the most familiar small brown satyrines of Asia, with plain brown uppersides and a row of snake-eye-like ocelli on the underside, hence the English name 'Bushbrown.' It shows clear seasonal forms—dry-season adults have reduced markings while wet-season adults sport crisp eyespots. Distributed from South and Southeast Asia to southern China, it has multiple generations a year, flies low and briefly, feeds on sap and dung, and the larvae feed on grasses.",
+    "highlights": [
+      "Underside snake-eye-like ocelli are arranged in a graduated row",
+      "Marked dry- and wet-season forms; eyespots may fade or stand out clearly",
+      "The most familiar lowland brown satyrine of Asia, with quick low flights"
+    ],
+    "tags": [
+      "Bushbrown",
+      "Brown",
+      "Seasonal Forms"
+    ]
+  },
+  "zebralongwing": {
+    "region": "South America, Central America, Mexico, and the southeastern U.S.",
+    "intro": "The Zebra Longwing is a representative of the long, narrow-winged Heliconius butterflies, with a black ground crossed by bright yellow stripes like a zebra—classic warning coloration for a toxic species. It is the state butterfly of Florida. Adults feed on pollen to synthesize cyanogenic toxins and can live several months; dozens roost together at night. It ranges from South and Central America through the West Indies to southern Texas and Florida; larvae feed on passion vines.",
+    "highlights": [
+      "Black wings with bright yellow stripes recall a zebra—classic warning colors",
+      "Adults feed on pollen to synthesize toxins, achieving lifespans of several months",
+      "Dozens roost together at night—rare social behavior among butterflies"
+    ],
+    "tags": [
+      "Heliconius",
+      "Zebra Stripes",
+      "Toxic Warning"
+    ]
+  },
+  "redjester": {
+    "region": "South and Southeast Asia",
+    "intro": "The Common Jester is a medium-sized butterfly of the genus Symbrenthia. Black uppersides are crossed by orange-yellow bands while the underside is bright orange-yellow patterned with red-brown veins like a map or a fallen leaf. Found from India through Myanmar, Malaysia, and other parts of South and Southeast Asia, it frequents hill forests and visits Lantana flowers. Many regional forms exist, forming a superspecies with close relatives.",
+    "highlights": [
+      "Black with orange-yellow bands above and orange with red-brown veins below",
+      "Underside resembles a leaf or a map for cryptic resting",
+      "Common in hill forests of South and Southeast Asia, fond of Lantana"
+    ],
+    "tags": [
+      "Jester",
+      "Orange & Black",
+      "Hill Forest"
+    ]
+  },
+  "bandedorange": {
+    "region": "Brazil to central Mexico",
+    "intro": "The Banded Orange Heliconian is the only species of the genus Dryadula, with long narrow bright-orange wings crossed by thick black bars; males are vividly patterned while females are paler and blurred. Part of an orange Batesian mimicry ring, it is shunned by birds. Distributed from Brazil to central Mexico, it occasionally reaches Kansas in summer. It inhabits low-elevation tropical plains and villages, with adults feeding on flower nectar and bird droppings; larvae feed on passion vines and small groups roost on grass.",
+    "highlights": [
+      "Bright orange with thick black bars; males vivid, females pale and blurry",
+      "Member of an orange Batesian mimicry ring, avoided by birds",
+      "The sole species of Dryadula, a typical narrow-winged Heliconian"
+    ],
+    "tags": [
+      "Dryadula",
+      "Orange & Black",
+      "Batesian Mimicry"
+    ]
+  },
+  "daggerwing": {
+    "region": "Brazil through Central America to Florida",
+    "intro": "The Ruddy Daggerwing is named for its long sharp dagger-like hindwing tails. The bright orange upperside crossed by three thin black lines is highly distinctive, while the underside is mottled brown-black resembling a dead leaf. It ranges from Brazil through Central America, Mexico, and the West Indies to the Florida peninsula, with vagrants reaching Arizona and southern Texas. It inhabits tropical lowland and hammock forests and larvae feed on Ficus.",
+    "highlights": [
+      "Long dagger-like hindwing tails are unique, with three black lines on orange upperside",
+      "Mottled underside mimics a dead leaf for perfect resting camouflage",
+      "Males perch high on sunlit treetops, conspicuously patrolling territories"
+    ],
+    "tags": [
+      "Daggerwing",
+      "Leaf Mimicry",
+      "Tropical Forest"
+    ]
+  },
+  "apatuilia": {
+    "region": "Europe and East Asia",
+    "intro": "The Lesser Purple Emperor is a representative of the genus Apatura. Males flash a metallic violet-blue at certain angles—a structural color, not pigment. The wings carry white bands and orange-ringed eyespots, with a tan-orange underside. Widespread across Europe and East Asia, it is broadly distributed in China. Larvae feed on willow and poplar leaves and overwinter in bark crevices; adults love sap, rotten fruit, and mud-puddling, rarely visiting flowers.",
+    "highlights": [
+      "Males flash structural violet-blue iridescence that shifts with angle",
+      "Widespread across Eurasia; larvae feed on willows, overwintering in bark crevices",
+      "Adults relish sap and fermenting fruit, rarely visiting flowers"
+    ],
+    "tags": [
+      "Apatura",
+      "Violet Iridescence",
+      "Eurasian Wide"
+    ]
+  },
+  "apatumetis": {
+    "region": "Southeastern Europe across Central Asia to East Asia",
+    "intro": "The Freyer's Purple Emperor is the most narrowly distributed European Apatura. Similar to the Lesser Purple Emperor but with the median band on the hindwing not toothed, extending into cell Cu2. Males have blue-violet structural iridescence. It ranges from southeastern Europe through the Caucasus and Central Asia to Heilongjiang, Korea, and Japan, in riverine forest lowlands; larvae feed on willows.",
+    "highlights": [
+      "Hindwing band non-toothed, reaching cell Cu2—a key ID against the Lesser Purple Emperor",
+      "Males show blue-violet structural iridescence similar to A. ilia",
+      "Confined to riparian forests, one of Europe's rarest purple emperors"
+    ],
+    "tags": [
+      "Apatura",
+      "Violet-Blue Iridescence",
+      "Riparian Forest"
+    ]
+  },
+  "blueadmiral": {
+    "region": "South, Southeast, and East Asia",
+    "intro": "The Blue Admiral is the only member of the genus Kaniska. A bright pale-blue band crosses the dark-brown wings, Y-shaped on the forewing and dotted with black on the hindwing, with strongly scalloped margins. The underside resembles tree bark for excellent camouflage. Widespread across the Oriental and southern Palearctic regions, it overwinters as an adult; males defend territories and feed on sap, rotten fruit, and dung; larvae feed on Smilax.",
+    "highlights": [
+      "A bright blue band, Y-shaped on the forewing, crosses the dark wings",
+      "Bark-like underside makes it nearly invisible at rest",
+      "Overwinters as adult; males are strongly territorial, fond of sap and rotten fruit"
+    ],
+    "tags": [
+      "Kaniska",
+      "Blue Band",
+      "Adult Overwintering"
+    ]
+  },
+  "tortoiseshell": {
+    "region": "Europe and temperate Asia",
+    "intro": "The Small Tortoiseshell is one of the most classic garden butterflies of temperate Eurasia and the national butterfly of Denmark. Wings are fox-red orange with black-and-yellow forewing markings and a row of blue crescents along the margin; the underside is dark brown like bark for safe overwintering. Widespread from Europe through Siberia to China and Japan, larvae feed gregariously on nettles and adults overwinter in caves and buildings.",
+    "highlights": [
+      "Fox-red orange ground with black-and-yellow marks and a row of blue marginal crescents",
+      "National butterfly of Denmark, one of temperate Eurasia's most familiar garden butterflies",
+      "Overwinters as adult; larvae feed gregariously on nettles"
+    ],
+    "tags": [
+      "Aglais",
+      "Fox-Red Orange",
+      "Garden Common"
+    ]
+  },
+  "asiancomma": {
+    "region": "East Asia and northern Indochina",
+    "intro": "The Asian Comma (Polygonia c-aureum) is a familiar member of the comma genus. Orange-yellow wings carry black spots; wing margins are jaggedly notched, more so in autumn forms. The bark-like underside has a silver-white comma-shaped mark in the middle of the hindwing—source of the genus name. Widespread from East Asia to northern Indochina, broadly distributed in China except Tibet, larvae feed on Humulus (Cannabaceae), with multiple generations a year and is common around city outskirts.",
+    "highlights": [
+      "Jagged notched wing margins resemble dead leaves; autumn form is more angular",
+      "Silver-white comma mark on hindwing underside gives the genus its name",
+      "Common in East Asian suburbs; larvae feed on Humulus"
+    ],
+    "tags": [
+      "Polygonia",
+      "Leaf Margin",
+      "Silver Comma"
+    ]
+  },
+  "bluepansy": {
+    "region": "Africa, South Asia, Southeast Asia, and Australia",
+    "intro": "The Blue Pansy is one of the showy species of the genus Junonia. Males flash metallic emerald-blue across the hindwing base with orange-ringed eyespots scattered over the wings, while females are duller with more prominent eyespots. Both sexes show seasonal polyphenism. Widely distributed across Africa, South and Southeast Asia, southern China, and Australia, it favors open grassland, farmland, and gardens; larvae feed on Acanthaceae plants.",
+    "highlights": [
+      "Males flash metallic emerald-blue at the hindwing base with orange-ringed eyespots",
+      "Pronounced sexual dimorphism plus dry- and wet-season forms add rich variation",
+      "Widespread across the Old World tropics; favors open meadows and gardens"
+    ],
+    "tags": [
+      "Junonia",
+      "Metallic Emerald-Blue",
+      "Eyespots"
+    ]
+  },
+  "mapwing": {
+    "region": "Europe, the Palearctic, to East Asia",
+    "intro": "The European Map butterfly takes its name from the white network on its underside, looking like a map. It is famously seasonally dimorphic: spring adults are orange-red with black spots and summer adults are black with white bands and orange marks—once thought to be two species. It ranges from Spain across all of Europe and the Palearctic to Central Asia, Russian Far East, Korea, and Japan; larvae feed on nettles and adults haunt damp forest edges, glades, and riverbanks.",
+    "highlights": [
+      "White network on the underside resembles a map, the source of its name",
+      "Spring orange-red and summer black-and-white forms once mistaken for two species",
+      "Larvae feed on nettles; adults frequent damp forest edges and riverbanks"
+    ],
+    "tags": [
+      "Araschnia",
+      "Map Pattern",
+      "Seasonal Dimorphism"
+    ]
+  },
+  "pearlcrescent": {
+    "region": "North America and Mexico",
+    "intro": "The Pearl Crescent is one of the most familiar small nymphalids of eastern North America. Orange uppersides with black borders are densely traced in fine black markings; a pearl-like crescent in the dark patch on the hindwing underside gives it its name. Wing patterns are highly variable, with multiple generations each year. Distributed across most of the U.S., Mexico, and southern Canada, it loves pastures, roadsides, fields, and other open habitats and is feisty—often chasing other butterflies out of its territory.",
+    "highlights": [
+      "Pearl-colored crescent in the dark patch of hindwing underside gives it its name",
+      "Most familiar small nymphalid of eastern North America with highly variable wing patterns",
+      "Feisty: often chases other butterflies out of its territory"
+    ],
+    "tags": [
+      "Phyciodes",
+      "Pearl Crescent",
+      "North America Common"
+    ]
+  },
+  "mourningcloak": {
+    "region": "Eurasia and North America",
+    "intro": "The Mourning Cloak (Camberwell Beauty in the U.K.) is a large, long-lived nymphalid; adults can live 10–11 months. Velvety chestnut-brown wings have wide yellow margins inset with rows of blue-violet spots; the bark-like underside provides excellent overwintering camouflage. Widespread across Eurasia and North America, it overwinters as an adult and is often the first butterfly to fly in early spring; larvae feed on willow, poplar, elm, and birch.",
+    "highlights": [
+      "Velvety chestnut-brown wings with wide yellow borders and blue-violet spots",
+      "Adults overwinter and live more than ten months, the first butterflies of spring",
+      "Bark-like underside makes it nearly invisible when resting on tree trunks"
+    ],
+    "tags": [
+      "Nymphalis",
+      "Yellow Velvet Border",
+      "Long-Lived Overwinter"
+    ]
+  },
+  "commonsergeant": {
+    "region": "South and Southeast Asia",
+    "intro": "The Common Sergeant is a medium-sized member of the genus Athyma, named for the broken white bands across its dark-brown wings that resemble a sergeant's epaulettes. The forewing cell carries a segmented white streak and the underside is bright orange-brown with white bands. Distributed from South and Southeast Asia to southern China, it is common in open woodlands and around human habitation, flying low and slow; larvae feed on Glochidion.",
+    "highlights": [
+      "Broken white bands across dark-brown wings recall a sergeant's epaulettes",
+      "Forewing cell shows a segmented white streak; underside is bright orange-brown with white bands",
+      "Common in lowland South and Southeast Asia; flies low to the ground"
+    ],
+    "tags": [
+      "Athyma",
+      "White Bands",
+      "Sergeant Stripes"
+    ]
+  },
+  "superbahelcyra": {
+    "region": "Western, southern, central, and eastern China and Taiwan; northern Vietnam",
+    "intro": "The Superb Helcyra is a representative of the genus Helcyra. Wings are snow-white with a silver sheen and a dark forewing apex—a medium-sized fast-flying nymphalid of evergreen broadleaf forests in East Asia. Adults love sap and rotten fruit, larvae feed on Aphananthe (Cannabaceae), and overwinter as dormant larvae attached to dead leaves; rare in northern Taiwan.",
+    "highlights": [
+      "Snow-white wings with silver sheen, dark forewing apex set off two white spots",
+      "Adults love fermenting sap and rotten fruit, rarely visiting flowers",
+      "Larvae bear long antler-like spines on the head; the pupa mimics a dead leaf"
+    ],
+    "tags": [
+      "Silver White",
+      "Sap Visitor",
+      "Master Mimic"
+    ]
+  },
+  "coclescyrestis": {
+    "region": "Hainan in China; Thailand, Malaysia, Vietnam, Laos",
+    "intro": "The Marbled Map Butterfly is named for the row of eyespots along its margins, with pronounced sexual dichromatism: females are translucent cream-yellow while males are grey-brown crossed by a wide white band. It ranges from southern China through Indochina, flying swiftly in sunlight and feeding on flower nectar, rotten fruit, and tree sap; the hindwings have short tails.",
+    "highlights": [
+      "Even rows of eyespots line the wing margin, hence the Chinese 'eight-eyed' name",
+      "Sexual dichromatism: translucent cream females, grey-brown males with white band",
+      "Short hindwing tails and black anal patches stand out"
+    ],
+    "tags": [
+      "Eye Row",
+      "Sexual Dichromatism",
+      "Cyrestis"
+    ]
+  },
+  "delphispolyura": {
+    "region": "Northern India, Pakistan to Myanmar; Malay Peninsula, Sumatra, Borneo",
+    "intro": "The Jewelled Nawab (Polyura delphis) is a robust large pasha with wingspan close to 10 cm, pearl-white wings ringed in wide black, and two slender hindwing tails. It ranges from northern India and Pakistan through Myanmar to the Sundas, flies powerfully and swiftly, and males defend territories in the canopy.",
+    "highlights": [
+      "Wingspan up to 10 cm; pearl-white wings ringed by wide black",
+      "Two slender hindwing tails; powerful flight",
+      "Males defend canopy territories, driving off intruders"
+    ],
+    "tags": [
+      "Two Tails",
+      "Pearl White",
+      "Large"
+    ]
+  },
+  "athamaspolyura": {
+    "region": "Himalayas, India, Sri Lanka, Southeast Asia to Indonesia",
+    "intro": "The Common Nawab (Polyura athamas) is a pasha with shorter, stouter tails than its relatives. Black-brown wings are crossed by a pale aquamarine band. Widespread from the Himalayas to Southeast Asian lowlands, it flies extremely fast and gathers at damp ground, animal dung, and rotten fruit to extract minerals—a familiar pasha at tropical forest edges.",
+    "highlights": [
+      "Tails are short and stout; black-brown wings crossed by a pale aquamarine band",
+      "Swift flight; gathers at damp ground and dung to extract minerals",
+      "Widespread from the Himalayas to the Sundas in lowland forests"
+    ],
+    "tags": [
+      "Short Tails",
+      "Speed Flier",
+      "Mineral Sipper"
+    ]
+  },
+  "jasiuscharaxes": {
+    "region": "Southern Europe along the Mediterranean, North Africa, sub-Saharan Africa, western Asia",
+    "intro": "The Two-tailed Pasha is the only Charaxes occurring in Europe and one of the largest butterflies of the Mediterranean. The wings have an orange band along the margins and two prominent hindwing tails; the underside is patterned like a mosaic. Adults love rotten fruit and never visit flowers, are extremely pugnacious, larvae feed on strawberry trees, and there are two generations a year.",
+    "highlights": [
+      "Europe's only Charaxes and one of the largest Mediterranean butterflies",
+      "Orange marginal band, twin hindwing tails, mosaic-patterned underside",
+      "Males defend territories aggressively; their wing-clap is audible meters away"
+    ],
+    "tags": [
+      "Two Tails",
+      "Mediterranean",
+      "Territorial"
+    ]
+  },
+  "brenthisino": {
+    "region": "Europe across temperate Asia to Japan and Korea",
+    "intro": "The Lesser Marbled Fritillary is a small leopard fritillary distributed across temperate Eurasia. The orange-brown upperside resembles the Pallas Fritillary but is darker; the underside is largely coffee-brown with white comma- or 'C'-shaped crescents, source of its name. Larvae feed on stinging nettle and meadowsweet from Europe across temperate Asia to Japan.",
+    "highlights": [
+      "Underside marked with white comma- or 'C'-shaped crescents, source of the name",
+      "Upperside resembles the Pallas Fritillary but darker in tone",
+      "Larvae feed on nettle and meadowsweet, widespread across Eurasia"
+    ],
+    "tags": [
+      "Crescent Marks",
+      "Small Leopard",
+      "Eurasian Temperate"
+    ]
+  },
+  "undosaeuthalia": {
+    "region": "Zhejiang, Fujian, Guangdong, Sichuan in China (China endemic)",
+    "intro": "The Wavy Euthalia is a Chinese-endemic Euthalia. Sexes look much alike, with grey-green-brown ground crossed by sharply outlined yellow-white spot bands arranged in a slightly wavy line. It inhabits low-mountain forests in Zhejiang, Fujian, Guangdong, and Sichuan, with larvae feeding on Quercus glauca (Fagaceae); a common forest nymphalid in the Tianmu Mountains.",
+    "highlights": [
+      "Endemic to China; grey-green wings crossed by wavy yellow-white spot bands",
+      "Sexes are similar; larvae feed on Quercus glauca (Fagaceae)",
+      "A common Euthalia in the low-mountain forests of the Tianmu Mountains"
+    ],
+    "tags": [
+      "China Endemic",
+      "Wavy Pattern",
+      "Euthalia"
+    ]
+  },
+  "cyanecethosia": {
+    "region": "India to southern China (Yunnan, Guangdong, Guangxi, Hainan, Sichuan) and Indochina",
+    "intro": "The Plain Lacewing has reddish-brown male uppersides crossed by a diagonal white forewing band, with a deeply serrated wing margin and pronounced sexual dimorphism. Distributed from India to southern China and Indochina, it has spread to the Malay Peninsula and Singapore in recent years. Gregarious, larvae feed on passion vines and adults fly slowly along forest edges.",
+    "highlights": [
+      "Serrated wing margin and a diagonal white forewing band, source of its name",
+      "Strong sexual dimorphism; larvae feed gregariously on passion vines",
+      "Recently expanded southward to the Malay Peninsula and Singapore"
+    ],
+    "tags": [
+      "White Band",
+      "Serrated Margin",
+      "Lacewing"
+    ]
+  },
+  "penthesileacet": {
+    "region": "Southeast Asia (Java, Timor, Sumba) and Northern Territory, Australia",
+    "intro": "The Tawny Lacewing is a brightly colored Cethosia with large orange patches edged in black and elongated white forewing spots. It inhabits monsoon forests and vine thickets from Southeast Asia to the Northern Territory of Australia, lives along streams, with larvae feeding exclusively on Adenia (Passifloraceae) vines—most often seen at the start of the dry season.",
+    "highlights": [
+      "Large orange patches edged in black with elongated white forewing spots",
+      "Inhabits monsoon-forest streamsides; larvae feed on Adenia vines",
+      "Distributed from Southeast Asia to the Northern Territory of Australia"
+    ],
+    "tags": [
+      "Orange Wings",
+      "Serrated Margin",
+      "Streamside"
+    ]
+  },
+  "andromachaacr": {
+    "region": "Indonesia, Papua New Guinea, Australia, and Fiji",
+    "intro": "The Glasswing (Acraea andromacha) has nearly transparent forewings like glass and white hindwings with a wide black band inset with white spots and red dots—the 'star spots' giving it its name. Distributed from Indonesia through New Guinea to Australia and Fiji, larvae feed on passion vines, adults sequester toxins, and slow drifting flight protects them from most predators.",
+    "highlights": [
+      "Glass-like translucent forewings; black hindwing band inset with star-like spots",
+      "Larvae sequester passion-vine toxins; adults drift slowly without fear",
+      "Distributed from Indonesia to Australia and Fiji along tropical forest edges"
+    ],
+    "tags": [
+      "Glasswing",
+      "Star Spots",
+      "Toxic Storage"
+    ]
+  },
+  "morganegreta": {
+    "region": "Mexico, Central America to northern South America",
+    "intro": "Morgan's Greta is a close relative of the broader-banded Glasswing (Greta oto). The wing membrane between the dark veins is transparent like glass, with a thickened forewing apex. It inhabits humid rainforests from Mexico to northern South America, drifting close to the ground, the transparent wings and dark patterns blending into the surroundings—a textbook ithomiine mimicry model.",
+    "highlights": [
+      "Glass-like wing membrane with crisp dark veins",
+      "Thickened forewing apex distinguishes it from Greta oto",
+      "Inhabits Neotropical rainforests; transparency hides it from predators"
+    ],
+    "tags": [
+      "Glasswing",
+      "Ithomiine",
+      "Mimicry"
+    ]
+  },
+  "thyodamascyr": {
+    "region": "Himalayas, India, Indochina, southern/central/eastern China, Japan and Taiwan",
+    "intro": "The Common Map (also called the Map Butterfly or Wallflower) has white or cream wings densely crossed by fine brown lines like a map. Widespread from the Himalayas through Southeast Asia to southern China and Japan, larvae feed on Ficus (Moraceae). It often perches on tall canopy or rock faces, holding its wings flat at rest, with slow flight.",
+    "highlights": [
+      "Wings crossed by fine brown lines like a map—a textbook 'map butterfly'",
+      "Larvae feed on Ficus; often perches on tall canopy or rock faces",
+      "Wavy hindwing margins with short tails; rests with wings spread"
+    ],
+    "tags": [
+      "Map Pattern",
+      "Network Lines",
+      "Wallflower"
+    ]
+  },
+  "issoriaacraea": {
+    "region": "Central, eastern, southern, and southwestern China, western Himalayas, Southeast Asia to Indonesia and the Philippines",
+    "intro": "The Yellow Coster has yellow-brown wings ringed in a wide black border inset with grey-white spots; the wings are tough and translucent. Widespread from southern China through the Himalayas and Southeast Asia, larvae feed gregariously on ramie and other Urticaceae plants and accumulate toxins, while the slow drifting flight reduces predation.",
+    "highlights": [
+      "Yellow-brown wings with wide black borders; tough, translucent wings",
+      "Larvae feed gregariously on ramie, a common pest of ramie plantations",
+      "Adults sequester toxins; their drifting flight evades most predators"
+    ],
+    "tags": [
+      "Yellow Coster",
+      "Ramie Feeder",
+      "Toxic Storage"
+    ]
+  },
+  "terpsicoreacr": {
+    "region": "India, Sri Lanka, Southeast Asia to the Maldives, Myanmar; recently extended to Australia",
+    "intro": "The Tawny Coster has bright orange wings with black spots and white-dotted margins, with long tough wings. Widespread from India and Sri Lanka through Southeast Asia in grasslands and shrub, in the past decade or so it has spread quickly eastward to Australia. Slow, drifting flight; the bright orange is a warning color, and most insect predators avoid it.",
+    "highlights": [
+      "Bright orange wings with black spots and white-dotted margins, very conspicuous",
+      "Common in grassland and shrub; recently spread quickly to Australia",
+      "Orange warning color plus body toxins keep predators away"
+    ],
+    "tags": [
+      "Tawny Coster",
+      "Warning Color",
+      "Range Expander"
+    ]
+  },
+  "hypseacethosia": {
+    "region": "Malay Peninsula, Sumatra, Borneo, southern Thailand, Philippines",
+    "intro": "The Malay Lacewing has crimson wings with black-and-white apical spots and deeply serrated margins—a vivid Cethosia of Southeast Asian rainforests. Distributed from the Malay Peninsula to the Sundas, larvae feed gregariously on Adenia (Passifloraceae) vines and accumulate toxins; slow flight, often gathering at forest-edge flowers.",
+    "highlights": [
+      "Crimson wings with black-and-white apical spots and deeply serrated margins",
+      "A vivid lacewing of the Sundas rainforests; larvae feed gregariously on Adenia",
+      "Toxic body, slow flight, with bright color as a warning signal"
+    ],
+    "tags": [
+      "Crimson",
+      "Serrated Margin",
+      "Malay"
+    ]
+  },
+  "lethevermayb": {
+    "region": "Himalayas, southern China to Indochina lowland and mid-elevation forests",
+    "intro": "The Banded Treebrown (Lethe verma) has smoky-brown wings; a wide diagonal white band like a jade belt crosses the forewing, while the hindwing has a row of marginal eyespots. It inhabits low- and mid-elevation forest shade, feeding on tree sap, rotten fruit, and damp ground; larvae feed on Phyllostachys and other bamboos. The sexes are similarly patterned.",
+    "highlights": [
+      "A wide diagonal white band crosses the forewing like a jade belt",
+      "A row of yellow-ringed black eyespots along the hindwing margin",
+      "Feeds on sap and rotten fruit in shaded forest; larvae feed on bamboo"
+    ],
+    "tags": [
+      "Jade Band",
+      "Lethe",
+      "Forest Shade"
+    ]
+  },
+  "niceastibo": {
+    "region": "Himalayas, India, Nepal to southern and eastern China, Indochina",
+    "intro": "The Glossy Sergeant (Athyma) is a velvety nymphalid; males have black-velvet wings with even rows of white spots set off by blue lines, and three short blue-white streaks in the cell. Distributed from the Himalayas to southern China and Indochinese mountain forests, it flies swiftly, often resting on low shrubs or damp ground with wings spread, and visits carnivore dung to draw minerals.",
+    "highlights": [
+      "Velvety black wings with neat rows of white spots and blue line edging",
+      "Three blue-white streaks in the cell; females duller and greenish",
+      "Swift flight; rests with wings spread, visits dung for minerals"
+    ],
+    "tags": [
+      "Velvety Black",
+      "White Spot Rows",
+      "Sergeant"
+    ]
+  },
+  "bisaltidedolesch": {
+    "region": "India, Sri Lanka, Southeast Asia to southern China, northern Australia",
+    "intro": "The Autumn Leaf is named for its underside resembling a fallen leaf, with the midline acting as a leaf vein crossing both wings, while the upperside is orange-yellow with a dark forewing apex. Widespread from India through Southeast Asia to southern China and northern Australian rainforests, larvae feed on Acanthaceae plants. At rest with closed wings it perfectly mimics a dead leaf—a classic parallel evolution to the Indian Leafwing.",
+    "highlights": [
+      "Orange-yellow upperside with dark forewing apex; underside mimics a dead leaf with veins",
+      "Larvae feed on Acanthaceae; adults love rotten fruit and tree sap",
+      "Famous parallel-evolution leaf mimic, paralleling Kallima"
+    ],
+    "tags": [
+      "Leaf Mimicry",
+      "Orange Yellow",
+      "Rainforest"
+    ]
+  },
+  "eginaacraea": {
+    "region": "Sub-Saharan Africa: from West and Central Africa to East and Southern Africa",
+    "intro": "The Wandering Donkey is a familiar large African Acraea with red-orange wings; the dark forewing apex is inset with orange-and-white spot rows, and the underside is sprinkled with white stars and black dots. Widespread along forest edges and savannas of sub-Saharan Africa, larvae feed on Passifloraceae and accumulate toxins; slow flight is supported by warning colors.",
+    "highlights": [
+      "Red-orange wings; black forewing apex inset with orange-white spot rows",
+      "Underside sprinkled with white stars and black dots—source of the Chinese 'white star' name",
+      "Widespread in Africa; larvae sequester passion-vine toxins as warning defense"
+    ],
+    "tags": [
+      "White Stars",
+      "Orange Wings",
+      "African"
+    ]
+  },
+  "eightyeight": {
+    "region": "Central America to central South America; type locality Guyana",
+    "intro": "The 88 Butterfly is named for the concentric black lines on its hindwing underside that resemble the number 88—the type species of the genus Diaethria. Distributed from Central to central South America, larvae feed on Trema (Cannabaceae) and adults feed on rotten fruit and dung juice, often perching on leaves to display the iconic number pattern.",
+    "highlights": [
+      "Hindwing underside black lines form the number 88, the source of the name",
+      "Upperside shows iridescent blue-green bands on black with red forewing bases",
+      "Larvae feed on Trema; adults feed on rotten fruit and dung juice"
+    ],
+    "tags": [
+      "88 Pattern",
+      "Iridescent Blue",
+      "South America"
+    ]
+  }
+}
